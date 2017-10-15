@@ -1,0 +1,5 @@
+<div id="next-event">
+        <h4>جلسه بعدی: {{ with .Site.Params.softwaretalks.nexteventdate }}{{ . | markdownify }}{{ end }} </h4>
+        <h5>موضوع جلسه: {{ with .Site.Params.softwaretalks.nexteventsubject }}{{ . | markdownify }}{{ end }} </h5>
+        <h5>محل برگزاری: {{ with .Site.Params.softwaretalks.nexteventlocation }}{{ . | markdownify }}{{ end }} </h5>
+</div>

@@ -10,8 +10,8 @@ theme="hugo-icon"
 
 #SoftwareTalks
 [params.softwaretalks]
-  nexteventdate="یکشنبه ۳۰ مهر ۹۶ ساعت ۱۷ تا ۱۹"
-  nexteventsubject="کارگاه عملی docker - قسمت اول"
+  nexteventdate="یکشنبه ۱۴ آبان ۹۶ ساعت ۱۷ تا ۱۹"
+  nexteventsubject="برنامه‌نویسی همروند"
   nexteventlocation="بین آخوند خراسانی ۲۲ و ۲۴، کتابخانه قلم"
 
 # Hero section (from here on is for icon theme)

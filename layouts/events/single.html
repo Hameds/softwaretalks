@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>جلسات باز نرم‌افزاری مشهد - {{ .Params.subject}}</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="../../css/bootstrap.min.css">
+
+    <!-- Custom styles for this template -->
+    <link href="../../css/events.css" rel="stylesheet">
+  </head>
+
+  <body id="page-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="{{ .Site.BaseURL}}">{{ .Site.Title}}</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav mr-auto">
+           
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="{{ .Site.BaseURL}}/events">گزارش فعالیت‌ها</a>
+            </li>
+            
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header class="bg-primary text-white">
+      <div class="container text-center">
+        <h1>{{ .Params.subject }}</h1>
+        <p class="lead">{{ .Params.persiandate }} - {{ .Params.location }}</p>
+      </div>
+    </header>
+
+    <section id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h2>درباره جلسه {{ .Params.id }} بیشتر بدانید</h2>
+            <p class="lead">{{ .Params.about }}</p>
+            <ul>
+              <li>
+                موضوع جلسه: {{ .Params.subject }}</li>
+                <li>سخنران: {{ .Params.speaker }}</li>
+              <li>تاریخ و ساعت برگزاری: {{ .Params.persiandate }} - ساعت ۱۷ تا ۱۹ </li>
+              
+              <li>محل برگزاری: {{ .Params.location }}</li>
+            </ul>
+           
+            
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="report" class="bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h2>گزارش برگزاری جلسه</h2>
+            <p class="lead">{{ .Content }}</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="downloads">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h2>اسلایدها و منابع بیشتر</h2>
+            <p class="lead">{{ .Params.downloads | safeHTML }}</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-5 bg-dark">
+      <div class="container">
+        <p class="m-0 text-center text-white">محتوای این سایت در <a href="https://github.com/hameds/softwaretalks">گیت‌هاب</a> منتشر می‌شود. در صورت تمایل می‌توانید به بهبود آن کمک کنید</p>
+      </div>
+      <!-- /.container -->
+    </footer>
+
+ 
+
+  </body>
+
+</html>

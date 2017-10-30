@@ -6,7 +6,7 @@ theme="hugo-icon"
 # Metadata
 [params]
   author = "SoftwareTalks"
-  description = "Cool description"
+  description = "دورهمی متخصصان و علاقمندان نرم‌افزار در مشهد از سال ۹۲ هر دو هفته یک‌ بار"
 
 #SoftwareTalks
 [params.softwaretalks]

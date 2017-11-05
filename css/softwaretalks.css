@@ -43,7 +43,6 @@ body,html,p,div,h1,h2,h3,h4,h5,h6{
 .fh5co-tabs-container .fh5co-tab-content #next-event h4,
 .fh5co-tabs-container .fh5co-tab-content #next-event h5{ 
   font-weight: 300;
-  line-height: 0.1;
   margin-bottom: 30px;
   color: #7b7b7b;
 }

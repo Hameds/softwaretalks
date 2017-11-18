@@ -1,0 +1,36 @@
+[events]    
+
+    [[events.item]]
+        title =" گروه کاربران لینوکس مشهد"
+        desc="جلسات فعال در حوزه گنو/لینوکس و نرم‌افزار آزاد"
+        nextevent="نامشخص"
+        status="نامشخص"
+        website="http://www.mashhadlug.org"    
+
+    [[events.item]]
+        title=" همفکر مشهد"
+        desc="جلسات فعال در حوزه استارتاپ‌ها و شبکه‌سازی"
+        nextevent="۱ آذر ۹۶"
+        status="فعال"
+        website="http://www.ihamfekr.ir"
+
+    [[events.item]]
+        title ="میتاپس مشهد"
+        desc="جلسات انتقال تجربه در حوزه کارآفرینی"
+        nextevent=" "
+        status="تعطیل"
+        website="http://www.meetups.ir"
+
+     [[events.item]]
+        title ="گروه کاربران پایتون مشهد"
+        desc="جلسات در حوزه پایتون"
+        nextevent=" "
+        status="تعطیل"
+        website=""
+
+    [[events.item]]
+        title ="گروه اوراکل مشهد"
+        desc="جلسات در حوزه اوراکل"
+        nextevent=" "
+        status="تعطیل"
+        website=""

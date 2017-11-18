@@ -6,19 +6,9 @@
     <description>Recent content on جلسات باز نرم‌افزاری مشهد</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 30 Oct 2017 17:54:08 +0330</lastBuildDate>
     
 	<atom:link href="http://hameds.github.io/softwaretalks/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>65 Docker</title>
-      <link>http://hameds.github.io/softwaretalks/events/65-docker/</link>
-      <pubDate>Mon, 30 Oct 2017 17:54:08 +0330</pubDate>
-      
-      <guid>http://hameds.github.io/softwaretalks/events/65-docker/</guid>
-      <description> جهت آزمایش </description>
-    </item>
     
     <item>
       <title></title>
@@ -29,6 +19,16 @@
       <description>آشنایی با جلسات باز نرم‌افزاری مشهد  به نظر می رسد مرورگر شما از نمایش این اسلایدها پشتیبانی نمی‌کند
 بنابراین نسخه ساده این اسلایدها را مشاهده می‌کنید. لطفاً از مرورگر کروم یا فایرفاکس بروز شده استفاده کنید
  خوش آمدید به جلسه ۶۶ از جلسات باز نرم‌افزاری مشهد  قبل از شروع جلسه کمی با هم آشنا شویم  اینجا جلسات باز نرم‌افزاری مشهد * از سال ۱۳۹۲   جلسات باز نرم افزاری مشهد هر دو هفته یک بار فرصتی برای متخصصان نرم‌افزار در مشهد است تا در یک جمع دوستانه به تبادل دانش و تجربیات بپردازند   اینجا در هر حال مقصر شما هستید!</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://hameds.github.io/softwaretalks/made-in-mashhad/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://hameds.github.io/softwaretalks/made-in-mashhad/</guid>
+      <description>جلسات باز نرم‌افزاری مشهد - ساخت مشهد  {{ .Site.Title}}   گزارش فعالیت‌ها  ساخت مشهد       جامعه نرم‌افزاری مشهد لیست سایر جلسات نرم‌افزاری و استارتاپ‌های مشهدی
+   رویدادهای مشهد این لیست جلسات برگزار شده مشهد است. جلسات دیگر مرتبط را در مخزن گیت‌هاب سایت جلسات باز نرم‌افزاری معرفی کنید    عنوان توضیحات  وضعیت  تاریخ جلسه بعدی وب سایت    {{ range $.</description>
     </item>
     
   </channel>

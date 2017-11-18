@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Made-in-mashhads on جلسات باز نرم‌افزاری مشهد</title>
+    <link>http://hameds.github.io/softwaretalks/made-in-mashhad/</link>
+    <description>Recent content in Made-in-mashhads on جلسات باز نرم‌افزاری مشهد</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="http://hameds.github.io/softwaretalks/made-in-mashhad/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>http://hameds.github.io/softwaretalks/made-in-mashhad/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://hameds.github.io/softwaretalks/made-in-mashhad/</guid>
+      <description>جلسات باز نرم‌افزاری مشهد - ساخت مشهد  {{ .Site.Title}}   گزارش فعالیت‌ها  ساخت مشهد       جامعه نرم‌افزاری مشهد لیست سایر جلسات نرم‌افزاری و استارتاپ‌های مشهدی
+   رویدادهای مشهد این لیست جلسات برگزار شده مشهد است. جلسات دیگر مرتبط را در مخزن گیت‌هاب سایت جلسات باز نرم‌افزاری معرفی کنید    عنوان توضیحات  وضعیت  تاریخ جلسه بعدی وب سایت    {{ range $.</description>
+    </item>
+    
+  </channel>
+</rss>

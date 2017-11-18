@@ -116,6 +116,7 @@
               <table class="table table-striped table-responsive">
                   <thead>
                     <tr>
+                      <th>#</th>
                       <th>عنوان</th>
                       <th>موسسین</th>
                       <th>  وضعیت </th>
@@ -124,28 +125,28 @@
                   </thead>
                   <tbody>
                       {{ range $.Site.Data.mashhad.startups }}
-                      {{ range .item }}
-                      <tr>
-                        <td>{{ .title }}</td>  
-                        <td>{{ .founders }}</td>  
-                        <td>
-                          {{ if eq .status  "فعال"}}
-                          <span class="badge badge-success">
-                              {{ .status }}
-                          </span>
-                          {{ else if eq .status "نامشخص"}}
-                          <span class="badge badge-warning">
-                              {{ .status }}
-                          </span>
-                          {{ else if eq .status "شکست خورده"}}
-                          <span class="badge badge-danger">
-                              {{ .status }}
-                          </span>
-                          {{ end }}
-                         </td>  
-                        <td><a href="{{ .website }}" target="_blank" rel="nofollow">{{ .website }}</a></td>  
-                      </tr>
-      
+                        {{ range $i,$element :=.item }}
+                          <tr>
+                            <td>{{ (add $i 1) }}</td>
+                            <td>{{ .title }}</td>  
+                            <td>{{ .founders }}</td>  
+                            <td>
+                              {{ if eq .status  "فعال"}}
+                              <span class="badge badge-success">
+                                  {{ .status }}
+                              </span>
+                              {{ else if eq .status "نامشخص"}}
+                              <span class="badge badge-warning">
+                                  {{ .status }}
+                              </span>
+                              {{ else if eq .status "شکست خورده"}}
+                              <span class="badge badge-danger">
+                                  {{ .status }}
+                              </span>
+                              {{ end }}
+                            </td>  
+                            <td><a href="{{ .website }}" target="_blank" rel="nofollow">{{ .website }}</a></td>  
+                          </tr>
                        {{ end }}
                     {{ end }}
               </tbody>

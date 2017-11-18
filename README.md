@@ -2,6 +2,9 @@
 
 Softwaretalks.ir website built with [Hugo](https://github.com/gohugoio/hugo) (A Fast and Flexible Static Site Generator built in [Go](https://golang.org/)). We also used [impress.js](https://github.com/impress/impress.js) in [about softwaretalks presentation](http://softwaretalks.ir/about/)
 
+### Contribution guide
+If you want to contribute to source code or data, please read [wiki](https://github.com/Hameds/softwaretalks/wiki) first which is in Persian.
+
 ### Run source code locally
 The source code is in [master branch](https://github.com/Hameds/softwaretalks/tree/master), after installing [Hugo](https://github.com/gohugoio/hugo) you need to clone this repo
 

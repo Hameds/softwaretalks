@@ -185,11 +185,158 @@
         status="فعال"
         website= "https://gap.im"
 
-    
+    [[startups.item]]
+        title="کشمون"
+        founders="محمد قائم‌پناه و حمزه قائم‌پناه و ابراهیم قائم‌پناه و سیامک خرمی"
+        status="فعال"
+        website="https://www.keshmoon.com"
 
-    
+    [[startups.item]]
+        title="فراکتاب"
+        founders=""
+        status="نامشخص"
+        website="http://www.faraketab.ir"
 
+    [[startups.item]]
+        title="وان‌شیپ"
+        founders=""
+        status="نامشخص"
+        website="http://oneshape.ir"
 
+    [[startups.item]]
+        title="پول تیکت"
+        founders=""
+        status="نامشخص"
+        website="https://www.poolticket.org"
 
-    
-        
+    [[startups.item]]
+        title="مانا"
+        founders=""
+        status="نامشخص"
+        website="http://iaugmented.ir"
+
+    [[startups.item]]
+        title="نون دون"
+        founders=""
+        status="نامشخص"
+        website="http://noondon.com"
+
+    [[startups.item]]
+        title="ورکفا"
+        founders=""
+        status="فعال"
+        website="https://workfa.com"
+
+    [[startups.item]]
+        title="واش ماش"
+        founders=""
+        status="فعال"
+        website="http://washmash.com"
+
+    [[startups.item]]
+        title="هایسرویس"
+        founders=""
+        status="فعال"
+        website="http://www.hiservice.ir"
+
+    [[startups.item]]
+        title="تیزر"
+        founders=""
+        status="فعال"
+        website="http://teezer.ir"
+
+    [[startups.item]]
+        title="رویدادآن"
+        founders=""
+        status="نامشخص"
+        website="http://teezer.ir"
+
+    [[startups.item]]
+        title="مو ادز"
+        founders=""
+        status="نامشخص"
+        website="https://muads.com"
+
+    [[startups.item]]
+        title="وین"
+        founders=""
+        status="نامشخص"
+        website="http://winiha.com"
+
+    [[startups.item]]
+        title="سایتسل"
+        founders=""
+        status="فعال"
+        website="http://sitecell.ir"
+
+    [[startups.item]]
+        title="باد صبا"
+        founders=""
+        status="فعال"
+        website="http://mth-co.ir"
+
+    [[startups.item]]
+        title="تاچسی"
+        founders=""
+        status="فعال"
+        website="https://touchsi.org"
+
+    [[startups.item]]
+        title="چیتکس"
+        founders=""
+        status="فعال"
+        website="https://cheetax.com"
+
+    [[startups.item]]
+        title="مانیشن"
+        founders=""
+        status="فعال"
+        website="https://www.manishen.com"
+
+    [[startups.item]]
+        title="جی پی اس رد"
+        founders="فرشید سفیدگران"
+        status="فعال"
+        website="http://www.gpsrad.net"
+
+    [[startups.item]]
+        title="چیندی"
+        founders=""
+        status="نامشخص"
+        website="https://chindi.ir"
+
+    [[startups.item]]
+        title="ایتامین"
+        founders="امین غلامی"
+        status="فعال"
+        website="http://eatamin.com"
+
+    [[startups.item]]
+        title="گیفتی"
+        founders="محمدسجاد اسعدی"
+        status="فعال"
+        website="http://gifty.ir"
+
+    [[startups.item]]
+        title="تی چارتر"
+        founders=""
+        status="فعال"
+        website="https://www.tcharter.ir"
+
+    [[startups.item]]
+        title="کجا خوبه"
+        founders=""
+        status="فعال"
+        website="http://kojakhoobe.com"
+
+    [[startups.item]]
+        title="میلوژی"
+        founders="مهدی علیپور سخاوی"
+        status="فعال"
+        website="http://milogy.com"
+
+    [[startups.item]]
+        title="سله"
+        founders="علیرضا ناصح"
+        status="نامشخص"
+        website="https://t.me/selleshop"

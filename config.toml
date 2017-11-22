@@ -10,8 +10,8 @@ theme="hugo-icon"
 
 #SoftwareTalks
 [params.softwaretalks]
-  nexteventdate="یکشنبه ۱۴ آبان ۹۶ ساعت ۱۷ تا ۱۹"
-  nexteventsubject="برنامه‌نویسی همروند"
+  nexteventdate="یکشنبه ۵ آذر ۹۶ ساعت ۱۷ تا ۱۹"
+  nexteventsubject="بیت‌کوین"
   nexteventlocation="بین آخوند خراسانی ۲۲ و ۲۴، کتابخانه قلم"
 
 # Hero section (from here on is for icon theme)

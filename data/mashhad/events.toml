@@ -15,6 +15,13 @@
         website="http://www.ihamfekr.ir"
 
     [[events.item]]
+        title="جامعه تجربه کاربری مشهد"
+        desc="جلسات فعال در حوزه تجربه کاربری"
+        nextevent="۱۹ آذر ۹۶"
+        status="فعال"
+        website="https://t.me/uxmashhad"
+
+    [[events.item]]
         title ="میتاپس مشهد"
         desc="جلسات انتقال تجربه در حوزه کارآفرینی"
         nextevent=" "

@@ -10,14 +10,14 @@ theme="hugo-icon"
 
 #SoftwareTalks
 [params.softwaretalks]
-  nexteventdate="یکشنبه ۵ آذر ۹۶ ساعت ۱۷ تا ۱۹"
-  nexteventsubject="بیت‌کوین"
+  nexteventdate="یکشنبه ۱۹ آذر ۹۶ ساعت ۱۷ تا ۱۹"
+  nexteventsubject="چطور در شغل برنامه‌نویسی سالم بمانیم"
   nexteventlocation="بین آخوند خراسانی ۲۲ و ۲۴، کتابخانه قلم"
-  nexteventid="۶۷"
-  eventcount="۶۶"
+  nexteventid="۶۸"
+  eventcount="۶۷"
   speakercount="۳۴"
   topiccount="۷۰"
-  scheduleddate="۱۹ آذر ۹۶"
+  scheduleddate="۳ دی ۹۶"
 
 # Hero section (from here on is for icon theme)
 [params.hero]

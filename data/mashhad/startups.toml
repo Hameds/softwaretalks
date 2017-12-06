@@ -50,7 +50,7 @@
     [[startups.item]]
         title="فراوین"
         founders="روح‌الله جوادی"
-        status="نامشخص"
+        status="فعال"
         website="http://www.farawin.com"
 
     [[startups.item]]
@@ -194,7 +194,7 @@
     [[startups.item]]
         title="فراکتاب"
         founders=""
-        status="نامشخص"
+        status="فعال"
         website="http://www.faraketab.ir"
 
     [[startups.item]]
@@ -205,8 +205,8 @@
 
     [[startups.item]]
         title="پول تیکت"
-        founders=""
-        status="نامشخص"
+        founders="رضا رویایی"
+        status="فعال"
         website="https://www.poolticket.org"
 
     [[startups.item]]
@@ -301,8 +301,8 @@
 
     [[startups.item]]
         title="چیندی"
-        founders=""
-        status="نامشخص"
+        founders="محیا مومن زاده"
+        status="فعال"
         website="https://chindi.ir"
 
     [[startups.item]]
@@ -340,3 +340,16 @@
         founders="علیرضا ناصح"
         status="نامشخص"
         website="https://t.me/selleshop"
+
+    [[startups.item]]
+        title="جواهر بازار"
+        founders="علی خوش‌نیت"
+        status="فعال"
+        website="https://javaherbazar.com/"
+
+     [[startups.item]]
+        title="باهشت"
+        founders="سید حمید هاشمیان فلاح"
+        status="فعال"
+        website="http://visitmashhad.com/"
+

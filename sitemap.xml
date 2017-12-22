@@ -3,6 +3,17 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://hameds.github.io/softwaretalks/events/1-python/</loc>
+    <lastmod>2014-01-05T08:58:17+03:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hameds.github.io/softwaretalks/tags/</loc>
+    <lastmod>2014-01-05T08:58:17+03:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://hameds.github.io/softwaretalks/about/</loc>
   </url>
   
@@ -21,17 +32,25 @@
   </url>
   
   <url>
+    <loc>http://hameds.github.io/softwaretalks/events/</loc>
+    <lastmod>2014-01-05T08:58:17+03:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://hameds.github.io/softwaretalks/made-in-mashhad/</loc>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://hameds.github.io/softwaretalks/tags/</loc>
+    <lastmod>2014-01-05T08:58:17+03:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://hameds.github.io/softwaretalks/</loc>
+    <lastmod>2014-01-05T08:58:17+03:30</lastmod>
     <priority>0</priority>
   </url>
   

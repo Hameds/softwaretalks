@@ -6,18 +6,20 @@
     <description>Recent content in Events on جلسات باز نرم‌افزاری مشهد</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 30 Oct 2017 17:54:08 +0330</lastBuildDate>
+    <lastBuildDate>Sun, 05 Jan 2014 08:58:17 +0330</lastBuildDate>
     
 	<atom:link href="http://hameds.github.io/softwaretalks/events/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>65 Docker</title>
-      <link>http://hameds.github.io/softwaretalks/events/65-docker/</link>
-      <pubDate>Mon, 30 Oct 2017 17:54:08 +0330</pubDate>
+      <title>اولین جلسه باز نرم‌افزاری مشهد با موضوع پایتون</title>
+      <link>http://hameds.github.io/softwaretalks/events/1-python/</link>
+      <pubDate>Sun, 05 Jan 2014 08:58:17 +0330</pubDate>
       
-      <guid>http://hameds.github.io/softwaretalks/events/65-docker/</guid>
-      <description> جهت آزمایش </description>
+      <guid>http://hameds.github.io/softwaretalks/events/1-python/</guid>
+      <description>اولین جلسه باز نرم‌افزاری مشهد، یکشنبه ۱۵ دی ماه برگزار شد. در این جلسه که از ساعت ۱۸:۱۵شروع شد و تا ۲۰:۱۵ ادامه داشت، ابتدا شرکت‌کنندگان به معرفی خودشان پرداختند.
+پس از معرفی اولیه، رامین نجارباشی ارائه‌ای در خصوص زبان پایتون داشت.
+بعد از وقفه‌ای کوتاه و پذیرایی، داود تراب‌زاده در خصوص کار تیمی صحبت کرد و با اتمام پرزنت‌ها در ساعت ۱۹:۳۰، بحث آزاد در خصوص نحوه برگزاری جلسات و موضوعات شروع و تا ۲۰:۱۵ادامه یافت.</description>
     </item>
     
   </channel>

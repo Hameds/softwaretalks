@@ -10,14 +10,14 @@ theme="hugo-icon"
 
 #SoftwareTalks
 [params.softwaretalks]
-  nexteventdate="یکشنبه ۳ دی ۹۶ ساعت ۱۷ تا ۱۹"
-  nexteventsubject="جشن تولد چهار سالگی جلسات باز نرم‌افزاری مشهد"
+  nexteventdate="یکشنبه ۱۷ دی ۹۶ ساعت ۱۷ تا ۱۹"
+  nexteventsubject="مهارت‌های کار تیمی نرم‌افزار"
   nexteventlocation="بین آخوند خراسانی ۲۲ و ۲۴، کتابخانه قلم"
-  nexteventid="۶۹"
-  eventcount="۶۸"
+  nexteventid="۷۰"
+  eventcount="۶۹"
   speakercount="۳۴"
   topiccount="۷۰"
-  scheduleddate="۱۷ دی ۹۶"
+  scheduleddate="۱ بهمن ۹۶"
 
 # Hero section (from here on is for icon theme)
 [params.hero]

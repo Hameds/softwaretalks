@@ -3,16 +3,23 @@
     [[events.item]]
         title =" گروه کاربران لینوکس مشهد"
         desc="جلسات فعال در حوزه گنو/لینوکس و نرم‌افزار آزاد"
-        nextevent="۲ دی ۹۶"
+        nextevent="۱۶ دی ۹۶"
         status="فعال"
         website="http://next.mashhadlug.org"    
 
     [[events.item]]
         title=" همفکر مشهد"
         desc="جلسات فعال در حوزه استارتاپ‌ها و شبکه‌سازی"
-        nextevent="۶ دی ۹۶"
+        nextevent="۱۳ دی ۹۶"
         status="فعال"
         website="http://www.ihamfekr.ir"
+
+    [[events.item]]
+        title="جلسات اتصال"
+        desc="جلسات برگزار شده توسط انجمن رباتیک دانشگاه فردوسی"
+        nextevent="‍۱۲ دی ۹۶"
+        status="فعال"
+        website="https://t.me/fumrs"
 
     [[events.item]]
         title="جامعه تجربه کاربری مشهد"

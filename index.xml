@@ -6,15 +6,34 @@
     <description>Recent content on جلسات باز نرم‌افزاری مشهد</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 06 Jan 2018 15:55:31 +0330</lastBuildDate>
+    <lastBuildDate>Sun, 20 Apr 2014 16:23:33 +0330</lastBuildDate>
     
 	<atom:link href="http://hameds.github.io/softwaretalks/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>6</title>
+      <link>http://hameds.github.io/softwaretalks/events/6/</link>
+      <pubDate>Sun, 20 Apr 2014 16:23:33 +0330</pubDate>
+      
+      <guid>http://hameds.github.io/softwaretalks/events/6/</guid>
+      <description>در پایان فروردین ماه ۹۳ و پس از تعطیلات نوروزی نخستین جلسه باز نرم‌افزاری مشهد برگزار شد. در این جلسه که بحث آزاد در خصوص بازار نرم‌افزار ایران در حوزه وب و موبایل در سال ۹۳ بود شرکت کنندگان به بیان دیدگاه‌های خود درباره موضوعات مختلف مربوط به بحث آزاد پرداختند.
+در این جلسه که بیش از ۲ ساعت طول کشید شرکت‌کنندگان به صحبت در حوزه مباحثی مانند کار در حوزه نرم‌افزار، آینده اپن سورس و بازار وب و موبایل پرداختند.</description>
+    </item>
+    
+    <item>
+      <title>پنجمین جلسه باز نرم‌افزاری مشهد با موضوع تست جوئل و ارائه عملی درباره زبان پایتون برگزار شد</title>
+      <link>http://hameds.github.io/softwaretalks/events/5-joeltest/</link>
+      <pubDate>Mon, 20 Jan 2014 16:15:41 +0330</pubDate>
+      
+      <guid>http://hameds.github.io/softwaretalks/events/5-joeltest/</guid>
+      <description>در پنجمین جلسه باز نرم‌افزاری مشهد که آخرین جلسه سال ۱۳۹۲ محسوب می‌شد حامد سعیدی درباره تست جوئل ارائه‌ای داشت و رامین نجارباشی هم ارائه‌ای عملی درباره برنامه‌نویسی پایتون اجرا کرد.</description>
+    </item>
+    
+    <item>
       <title>چهارمین جلسه باز نرم‌افزاری مشهد با موضوع یونیکد برگزار شد</title>
       <link>http://hameds.github.io/softwaretalks/events/4-unicode/</link>
-      <pubDate>Sat, 06 Jan 2018 15:55:31 +0330</pubDate>
+      <pubDate>Sun, 19 Jan 2014 15:55:31 +0330</pubDate>
       
       <guid>http://hameds.github.io/softwaretalks/events/4-unicode/</guid>
       <description>در چهارمین جلسه باز نرم‌افزاری مشهد بیژن ابراهیمی در خصوص یونیکد و همچنین داود تراب‌زاده در خصوص معماری اطلاعات ارائه‌ای داشتند</description>

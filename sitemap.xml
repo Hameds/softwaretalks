@@ -3,8 +3,18 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://hameds.github.io/softwaretalks/events/6/</loc>
+    <lastmod>2014-04-20T16:23:33+03:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://hameds.github.io/softwaretalks/events/5-joeltest/</loc>
+    <lastmod>2014-01-20T16:15:41+03:30</lastmod>
+  </url>
+  
+  <url>
     <loc>http://hameds.github.io/softwaretalks/events/4-unicode/</loc>
-    <lastmod>2018-01-06T15:55:31+03:30</lastmod>
+    <lastmod>2014-01-19T15:55:31+03:30</lastmod>
   </url>
   
   <url>
@@ -24,7 +34,7 @@
   
   <url>
     <loc>http://hameds.github.io/softwaretalks/tags/</loc>
-    <lastmod>2018-01-06T15:55:31+03:30</lastmod>
+    <lastmod>2014-04-20T16:23:33+03:30</lastmod>
     <priority>0</priority>
   </url>
   
@@ -48,7 +58,7 @@
   
   <url>
     <loc>http://hameds.github.io/softwaretalks/events/</loc>
-    <lastmod>2018-01-06T15:55:31+03:30</lastmod>
+    <lastmod>2014-04-20T16:23:33+03:30</lastmod>
     <priority>0</priority>
   </url>
   
@@ -59,13 +69,13 @@
   
   <url>
     <loc>http://hameds.github.io/softwaretalks/tags/</loc>
-    <lastmod>2018-01-06T15:55:31+03:30</lastmod>
+    <lastmod>2014-04-20T16:23:33+03:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://hameds.github.io/softwaretalks/</loc>
-    <lastmod>2018-01-06T15:55:31+03:30</lastmod>
+    <lastmod>2014-04-20T16:23:33+03:30</lastmod>
     <priority>0</priority>
   </url>
   

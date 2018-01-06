@@ -58,17 +58,17 @@
                   </div>
               <div class="row">
                  
-                <div class="col-lg-8 mx-auto">
+                <div class="col-lg-12 mx-auto">
                   <div class="row mt-5">
                    
               {{ range sort .Paginator.Pages }}
 
               <div class="col">
-                  <div class="card" style="width: 20rem;">
+                  <div class="card" style="">
                       
                       <div class="card-block">
                           <h4 class="card-title"> جلسه {{ .Params.id }}</h4>
-                          <p class="card-text">{{ .Params.subject }}</p>
+                          <p class="card-text"> موضوع: {{ .Params.subject }}</p>
                           <a href="{{ .Permalink }}" class="btn btn-primary">اطلاعات بیشتر ...</a>
                       </div>
                   </div>

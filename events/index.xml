@@ -6,10 +6,37 @@
     <description>Recent content in Events on جلسات باز نرم‌افزاری مشهد</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 05 Jan 2014 08:58:17 +0330</lastBuildDate>
+    <lastBuildDate>Sat, 06 Jan 2018 15:55:31 +0330</lastBuildDate>
     
 	<atom:link href="http://hameds.github.io/softwaretalks/events/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>چهارمین جلسه باز نرم‌افزاری مشهد با موضوع یونیکد برگزار شد</title>
+      <link>http://hameds.github.io/softwaretalks/events/4-unicode/</link>
+      <pubDate>Sat, 06 Jan 2018 15:55:31 +0330</pubDate>
+      
+      <guid>http://hameds.github.io/softwaretalks/events/4-unicode/</guid>
+      <description>در چهارمین جلسه باز نرم‌افزاری مشهد بیژن ابراهیمی در خصوص یونیکد و همچنین داود تراب‌زاده در خصوص معماری اطلاعات ارائه‌ای داشتند</description>
+    </item>
+    
+    <item>
+      <title>سومین جلسه باز نرم‌افزاری مشهد برگزار شد</title>
+      <link>http://hameds.github.io/softwaretalks/events/3/</link>
+      <pubDate>Sat, 18 Jan 2014 15:53:05 +0330</pubDate>
+      
+      <guid>http://hameds.github.io/softwaretalks/events/3/</guid>
+      <description>اطلاعات این جلسه نیازمند تکمیل است</description>
+    </item>
+    
+    <item>
+      <title>دومین جلسه باز نرم‌افزاری مشهد با موضوع امنیت در فضای سایبر</title>
+      <link>http://hameds.github.io/softwaretalks/events/2-cybersecurity/</link>
+      <pubDate>Sat, 18 Jan 2014 15:45:35 +0330</pubDate>
+      
+      <guid>http://hameds.github.io/softwaretalks/events/2-cybersecurity/</guid>
+      <description>در دومین جلسه باز نرم‌افزاری علاوه بر ارائه آقای امیر فاطمی به صورت عملی در حوزه امنیت در فضای سایبر، در خصوص کار تیمی در حوزه نرم‌افزار نیز ارائه‌ای انجام شد</description>
+    </item>
     
     <item>
       <title>اولین جلسه باز نرم‌افزاری مشهد با موضوع پایتون</title>

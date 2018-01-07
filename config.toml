@@ -10,14 +10,14 @@ theme="hugo-icon"
 
 #SoftwareTalks
 [params.softwaretalks]
-  nexteventdate="یکشنبه ۱۷ دی ۹۶ ساعت ۱۷ تا ۱۹"
+  nexteventdate="یکشنبه ۱ بمهن ۹۶ ساعت ۱۷ تا ۱۹"
   nexteventsubject="مهارت‌های کار تیمی نرم‌افزار"
   nexteventlocation="بین آخوند خراسانی ۲۲ و ۲۴، کتابخانه قلم"
-  nexteventid="۷۰"
-  eventcount="۶۹"
+  nexteventid="۷۱"
+  eventcount="۷۰"
   speakercount="۳۴"
   topiccount="۷۰"
-  scheduleddate="۱ بهمن ۹۶"
+  scheduleddate="۱۵ بهمن ۹۶"
 
 # Hero section (from here on is for icon theme)
 [params.hero]

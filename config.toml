@@ -11,7 +11,7 @@ paginate = 100
 
 #SoftwareTalks
 [params.softwaretalks]
-  nexteventdate="یکشنبه ۱ بمهن ۹۶ ساعت ۱۷ تا ۱۹"
+  nexteventdate="یکشنبه ۱ بهمن ۹۶ ساعت ۱۷ تا ۱۹"
   nexteventsubject="مهارت‌های کار تیمی نرم‌افزار"
   nexteventlocation="بین آخوند خراسانی ۲۲ و ۲۴، کتابخانه قلم"
   nexteventid="۷۰"

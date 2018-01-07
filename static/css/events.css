@@ -44,3 +44,9 @@ body,html,p,div,h1,h2,h3,h4,h5,h6{
 }
 section{direction: rtl;text-align: right}
 .card-block{padding: 20px;}
+
+.card-img-top {
+  width: 100%;
+  height: 10vw;
+  object-fit: cover;
+}

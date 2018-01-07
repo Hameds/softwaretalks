@@ -64,7 +64,13 @@
               {{ range sort .Paginator.Pages }}
 
               <div class="col col-lg-4 mt-4">
-                  <div class="card">                      
+                  <div class="card">    
+                      {{ if .Params.featured_image }}
+                        <img class="card-img-top" src="{{ .Site.BaseURL}}{{ .Params.featured_image}}" alt="جلسه {{ .Params.id }} باز نرم‌افزاری مشهد">
+                      {{ else }}
+                        <img class="card-img-top" src="{{ .Site.BaseURL}}images/noimage.jpg" alt="جلسه {{ .Params.id }} باز نرم‌افزاری مشهد">
+                      {{ end }}
+                      
                       <div class="card-block">
                           <h4 class="card-title"> جلسه {{ .Params.id }}</h4>
                           <p class="card-text"> موضوع: {{ .Params.subject }}</p>
@@ -74,7 +80,7 @@
               </div>
 
               {{ end }}
-  
+
               </div>
           </div>
                 </div>

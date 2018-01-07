@@ -2,6 +2,7 @@ baseURL = "http://hameds.github.io/softwaretalks/"
 languageCode = "en-us"
 title = "جلسات باز نرم‌افزاری مشهد"
 theme="hugo-icon"
+paginate = 100
 
 # Metadata
 [params]

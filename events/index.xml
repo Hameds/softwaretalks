@@ -6,13 +6,61 @@
     <description>Recent content in Events on جلسات باز نرم‌افزاری مشهد</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 20 Apr 2014 16:23:33 +0330</lastBuildDate>
+    <lastBuildDate>Sun, 09 Nov 2014 19:01:37 +0330</lastBuildDate>
     
 	<atom:link href="http://hameds.github.io/softwaretalks/events/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>6</title>
+      <title>قسمت دوم کار عملی با گیت در یازدهمین جلسه باز نرم‌افزاری مشهد</title>
+      <link>http://hameds.github.io/softwaretalks/events/11-git/</link>
+      <pubDate>Sun, 09 Nov 2014 19:01:37 +0330</pubDate>
+      
+      <guid>http://hameds.github.io/softwaretalks/events/11-git/</guid>
+      <description>ازدهمین جلسه باز نرم‌افزاری مشهد روز گذشته ۱۸ آبان برگزار شد. در این جلسه طبق روال جلسات گذشته، ابتدا مروری کوتاه بر جلسات برگزار شده و آمار و ارقام آن‌ها انجام شد. همچنین اخبار مربوط به جلسات با معرفی اکانت‌های اجتماعی جلسات باز و اعلام خبر پیشنهاد ساماندهی استخدام و قطع همکاری برنامه‌نویسان به اطلاع شرکت‌کنندگان رسید. داود تراب‌زاده از بنیان‌گذاران جلسات باز نرم‌افزاری مشهد هم در این جلسه حضور داشت و مورد تشویق شرکت‌کنندگان قرار گرفت.</description>
+    </item>
+    
+    <item>
+      <title>کار عملی با گیت در دهمین جلسه باز نرم‌افزاری مشهد</title>
+      <link>http://hameds.github.io/softwaretalks/events/10-git/</link>
+      <pubDate>Sun, 26 Oct 2014 18:57:20 +0330</pubDate>
+      
+      <guid>http://hameds.github.io/softwaretalks/events/10-git/</guid>
+      <description>دهمین جلسه باز نرم‌افزاری مشهد که به آشنایی با گیت و گیت‌هاب اختصاص داشت روز یکشنبه ۴ آبان ۹۳ برگزار شد. در این جلسه بعد از اعلام اخبار جلسات و مروری بر اتفاقات جلسات گذشته، رامین نجارباشی پرزنت بسیار خوبی به همراه نمایش عملی دستورات درباره Git داشت.
+پس از رامین، حامد سعیدی درباره گیت‌هاب صحبت کرد و به عنوان نمونه پروژه‌های اپن سورس مایکروسافت بر روی گیت‌هاب را نمایش و بر مبنای پروژه ASP.</description>
+    </item>
+    
+    <item>
+      <title>برنامه‌نویسان خشمگین در نهمین جلسه باز نرم‌افزاری مشهد</title>
+      <link>http://hameds.github.io/softwaretalks/events/9-angrydevelopers/</link>
+      <pubDate>Mon, 01 Sep 2014 18:53:05 +0330</pubDate>
+      
+      <guid>http://hameds.github.io/softwaretalks/events/9-angrydevelopers/</guid>
+      <description>در نهمین جلسه باز نرم‌افزاری مشهد، پروژه برنامه‌نویسان خشمگین معرفی شد. در این جلسه ضمن بررسی آنچه در جلسات باز نرم‌افزاری مشهد گذشته بود و اخبار جلسات، پروژه برنامه‌نویسان خشمگین معرفی شد.</description>
+    </item>
+    
+    <item>
+      <title>هشتمین جلسه باز نرم‌افزاری مشهد با موضوع مدل درآمدی پروژه‌های اپن سورس برگزار شد</title>
+      <link>http://hameds.github.io/softwaretalks/events/8-opensourcebusinessmodels/</link>
+      <pubDate>Sun, 31 Aug 2014 09:15:58 +0330</pubDate>
+      
+      <guid>http://hameds.github.io/softwaretalks/events/8-opensourcebusinessmodels/</guid>
+      <description>در هشتمین جلسه باز نرم‌افزاری مشهد، ارائه بسیار خوبی در مورد مدل کسب درآمد پروژه‌های اپن سورس انجام شد. همچنین شرکت‌کنندگان در جلسه در بخش بحث آزاد، پیشنهاد ایجاد یک Mailing List بر اساس گروه‌های گوگل را دادند و مقرر شد گروهی تشکیل شود و جلسات پیش از برگزاری در این گروه هماهنگ شوند.
+گروه گوگلی جلسات باز ایجاد شده است، می‌توانید در آن درخواست عضویت داشته باشید: https://groups.google.com/forum/#!forum/mashhadst</description>
+    </item>
+    
+    <item>
+      <title>هفتمین جلسه باز نرم‌افزاری مشهد با موضوع ساختار تیم‌های مدرن نرم‌افزاری</title>
+      <link>http://hameds.github.io/softwaretalks/events/7-modernsoftwareteams/</link>
+      <pubDate>Mon, 21 Apr 2014 09:11:31 +0330</pubDate>
+      
+      <guid>http://hameds.github.io/softwaretalks/events/7-modernsoftwareteams/</guid>
+      <description>هفتمین جلسه باز نرم‌افزاری مشهد و دومین جلسه در سال ۹۳ برگزار شد. در این جلسه حامد سعیدی درباره ساختار تیم‌های مدرن نرم‌افزاری ارائه‌ای داشت.
+علاوه بر این ارائه که با پرسش و پاسخ شرکت‌کنندگان نیز همراه بود، بحث آزادی درباره روال کاری جلسات باز نرم‌افزاری شکل گرفت که در جلسه آینده نیز دنبال خواهد شد.</description>
+    </item>
+    
+    <item>
+      <title>ششمین جلسه باز نرم‌افزاری با موضوع بحث آزاد درباره بازار نرم‌افزار در سال ۱۳۹۳</title>
       <link>http://hameds.github.io/softwaretalks/events/6/</link>
       <pubDate>Sun, 20 Apr 2014 16:23:33 +0330</pubDate>
       

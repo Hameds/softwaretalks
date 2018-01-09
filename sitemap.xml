@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://hameds.github.io/softwaretalks/events/12-qt/</loc>
+    <lastmod>2014-12-23T09:48:21+03:30</lastmod>
+  </url>
+  
+  <url>
     <loc>http://hameds.github.io/softwaretalks/events/11-git/</loc>
     <lastmod>2014-11-09T19:01:37+03:30</lastmod>
   </url>
@@ -59,7 +64,7 @@
   
   <url>
     <loc>http://hameds.github.io/softwaretalks/tags/</loc>
-    <lastmod>2014-11-09T19:01:37+03:30</lastmod>
+    <lastmod>2014-12-23T09:48:21+03:30</lastmod>
     <priority>0</priority>
   </url>
   
@@ -83,7 +88,7 @@
   
   <url>
     <loc>http://hameds.github.io/softwaretalks/events/</loc>
-    <lastmod>2014-11-09T19:01:37+03:30</lastmod>
+    <lastmod>2014-12-23T09:48:21+03:30</lastmod>
     <priority>0</priority>
   </url>
   
@@ -94,13 +99,13 @@
   
   <url>
     <loc>http://hameds.github.io/softwaretalks/tags/</loc>
-    <lastmod>2014-11-09T19:01:37+03:30</lastmod>
+    <lastmod>2014-12-23T09:48:21+03:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://hameds.github.io/softwaretalks/</loc>
-    <lastmod>2014-11-09T19:01:37+03:30</lastmod>
+    <lastmod>2014-12-23T09:48:21+03:30</lastmod>
     <priority>0</priority>
   </url>
   

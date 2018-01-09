@@ -6,10 +6,20 @@
     <description>Recent content in Events on جلسات باز نرم‌افزاری مشهد</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 09 Nov 2014 19:01:37 +0330</lastBuildDate>
+    <lastBuildDate>Tue, 23 Dec 2014 09:48:21 +0330</lastBuildDate>
     
 	<atom:link href="http://hameds.github.io/softwaretalks/events/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>دوازدهمین جلسه باز نرم‌افزاری مشهد با موضوع کیوت و تجربه کار در یک استارتاپ امریکایی برگزار شد</title>
+      <link>http://hameds.github.io/softwaretalks/events/12-qt/</link>
+      <pubDate>Tue, 23 Dec 2014 09:48:21 +0330</pubDate>
+      
+      <guid>http://hameds.github.io/softwaretalks/events/12-qt/</guid>
+      <description>شب گذشته و در حالی که جلسه دوازدهم با دربی پایتخت همزمان بود، رکورد حضور در جلسات باز نرم‌افزاری مشهد شکسته شد. جلسه دوازدهم مطابق جلسات گذشته ساعت ۱۸ آغاز شد اما از نیم ساعت قبل از شروع جلسه، شاهد حضور علاقمندان و شرکت‌کنندگان بودیم.
+در ابتدای جلسه مطابق روال جلسات، آمار جلسات گذشته و اخبار پیش رو مرور شد. اخباری مانند تغییر تاریخ و محل اجرای جلسات که جزئیات آن به زودی از طریق سایت و خبرنامه و شبکه‌های اجتماعی اطلاع رسانی خواهد شد.</description>
+    </item>
     
     <item>
       <title>قسمت دوم کار عملی با گیت در یازدهمین جلسه باز نرم‌افزاری مشهد</title>

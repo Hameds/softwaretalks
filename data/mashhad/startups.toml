@@ -345,11 +345,16 @@
         title="جواهر بازار"
         founders="علی خوش‌نیت"
         status="فعال"
-        website="https://javaherbazar.com/"
+        website="https://javaherbazar.com"
 
-     [[startups.item]]
+    [[startups.item]]
         title="باهشت"
         founders="سید حمید هاشمیان فلاح"
         status="فعال"
-        website="http://visitmashhad.com/"
+        website="http://visitmashhad.com"
 
+    [[startups.item]]
+        title="فیتب"
+        founders="حمیدرضا جمشیدی مقدم"
+        status="فعال"
+        website="http://www.fitabapp.ir"  

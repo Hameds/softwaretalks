@@ -1,6 +1,6 @@
 baseURL = "http://hameds.github.io/softwaretalks/"
 languageCode = "en-us"
-title = "جلسات باز نرم‌افزاری مشهد"
+title = "جلسات باز نرم‌افزاری "
 theme="hugo-icon"
 paginate = 100
 
@@ -11,9 +11,9 @@ paginate = 100
 
 #SoftwareTalks
 [params.softwaretalks]
-  nexteventdate="یکشنبه ۱ بهمن ۹۶ ساعت ۱۷ تا ۱۹"
-  nexteventsubject="مهارت‌های کار تیمی نرم‌افزار"
-  nexteventlocation="بین آخوند خراسانی ۲۲ و ۲۴، کتابخانه قلم"
+  nexteventdate="سه‌شنبه ۳ بهمن ۹۶ ساعت ۱۷"
+  nexteventsubject="اولین جلسه پخش زنده"
+  nexteventlocation="کانال یوتیوب ‍softwaretalks"
   nexteventid="۷۰"
   eventcount="۶۹"
   speakercount="۳۴"
@@ -23,7 +23,7 @@ paginate = 100
 # Hero section (from here on is for icon theme)
 [params.hero]
   img = "images/hero_bg.jpg"
-  title = "جلسات باز نرم‌افزاری مشهد"  
+  title = "جلسات باز نرم‌افزاری"  
   description = "دورهمی متخصصان و علاقمندان نرم‌افزار از سال ۹۲ هر دو هفته یک‌ بار"
 
 # Navigation section

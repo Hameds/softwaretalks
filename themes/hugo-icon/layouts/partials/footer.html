@@ -25,6 +25,9 @@
 	  {{ if isset . "instagram" }}
 	  <li><a href="{{ .instagram }}"><i class="icon-instagram"></i></a></li>
 	  {{ end }}
+		{{ if isset . "youtube" }}
+	  <li><a href="{{ .youtube }}"><i class="icon-youtube"></i></a></li>
+	  {{ end }}
 	</ul>
       </div>
       {{ end }}

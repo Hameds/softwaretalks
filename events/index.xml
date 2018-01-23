@@ -6,10 +6,19 @@
     <description>Recent content in Events on جلسات باز نرم‌افزاری </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 02 Dec 2014 22:22:30 +0330</lastBuildDate>
+    <lastBuildDate>Tue, 16 Dec 2014 09:25:49 +0330</lastBuildDate>
     
 	<atom:link href="http://hameds.github.io/softwaretalks/events/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>چهاردهمین جلسه باز نرم‌افزاری مشهد با موضوع شیرپوینت و تجربه کاربری برگزار شد</title>
+      <link>http://hameds.github.io/softwaretalks/events/14-sharepoint/</link>
+      <pubDate>Tue, 16 Dec 2014 09:25:49 +0330</pubDate>
+      
+      <guid>http://hameds.github.io/softwaretalks/events/14-sharepoint/</guid>
+      <description>روز سه‌شنبه ۲۵ آذر ۹۳ چهاردهمین جلسه باز نرم‌افزاری مشهد در محل همیشگی برگزاری جلسات راس ساعت ۱۸ آغاز شد. مطابق معمول در آغاز جلسات، آمار مربوط به جلسات گذشته و همچنین اخبار جلسات به اطلاع شرکت‌کنندگان رسید. همچنین اعلام شد که جلسه آینده که سالگرد برگزاری جلسات باز می‌باشد، پرزنتی نبوده و صرفاً یک بحث آزاد در خصوص جلسات باز و برنامه‌ریزی برای برگزاری جلسات در سال آینده انجام خواهد شد.</description>
+    </item>
     
     <item>
       <title>سیزدهمین جلسه باز نرم‌افزاری مشهد با حضور علاقمندان در دانشگاه پیام نور برگزار شد</title>

@@ -10,7 +10,7 @@
     [[events.item]]
         title=" همفکر مشهد"
         desc="جلسات فعال در حوزه استارتاپ‌ها و شبکه‌سازی"
-        nextevent="۴ بهمن ۹۶"
+        nextevent="۱۱ بهمن ۹۶"
         status="فعال"
         website="http://www.ihamfekr.ir"
 
@@ -24,9 +24,16 @@
     [[events.item]]
         title="جامعه تجربه کاربری مشهد"
         desc="جلسات فعال در حوزه تجربه کاربری"
-        nextevent="۲۴ دی ۹۶"
+        nextevent="۸ بهمن ۹۶"
         status="فعال"
         website="https://t.me/uxmashhad"
+
+    [[events.item]]
+        title="دورهمی جاوا اسکریپت مشهد"
+        desc="جلسات فعال در حوزه جاوا اسکریپت"
+        nextevent="۱۱ بهمن ۹۶"
+        status="فعال"
+        website=""
 
     [[events.item]]
         title ="میتاپس مشهد"

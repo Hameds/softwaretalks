@@ -8,7 +8,7 @@
           <meta name="description" content="">
           <meta name="author" content="">
       
-          <title>جلسات باز نرم‌افزاری  - گزارش فعالیت‌ها</title>
+          <title>جلسات باز نرم‌افزاری  - پخش زنده</title>
       
           <!-- Bootstrap core CSS -->
           <link rel="stylesheet" href="../css/bootstrap.min.css">
@@ -38,6 +38,7 @@
                   <li class="nav-item">
                     <a class="nav-link js-scroll-trigger" href="{{ .Site.BaseURL}}/events">گزارش فعالیت‌ها</a>
                   </li>
+                
                   <li class="nav-item">
                     <a class="nav-link js-scroll-trigger" href="{{ .Site.BaseURL}}/made-in-mashhad">ساخت مشهد </a>
                   </li>
@@ -48,8 +49,8 @@
       
           <header class="bg-primary text-white">
               <div class="container text-center">
-                <h1>گزارش فعالیت‌ها</h1>
-                <p class="lead">موضوعات، اسلایدها، منابع و گزارش برگزاری جلسات از سال ۱۳۹۲</p>
+                <h1>پخش زنده اینترنتی</h1>
+                <p class="lead">برنامه هفتگی پخش زنده softwaretalks روی یوتیوب</p>
               </div>
             </header>
       
@@ -59,9 +60,9 @@
           <section id="downloads">
            
             <div class="container">
-                <div class="alert alert-warning">
-                    گزارش برگزاری جلسات باز نرم‌افزاری که به صورت حضوری برگزار شده‌اند در حال تکمیل است.
-                  </div>
+                <div class="alert alert-info">
+برنامه هفتگی پخش زنده softwaretalks را از <a target="_blank" href="https://www.youtube.com/channel/UCm4xezzuIlcEBFQwkAzm0CQ">کانال یوتیوب ما</a> ‌سه‌شنبه هر هفته ساعت ۱۹ دنبال کنید. همچنین ویدئوهای پخش زنده در <a target="_blank" href="https://www.aparat.com/softwaretalks">کانال آپارات ما</a> نیز منتشر می‌شود
+</div>
               <div class="row">
                  
                 <div class="col-lg-12 mx-auto">
@@ -69,18 +70,14 @@
                    
               {{ range sort .Paginator.Pages }}
 
-              <div class="col col-lg-4 mt-4">
+              <div class="col col-lg-6 mt-4">
                   <div class="card">    
-                      {{ if .Params.featured_image }}
-                        <img class="card-img-top" src="{{ .Site.BaseURL}}{{ .Params.featured_image}}" alt="جلسه {{ .Params.id }} باز نرم‌افزاری مشهد">
-                      {{ else }}
-                        <img class="card-img-top" src="{{ .Site.BaseURL}}images/noimage.jpg" alt="جلسه {{ .Params.id }} باز نرم‌افزاری مشهد">
-                      {{ end }}
+                      <div id="15172483996152763"><script type="text/JavaScript" src="https://www.aparat.com/embed/{{ .Params.aparat_url }}?data[rnddiv]=15172483996152763&data[responsive]=yes"></script></div>
                       
                       <div class="card-block">
-                          <h4 class="card-title"> جلسه {{ .Params.id }}</h4>
-                          <p class="card-text"> موضوع: {{ .Params.subject }}</p>
-                          <a href="{{ .Permalink }}" class="btn btn-primary">اطلاعات بیشتر ...</a>
+                          <h4 class="card-title"> موضوع: {{ .Params.subject }}</h4>
+                          <p class="card-text"> با حضور: {{ .Params.guests }}</p>
+
                       </div>
                   </div>
               </div>

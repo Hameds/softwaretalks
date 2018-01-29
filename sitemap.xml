@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://hameds.github.io/softwaretalks/live/1-blockchain/</loc>
+    <lastmod>2018-01-29T21:03:27+03:30</lastmod>
+  </url>
+  
+  <url>
     <loc>http://hameds.github.io/softwaretalks/events/14-sharepoint/</loc>
     <lastmod>2014-12-16T09:25:49+03:30</lastmod>
   </url>
@@ -103,6 +108,12 @@
   </url>
   
   <url>
+    <loc>http://hameds.github.io/softwaretalks/live/</loc>
+    <lastmod>2018-01-29T21:03:27+03:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://hameds.github.io/softwaretalks/made-in-mashhad/</loc>
     <priority>0</priority>
   </url>
@@ -115,7 +126,7 @@
   
   <url>
     <loc>http://hameds.github.io/softwaretalks/</loc>
-    <lastmod>2014-12-16T09:25:49+03:30</lastmod>
+    <lastmod>2018-01-29T21:03:27+03:30</lastmod>
     <priority>0</priority>
   </url>
   

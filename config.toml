@@ -7,24 +7,24 @@ paginate = 100
 # Metadata
 [params]
   author = "SoftwareTalks"
-  description = "دورهمی متخصصان و علاقمندان نرم‌افزار در مشهد از سال ۹۲ هر دو هفته یک‌ بار"
+  description = "دورهمی متخصصان و علاقمندان نرم‌افزار در مشهد از سال ۹۲"
 
 #SoftwareTalks
 [params.softwaretalks]
-  nexteventdate="سه‌شنبه ۳ بهمن ۹۶ ساعت ۱۹"
-  nexteventsubject="اولین جلسه پخش زنده اینترنتی"
+  nexteventdate="سه‌شنبه ۱۰ بهمن ۹۶ ساعت ۱۹"
+  nexteventsubject="reactjs با احمد طحانی از اصفهان"
   nexteventlocation="‍<a href='https://www.youtube.com/channel/UCm4xezzuIlcEBFQwkAzm0CQ'>کانال یوتیوب softwaretalks</a>"
-  nexteventid="۷۰"
-  eventcount="۶۹"
+  nexteventid="۷۱"
+  eventcount="۷۰"
   speakercount="۳۴"
-  topiccount="۷۰"
-  scheduleddate="۱۵ بهمن ۹۶"
+  topiccount="۷۱"
+  scheduleddate="۱۷ بهمن ۹۶"
 
 # Hero section (from here on is for icon theme)
 [params.hero]
   img = "images/hero_bg.jpg"
   title = "جلسات باز نرم‌افزاری"  
-  description = "دورهمی متخصصان و علاقمندان نرم‌افزار از سال ۹۲ هر دو هفته یک‌ بار"
+  description = "دورهمی متخصصان و علاقمندان نرم‌افزار از سال ۹۲ "
 
 # Navigation section
 [params.nav]

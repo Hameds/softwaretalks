@@ -5,5 +5,6 @@ draft: true
 subject: "#"
 guests: "#"
 aparat_url: "#"
+aparat_id: "#"
 youtube_url: "#"
 ---

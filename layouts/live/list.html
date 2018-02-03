@@ -72,7 +72,7 @@
 
               <div class="col col-lg-6 mt-4">
                   <div class="card">    
-                      <div id="15172483996152763"><script type="text/JavaScript" src="https://www.aparat.com/embed/{{ .Params.aparat_url }}?data[rnddiv]=15172483996152763&data[responsive]=yes"></script></div>
+                      <div id="{{ .Params.aparat_id }}"><script type="text/JavaScript" src="https://www.aparat.com/embed/{{ .Params.aparat_url }}?data[rnddiv]={{ .Params.aparat_id }}&data[responsive]=yes"></script></div>
                       
                       <div class="card-block">
                           <h4 class="card-title"> موضوع: {{ .Params.subject }}</h4>

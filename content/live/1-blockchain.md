@@ -5,5 +5,6 @@ draft: false
 subject: "بلاک چین"
 guests: "مهدی عطائیان از مشهد"
 aparat_url: "SjLkP"
+aparat_id: "15176423645077111"
 youtube_url: "f3ZrMJnXwl8"
 ---

@@ -6,10 +6,19 @@
     <description>Recent content on جلسات باز نرم‌افزاری </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 29 Jan 2018 21:03:27 +0330</lastBuildDate>
+    <lastBuildDate>Sat, 03 Feb 2018 10:36:21 +0330</lastBuildDate>
     
 	<atom:link href="http://hameds.github.io/softwaretalks/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>اپیزود دوم: reactjs</title>
+      <link>http://hameds.github.io/softwaretalks/live/2-reactjs/</link>
+      <pubDate>Sat, 03 Feb 2018 10:36:21 +0330</pubDate>
+      
+      <guid>http://hameds.github.io/softwaretalks/live/2-reactjs/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>اپیزود اول: سلام دنیا و بلاک‌چین</title>

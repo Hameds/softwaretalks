@@ -11,14 +11,14 @@ paginate = 100
 
 #SoftwareTalks
 [params.softwaretalks]
-  nexteventdate="سه‌شنبه ۱۰ بهمن ۹۶ ساعت ۱۹"
-  nexteventsubject="reactjs با احمد طحانی از اصفهان"
+  nexteventdate="سه‌شنبه ۱۷ بهمن ۹۶ ساعت ۱۹"
+  nexteventsubject="continuous integration با توحید ارسطو از تهران"
   nexteventlocation="‍<a href='https://www.youtube.com/channel/UCm4xezzuIlcEBFQwkAzm0CQ'>کانال یوتیوب softwaretalks</a>"
-  nexteventid="۷۱"
-  eventcount="۷۰"
-  speakercount="۳۴"
-  topiccount="۷۱"
-  scheduleddate="۱۷ بهمن ۹۶"
+  nexteventid="۷۲"
+  eventcount="۷۱"
+  speakercount="۳۵"
+  topiccount="۷۲"
+  scheduleddate="۲۳ بهمن ۹۶"
 
 # Hero section (from here on is for icon theme)
 [params.hero]

@@ -6,10 +6,19 @@
     <description>Recent content in Lives on جلسات باز نرم‌افزاری </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 03 Feb 2018 10:36:21 +0330</lastBuildDate>
+    <lastBuildDate>Tue, 06 Feb 2018 22:13:49 +0330</lastBuildDate>
     
 	<atom:link href="http://hameds.github.io/softwaretalks/live/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>اپیزود سوم: continuous integration</title>
+      <link>http://hameds.github.io/softwaretalks/live/3-ci/</link>
+      <pubDate>Tue, 06 Feb 2018 22:13:49 +0330</pubDate>
+      
+      <guid>http://hameds.github.io/softwaretalks/live/3-ci/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>اپیزود دوم: reactjs</title>

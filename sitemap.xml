@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://hameds.github.io/softwaretalks/live/3-ci/</loc>
+    <lastmod>2018-02-06T22:13:49+03:30</lastmod>
+  </url>
+  
+  <url>
     <loc>http://hameds.github.io/softwaretalks/live/2-reactjs/</loc>
     <lastmod>2018-02-03T10:36:21+03:30</lastmod>
   </url>
@@ -114,7 +119,7 @@
   
   <url>
     <loc>http://hameds.github.io/softwaretalks/live/</loc>
-    <lastmod>2018-02-03T10:36:21+03:30</lastmod>
+    <lastmod>2018-02-06T22:13:49+03:30</lastmod>
     <priority>0</priority>
   </url>
   
@@ -131,7 +136,7 @@
   
   <url>
     <loc>http://hameds.github.io/softwaretalks/</loc>
-    <lastmod>2018-02-03T10:36:21+03:30</lastmod>
+    <lastmod>2018-02-06T22:13:49+03:30</lastmod>
     <priority>0</priority>
   </url>
   

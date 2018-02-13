@@ -11,14 +11,14 @@ paginate = 100
 
 #SoftwareTalks
 [params.softwaretalks]
-  nexteventdate="سه‌شنبه ۱۷ بهمن ۹۶ ساعت ۱۹"
-  nexteventsubject="continuous integration با توحید ارسطو از تهران"
+  nexteventdate="سه‌شنبه ۲۴ بهمن ۹۶ ساعت ۱۹"
+  nexteventsubject="‍docker با فرهاد ستوده و امیرارسلان قربان‌زاده"
   nexteventlocation="‍<a href='https://www.youtube.com/channel/UCm4xezzuIlcEBFQwkAzm0CQ'>کانال یوتیوب softwaretalks</a>"
-  nexteventid="۷۲"
-  eventcount="۷۱"
-  speakercount="۳۵"
+  nexteventid="۷۳"
+  eventcount="۷۲"
+  speakercount="۳۷"
   topiccount="۷۲"
-  scheduleddate="۲۳ بهمن ۹۶"
+  scheduleddate="۱ اسفند ۹۶"
 
 # Hero section (from here on is for icon theme)
 [params.hero]

@@ -11,14 +11,14 @@ paginate = 100
 
 #SoftwareTalks
 [params.softwaretalks]
-  nexteventdate="سه‌شنبه ۲۴ بهمن ۹۶ ساعت ۱۹"
-  nexteventsubject="‍docker با فرهاد ستوده و امیرارسلان قربان‌زاده"
+  nexteventdate="سه‌شنبه ۸ اسفند ۹۶ ساعت ۱۹"
+  nexteventsubject="‍با عباس یزدان‌پناه درباره git"
   nexteventlocation="‍<a href='https://www.youtube.com/channel/UCm4xezzuIlcEBFQwkAzm0CQ'>کانال یوتیوب softwaretalks</a>"
-  nexteventid="۷۳"
-  eventcount="۷۲"
-  speakercount="۳۷"
+  nexteventid="۷۴"
+  eventcount="۷۳"
+  speakercount="۳۸"
   topiccount="۷۲"
-  scheduleddate="۱ اسفند ۹۶"
+  scheduleddate="۱۵ اسفند ۹۶"
 
 # Hero section (from here on is for icon theme)
 [params.hero]

@@ -11,14 +11,14 @@ paginate = 100
 
 #SoftwareTalks
 [params.softwaretalks]
-  nexteventdate="سه‌شنبه ۸ اسفند ۹۶ ساعت ۱۹"
-  nexteventsubject="‍با عباس یزدان‌پناه درباره git"
+  nexteventdate="سه‌شنبه ۱۵ اسفند ۹۶ ساعت ۱۹"
+  nexteventsubject="‍برنامه‌های مکان محور (‍location base) با مهدی نامقی"
   nexteventlocation="‍<a href='https://www.youtube.com/softwaretalks'>کانال یوتیوب softwaretalks</a>"
-  nexteventid="۷۴"
-  eventcount="۷۳"
-  speakercount="۳۸"
-  topiccount="۷۲"
-  scheduleddate="۱۵ اسفند ۹۶"
+  nexteventid="۷۵"
+  eventcount="۷۴"
+  speakercount="۳۹"
+  topiccount="۷۳"
+  scheduleddate="۱۴ فروردین ۹۷"
 
 # Hero section (from here on is for icon theme)
 [params.hero]

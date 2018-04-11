@@ -77,7 +77,7 @@
                       <td>
                         وضعیت
                       </td>
-                      <th>تاریخ جلسه بعدی</th>
+                      
                       <th>وب سایت</th>
                     </tr>
                   </thead>
@@ -86,7 +86,7 @@
                         <td>جلسات باز نرم‌افزاری مشهد</td>
                         <td>دورهمی تخصصی فعالین و علاقمندان نرم‌افزار مشهد از سال ۱۳۹۲ </td>
                         <td><span class="badge badge-success">فعال</span></td>
-                        <td>{{ with .Site.Params.softwaretalks.nexteventdate }}{{ . | markdownify }}{{ end }}</td>
+                        
                         <td class="text-left"><a href="http://softwaretalks.ir" target="_blank" rel="nofollow">http://softwaretalks.ir</a></td>
                       </tr>
                       {{ range $.Site.Data.mashhad.events }}
@@ -109,7 +109,7 @@
                             </span>
                             {{ end }}
                            </td>  
-                        <td>{{ .nextevent }}</td>  
+                        
                         <td class="text-left"><a href="{{ .website }}" target="_blank" rel="nofollow">{{ .website }}</a></td>  
                       </tr>
       

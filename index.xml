@@ -6,10 +6,19 @@
     <description>Recent content on جلسات باز نرم‌افزاری </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 13 Mar 2018 10:27:48 +0330</lastBuildDate>
+    <lastBuildDate>Wed, 11 Apr 2018 11:37:22 +0430</lastBuildDate>
     
 	<atom:link href="http://hameds.github.io/softwaretalks/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>اپیزود هفتم: برنامه‌نویسی چندوظیفه‌ای</title>
+      <link>http://hameds.github.io/softwaretalks/live/7-parallelprocessing/</link>
+      <pubDate>Wed, 11 Apr 2018 11:37:22 +0430</pubDate>
+      
+      <guid>http://hameds.github.io/softwaretalks/live/7-parallelprocessing/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>اپیزود ششم: برنامه‌های مکان محور</title>

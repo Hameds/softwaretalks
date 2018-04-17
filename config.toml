@@ -11,14 +11,14 @@ paginate = 100
 
 #SoftwareTalks
 [params.softwaretalks]
-  nexteventdate="سه‌شنبه ۲۱ فروردین ۹۷ ساعت ۱۹"
-  nexteventsubject="‍برنامه‌نویسی چند وظیفه‌ای ‍(Parallel Processing) در دات‌نت با مرتضی دولتخواه"
+  nexteventdate="چهارشنبه ۲۹ فروردین ۹۷ ساعت ۱۷"
+  nexteventsubject="بازبینی کد (Code Review) با فرود"
   nexteventlocation="‍<a href='https://www.youtube.com/softwaretalks'>کانال یوتیوب softwaretalks</a>"
-  nexteventid="۷۶"
-  eventcount="۷۵"
-  speakercount="۴۰"
-  topiccount="۷۵"
-  scheduleddate="۲۸ فروردین ۹۷"
+  nexteventid="۷۷"
+  eventcount="۷۶"
+  speakercount="۴۱"
+  topiccount="۷۶"
+  scheduleddate="۴ اردیبهشت ۹۷"
 
 # Hero section (from here on is for icon theme)
 [params.hero]

@@ -6,10 +6,19 @@
     <description>Recent content in Lives on جلسات باز نرم‌افزاری </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 11 Apr 2018 11:37:22 +0430</lastBuildDate>
+    <lastBuildDate>Thu, 19 Apr 2018 09:07:30 +0430</lastBuildDate>
     
 	<atom:link href="http://hameds.github.io/softwaretalks/live/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>اپیزود هشتم: بازبینی کد</title>
+      <link>http://hameds.github.io/softwaretalks/live/8-code-review/</link>
+      <pubDate>Thu, 19 Apr 2018 09:07:30 +0430</pubDate>
+      
+      <guid>http://hameds.github.io/softwaretalks/live/8-code-review/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>اپیزود هفتم: برنامه‌نویسی چندوظیفه‌ای</title>

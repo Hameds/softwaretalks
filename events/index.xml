@@ -6,10 +6,21 @@
     <description>Recent content in Events on جلسات باز نرم‌افزاری </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 16 Dec 2014 09:25:49 +0330</lastBuildDate>
+    <lastBuildDate>Wed, 24 Dec 2014 17:11:11 +0430</lastBuildDate>
     
 	<atom:link href="http://hameds.github.io/softwaretalks/events/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>پانزدهمین جلسه و جشن تولد یک سالگی جلسات باز نرم‌افزاری مشهد برگزار شد</title>
+      <link>http://hameds.github.io/softwaretalks/events/15-birthday1/</link>
+      <pubDate>Wed, 24 Dec 2014 17:11:11 +0430</pubDate>
+      
+      <guid>http://hameds.github.io/softwaretalks/events/15-birthday1/</guid>
+      <description>شب گذشته و در فرهنگسرای فناوری و رسانه، جشن تولد یک سالگی جلسات باز نرم‌افزاری برگزار شد. در پانزدهمین جلسه هم شرکت‌کنندگان مثل همیشه در فضایی صمیمی به تبادل آرا پرداختند.
+از آنجایی که می‌خواستیم عکس دسته‌جمعی پیش از خورده شدن کیک باشد، اول جلسه عکس گرفتیم و بنابراین از آقایان و خانم‌هایی که بعداً به ما پیوستند عذرخواهی می‌کنیم.
+در جلسه پانزدهم تنها در مورد خود جلسات باز نرم‌افزاری صحبت کردیم و دوستان شرکت‌کننده، پیشنهادات و انتقادات خود را در مورد جلسات بیان کردند.</description>
+    </item>
     
     <item>
       <title>چهاردهمین جلسه باز نرم‌افزاری مشهد با موضوع شیرپوینت و تجربه کاربری برگزار شد</title>

@@ -11,14 +11,14 @@ paginate = 100
 
 #SoftwareTalks
 [params.softwaretalks]
-  nexteventdate="چهارشنبه ۲۹ فروردین ۹۷ ساعت ۱۷"
-  nexteventsubject="بازبینی کد (Code Review) با فرود"
+  nexteventdate="سه‌شنبه ۴ اردیبهشت ۹۷ ساعت ۱۹"
+  nexteventsubject="Design Pattern ها در برنامه‌نویسی - بخش اول"
   nexteventlocation="‍<a href='https://www.youtube.com/softwaretalks'>کانال یوتیوب softwaretalks</a>"
-  nexteventid="۷۷"
-  eventcount="۷۶"
-  speakercount="۴۱"
-  topiccount="۷۶"
-  scheduleddate="۴ اردیبهشت ۹۷"
+  nexteventid="۷۸"
+  eventcount="۷۷"
+  speakercount="۴۲"
+  topiccount="۷۷"
+  scheduleddate="۱۱ اردیبهشت ۹۷"
 
 # Hero section (from here on is for icon theme)
 [params.hero]

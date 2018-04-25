@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://hameds.github.io/softwaretalks/live/9-design-patterns/</loc>
+    <lastmod>2018-04-25T14:32:45+04:30</lastmod>
+  </url>
+  
+  <url>
     <loc>http://hameds.github.io/softwaretalks/live/8-code-review/</loc>
     <lastmod>2018-04-19T09:07:30+04:30</lastmod>
   </url>
@@ -149,7 +154,7 @@
   
   <url>
     <loc>http://hameds.github.io/softwaretalks/live/</loc>
-    <lastmod>2018-04-19T09:07:30+04:30</lastmod>
+    <lastmod>2018-04-25T14:32:45+04:30</lastmod>
     <priority>0</priority>
   </url>
   
@@ -166,7 +171,7 @@
   
   <url>
     <loc>http://hameds.github.io/softwaretalks/</loc>
-    <lastmod>2018-04-19T09:07:30+04:30</lastmod>
+    <lastmod>2018-04-25T14:32:45+04:30</lastmod>
     <priority>0</priority>
   </url>
   

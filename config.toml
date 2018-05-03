@@ -1,4 +1,4 @@
-baseURL = "http://hameds.github.io/softwaretalks/"
+baseURL = "https://softwaretalks.ir/"
 languageCode = "en-us"
 title = "جلسات باز نرم‌افزاری "
 theme="hugo-icon"

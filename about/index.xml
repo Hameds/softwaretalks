@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Abouts on جلسات باز نرم‌افزاری </title>
-    <link>http://hameds.github.io/softwaretalks/about/</link>
+    <link>https://softwaretalks.ir/about/</link>
     <description>Recent content in Abouts on جلسات باز نرم‌افزاری </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="http://hameds.github.io/softwaretalks/about/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://softwaretalks.ir/about/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title></title>
-      <link>http://hameds.github.io/softwaretalks/about/</link>
+      <link>https://softwaretalks.ir/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://hameds.github.io/softwaretalks/about/</guid>
+      <guid>https://softwaretalks.ir/about/</guid>
       <description>آشنایی با جلسات باز نرم‌افزاری مشهد  به نظر می رسد مرورگر شما از نمایش این اسلایدها پشتیبانی نمی‌کند
 بنابراین نسخه ساده این اسلایدها را مشاهده می‌کنید. لطفاً از مرورگر کروم یا فایرفاکس بروز شده استفاده کنید
  خوش آمدید به جلسه {{ .Site.Params.softwaretalks.nexteventid }} از جلسات باز نرم‌افزاری مشهد  قبل از شروع جلسه کمی با هم آشنا شویم  اینجا جلسات باز نرم‌افزاری مشهد * از سال ۱۳۹۲   جلسات باز نرم افزاری مشهد هر دو هفته یک بار فرصتی برای متخصصان نرم‌افزار در مشهد است تا در یک جمع دوستانه به تبادل دانش و تجربیات بپردازند   اینجا در هر حال مقصر شما هستید!</description>

@@ -2,93 +2,93 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Lives on جلسات باز نرم‌افزاری </title>
-    <link>http://hameds.github.io/softwaretalks/live/</link>
+    <link>https://softwaretalks.ir/live/</link>
     <description>Recent content in Lives on جلسات باز نرم‌افزاری </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 25 Apr 2018 14:32:45 +0430</lastBuildDate>
     
-	<atom:link href="http://hameds.github.io/softwaretalks/live/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://softwaretalks.ir/live/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>اپیزود نهم: design patternها - بخش اول</title>
-      <link>http://hameds.github.io/softwaretalks/live/9-design-patterns/</link>
+      <link>https://softwaretalks.ir/live/9-design-patterns/</link>
       <pubDate>Wed, 25 Apr 2018 14:32:45 +0430</pubDate>
       
-      <guid>http://hameds.github.io/softwaretalks/live/9-design-patterns/</guid>
+      <guid>https://softwaretalks.ir/live/9-design-patterns/</guid>
       <description></description>
     </item>
     
     <item>
       <title>اپیزود هشتم: بازبینی کد</title>
-      <link>http://hameds.github.io/softwaretalks/live/8-code-review/</link>
+      <link>https://softwaretalks.ir/live/8-code-review/</link>
       <pubDate>Thu, 19 Apr 2018 09:07:30 +0430</pubDate>
       
-      <guid>http://hameds.github.io/softwaretalks/live/8-code-review/</guid>
+      <guid>https://softwaretalks.ir/live/8-code-review/</guid>
       <description></description>
     </item>
     
     <item>
       <title>اپیزود هفتم: برنامه‌نویسی چندوظیفه‌ای</title>
-      <link>http://hameds.github.io/softwaretalks/live/7-parallelprocessing/</link>
+      <link>https://softwaretalks.ir/live/7-parallelprocessing/</link>
       <pubDate>Wed, 11 Apr 2018 11:37:22 +0430</pubDate>
       
-      <guid>http://hameds.github.io/softwaretalks/live/7-parallelprocessing/</guid>
+      <guid>https://softwaretalks.ir/live/7-parallelprocessing/</guid>
       <description></description>
     </item>
     
     <item>
       <title>اپیزود ششم: برنامه‌های مکان محور</title>
-      <link>http://hameds.github.io/softwaretalks/live/6-locationbased/</link>
+      <link>https://softwaretalks.ir/live/6-locationbased/</link>
       <pubDate>Tue, 13 Mar 2018 10:27:48 +0330</pubDate>
       
-      <guid>http://hameds.github.io/softwaretalks/live/6-locationbased/</guid>
+      <guid>https://softwaretalks.ir/live/6-locationbased/</guid>
       <description></description>
     </item>
     
     <item>
       <title>اپیزود پنجم: git</title>
-      <link>http://hameds.github.io/softwaretalks/live/5-git/</link>
+      <link>https://softwaretalks.ir/live/5-git/</link>
       <pubDate>Tue, 06 Mar 2018 09:15:21 +0330</pubDate>
       
-      <guid>http://hameds.github.io/softwaretalks/live/5-git/</guid>
+      <guid>https://softwaretalks.ir/live/5-git/</guid>
       <description></description>
     </item>
     
     <item>
       <title>اپیزود چهارم: ‍docker</title>
-      <link>http://hameds.github.io/softwaretalks/live/4-docker/</link>
+      <link>https://softwaretalks.ir/live/4-docker/</link>
       <pubDate>Sat, 24 Feb 2018 09:48:13 +0330</pubDate>
       
-      <guid>http://hameds.github.io/softwaretalks/live/4-docker/</guid>
+      <guid>https://softwaretalks.ir/live/4-docker/</guid>
       <description></description>
     </item>
     
     <item>
       <title>اپیزود سوم: continuous integration</title>
-      <link>http://hameds.github.io/softwaretalks/live/3-ci/</link>
+      <link>https://softwaretalks.ir/live/3-ci/</link>
       <pubDate>Tue, 06 Feb 2018 22:13:49 +0330</pubDate>
       
-      <guid>http://hameds.github.io/softwaretalks/live/3-ci/</guid>
+      <guid>https://softwaretalks.ir/live/3-ci/</guid>
       <description></description>
     </item>
     
     <item>
       <title>اپیزود دوم: reactjs</title>
-      <link>http://hameds.github.io/softwaretalks/live/2-reactjs/</link>
+      <link>https://softwaretalks.ir/live/2-reactjs/</link>
       <pubDate>Sat, 03 Feb 2018 10:36:21 +0330</pubDate>
       
-      <guid>http://hameds.github.io/softwaretalks/live/2-reactjs/</guid>
+      <guid>https://softwaretalks.ir/live/2-reactjs/</guid>
       <description></description>
     </item>
     
     <item>
       <title>اپیزود اول: سلام دنیا و بلاک‌چین</title>
-      <link>http://hameds.github.io/softwaretalks/live/1-blockchain/</link>
+      <link>https://softwaretalks.ir/live/1-blockchain/</link>
       <pubDate>Mon, 29 Jan 2018 21:03:27 +0330</pubDate>
       
-      <guid>http://hameds.github.io/softwaretalks/live/1-blockchain/</guid>
+      <guid>https://softwaretalks.ir/live/1-blockchain/</guid>
       <description></description>
     </item>
     

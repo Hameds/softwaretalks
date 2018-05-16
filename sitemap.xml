@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://softwaretalks.ir/live/11-dotnet-core/</loc>
+    <lastmod>2018-05-16T17:39:32+04:30</lastmod>
+  </url>
+  
+  <url>
     <loc>https://softwaretalks.ir/live/10-designpatterns2/</loc>
     <lastmod>2018-05-09T08:16:16+04:30</lastmod>
   </url>
@@ -159,7 +164,7 @@
   
   <url>
     <loc>https://softwaretalks.ir/live/</loc>
-    <lastmod>2018-05-09T08:16:16+04:30</lastmod>
+    <lastmod>2018-05-16T17:39:32+04:30</lastmod>
     <priority>0</priority>
   </url>
   
@@ -176,7 +181,7 @@
   
   <url>
     <loc>https://softwaretalks.ir/</loc>
-    <lastmod>2018-05-09T08:16:16+04:30</lastmod>
+    <lastmod>2018-05-16T17:39:32+04:30</lastmod>
     <priority>0</priority>
   </url>
   

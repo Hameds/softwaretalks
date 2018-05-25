@@ -6,10 +6,19 @@
     <description>Recent content in Events on جلسات باز نرم‌افزاری </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 20 Jan 2015 10:16:14 +0430</lastBuildDate>
+    <lastBuildDate>Tue, 03 Feb 2015 10:16:14 +0430</lastBuildDate>
     
 	<atom:link href="https://softwaretalks.ir/events/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>هجدهمین جلسه باز نرم‌افزاری مشهد با موضوع تخصصی VoIP برگزار شد</title>
+      <link>https://softwaretalks.ir/events/18-voip/</link>
+      <pubDate>Tue, 03 Feb 2015 10:16:14 +0430</pubDate>
+      
+      <guid>https://softwaretalks.ir/events/18-voip/</guid>
+      <description>روز سه‌شنبه ۱۴ بهمن ۹۳ هجدهمین جلسه باز نرم‌افزاری مشهد با موضوع تخصصی VoIP در محل فرهنگسرای فناوری و رسانه برگزار شد. بر اساس پیگیری‌های به عمل آمده از سوی برگزارکنندگان جلسات باز نرم‌افزاری مشهد، محل دائمی برگزاری جلسات تا پایان سال در فرهنگسرای فناوری و رسانه خواهد بود و جلسات هر دو هفته یک بار در روزهای سه‌شنبه از ساعت ۱۷ تا ۱۹ در اتاق شماره یک طبقه اول فرهنگسرا برگزار می‌شود.</description>
+    </item>
     
     <item>
       <title>هفدهمین جلسه باز نرم‌افزاری مشهد با استقبال گسترده علاقمندان با موضوع بیت کوین برگزار شد</title>

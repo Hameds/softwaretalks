@@ -1,7 +1,6 @@
 ---
 title: "بیستمین جلسه باز نرم‌افزاری مشهد با موضوع GIS برگزار شد"
 date: 2015-03-03T11:06:54+04:30
-draft: true
 draft: false
 id : "۲۰"
 subject: "GIS"

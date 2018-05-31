@@ -6,10 +6,20 @@
     <description>Recent content in Events on جلسات باز نرم‌افزاری </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 03 Mar 2015 11:06:54 +0430</lastBuildDate>
+    <lastBuildDate>Mon, 13 Apr 2015 11:06:54 +0430</lastBuildDate>
     
 	<atom:link href="https://softwaretalks.ir/events/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>بیست و یکمین جلسه باز نرم‌افزاری مشهد با موضوع BPMN برگزار شد</title>
+      <link>https://softwaretalks.ir/events/21-bpmn/</link>
+      <pubDate>Mon, 13 Apr 2015 11:06:54 +0430</pubDate>
+      
+      <guid>https://softwaretalks.ir/events/21-bpmn/</guid>
+      <description>روز دوشنبه ۲۴ فروردین ۱۳۹۴ بیستمین و یکمین جلسه باز نرم‌افزاری مشهد که اولین جلسه سال ۹۴ محسوب می‌شد با موضوع آشنایی با BPMN در محل فرهنگسرای فناوری و رسانه برگزار شد.
+در بخش ابتدایی جلسه پس از تبریک سال نو به حاضرین، مطابق جلسات پیش اخبار جلسات باز و اخبار مرتبط با نرم‌افزار بیان شد. از جمله اخبار عنوان شده در این جلسه می‌توان به اعلام خبر برگزاری مسابقات برنامه‌نویسی دانشگاه فردوسی مشهد اشاره کرد.</description>
+    </item>
     
     <item>
       <title>بیستمین جلسه باز نرم‌افزاری مشهد با موضوع GIS برگزار شد</title>

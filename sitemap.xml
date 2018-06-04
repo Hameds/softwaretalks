@@ -3,6 +3,26 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://softwaretalks.ir/events/30-softwaretalks/</loc>
+    <lastmod>2018-09-14T11:10:46+04:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://softwaretalks.ir/events/29-tor/</loc>
+    <lastmod>2018-08-31T11:10:18+04:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://softwaretalks.ir/events/27-health/</loc>
+    <lastmod>2018-08-03T11:09:53+04:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://softwaretalks.ir/events/25-tfs/</loc>
+    <lastmod>2018-06-08T11:08:00+04:30</lastmod>
+  </url>
+  
+  <url>
     <loc>https://softwaretalks.ir/live/11-dotnet-core/</loc>
     <lastmod>2018-05-16T17:39:32+04:30</lastmod>
   </url>
@@ -55,6 +75,26 @@
   <url>
     <loc>https://softwaretalks.ir/live/1-blockchain/</loc>
     <lastmod>2018-01-29T21:03:27+03:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://softwaretalks.ir/events/28-gamification/</loc>
+    <lastmod>2015-08-17T11:10:10+04:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://softwaretalks.ir/events/26-phpstorm/</loc>
+    <lastmod>2015-07-20T11:09:39+04:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://softwaretalks.ir/events/24-js/</loc>
+    <lastmod>2015-05-25T11:07:36+04:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://softwaretalks.ir/events/23-joeltest/</loc>
+    <lastmod>2015-05-11T11:07:36+04:30</lastmod>
   </url>
   
   <url>
@@ -169,7 +209,7 @@
   
   <url>
     <loc>https://softwaretalks.ir/tags/</loc>
-    <lastmod>2015-04-27T11:07:18+04:30</lastmod>
+    <lastmod>2018-09-14T11:10:46+04:30</lastmod>
     <priority>0</priority>
   </url>
   
@@ -193,7 +233,7 @@
   
   <url>
     <loc>https://softwaretalks.ir/events/</loc>
-    <lastmod>2015-04-27T11:07:18+04:30</lastmod>
+    <lastmod>2018-09-14T11:10:46+04:30</lastmod>
     <priority>0</priority>
   </url>
   
@@ -210,13 +250,13 @@
   
   <url>
     <loc>https://softwaretalks.ir/tags/</loc>
-    <lastmod>2015-04-27T11:07:18+04:30</lastmod>
+    <lastmod>2018-09-14T11:10:46+04:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://softwaretalks.ir/</loc>
-    <lastmod>2018-05-16T17:39:32+04:30</lastmod>
+    <lastmod>2018-09-14T11:10:46+04:30</lastmod>
     <priority>0</priority>
   </url>
   

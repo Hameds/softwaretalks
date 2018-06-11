@@ -6,10 +6,20 @@
     <description>Recent content in Events on جلسات باز نرم‌افزاری </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 12 Oct 2015 11:11:09 +0430</lastBuildDate>
+    <lastBuildDate>Mon, 26 Oct 2015 11:11:09 +0430</lastBuildDate>
     
 	<atom:link href="https://softwaretalks.ir/events/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>سی و سومین جلسه باز نرم‌افزاری مشهد با موضوع بررسی جزئیات فنی سرویس MBaaS برگزار شد</title>
+      <link>https://softwaretalks.ir/events/33-mbaas/</link>
+      <pubDate>Mon, 26 Oct 2015 11:11:09 +0430</pubDate>
+      
+      <guid>https://softwaretalks.ir/events/33-mbaas/</guid>
+      <description>روز دوشنبه ۴ آبان ۱۳۹۴ سی و سومین جلسه باز نرم‌افزاری مشهد با موضوع جزئیات فنی MBaaS در محل فرهنگسرای فناوری و رسانه برگزار شد.
+در ابتدای این جلسه نیز، مطابق رسم جلسات، اخبار و گزارشی از فعالیت‌های جلسات باز نرم‌افزاری مشهد به اطلاع حاضرین رسید. ارسال خبرنامه موقعیت‌های شغلی به لیست خبرنامه ایمیلی یکی از این اخبار بود. این خبرنامه که حاوی اطلاعات موقعیت‌‌های شغلی است در هر ماه ۲ بار برای لیست خبرنامه ایمیلی ارسال می‌شود.</description>
+    </item>
     
     <item>
       <title>سی و دومین جلسه باز نرم‌افزاری مشهد برگزار و نرم‌افزار حسابداری متن باز هزاره معرفی شد</title>

@@ -6,10 +6,20 @@
     <description>Recent content on جلسات باز نرم‌افزاری </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 26 Oct 2015 11:11:09 +0430</lastBuildDate>
+    <lastBuildDate>Mon, 09 Nov 2015 22:43:57 +0430</lastBuildDate>
     
 	<atom:link href="https://softwaretalks.ir/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>سی و چهارمین جلسه باز نرم‌افزاری مشهد با دو پرزنت در خصوص امنیت اطلاعات برگزار شد</title>
+      <link>https://softwaretalks.ir/events/34-security/</link>
+      <pubDate>Mon, 09 Nov 2015 22:43:57 +0430</pubDate>
+      
+      <guid>https://softwaretalks.ir/events/34-security/</guid>
+      <description>روز دوشنبه ۱۸ آبان سی و چهارمین جلسه باز نرم‌افزاری مشهد مطابق معمول در اتاق جلسات فرهنگسرای فناوری و رسانه برگزار شد. این جلسه به موضوع بررسی پارامترهای امنیتی پیام‌رسان‌های موبایل اختصاص داشت. اما پس از پایان این ارائه، یک ارائه دیگر نیز توسط آقایان شریف و ملایی فر در خصوص رمزنگاری تصویر انجام شد.
+در ابتدای جلسه، برای شرکت‌کنندگانی که نخستین بار در جلسه باز شرکت‌ می‌کنند تاریخچه‌ای از روال شکل‌گیری و برگزاری جلسات عنوان از اقدامات مفید و موثر جلسات باز نرم‌افزاری در رشد و ارتقای فضای جامعه نرم‌افزاری مشهد گفته شد.</description>
+    </item>
     
     <item>
       <title>سی و سومین جلسه باز نرم‌افزاری مشهد با موضوع بررسی جزئیات فنی سرویس MBaaS برگزار شد</title>

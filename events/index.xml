@@ -6,10 +6,20 @@
     <description>Recent content in Events on جلسات باز نرم‌افزاری </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 09 Nov 2015 22:43:57 +0430</lastBuildDate>
+    <lastBuildDate>Fri, 23 Nov 2018 11:16:00 +0430</lastBuildDate>
     
 	<atom:link href="https://softwaretalks.ir/events/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>سی و پنجمین جلسه باز نرم‌افزاری مشهد با موضوع آشنایی با FreeBSD برگزار شد</title>
+      <link>https://softwaretalks.ir/events/35-freebsd/</link>
+      <pubDate>Fri, 23 Nov 2018 11:16:00 +0430</pubDate>
+      
+      <guid>https://softwaretalks.ir/events/35-freebsd/</guid>
+      <description>روز دوشنبه ۲ آذر ۱۳۹۴ سی و پنجمین جلسه باز نرم‌افزاری مشهد با موضوع آشنایی با FreeBSD در محل فرهنگسرای فناوری و رسانه برگزار شد.
+در ابتدای جلسه، مطابق معمول روال برگزاری جلسات، برای شرکت‌کنندگانی که نخستین بار در جلسه باز شرکت‌ می‌کنند تاریخچه‌ای از روال شکل‌گیری و برگزاری جلسات عنوان از اقدامات مفید و موثر جلسات باز نرم‌افزاری در رشد و ارتقای فضای جامعه نرم‌افزاری مشهد گفته شد. از جمله این اقدامات می‌توان به برگزاری نخستین دوره همایش کانکت در ۲۴ مهر ۱۳۹۴ با محوریت فناوری‌های نوین نرم‌افزاری و ارتباط صنعت و دانشگاه اشاره کرد.</description>
+    </item>
     
     <item>
       <title>سی و چهارمین جلسه باز نرم‌افزاری مشهد با دو پرزنت در خصوص امنیت اطلاعات برگزار شد</title>

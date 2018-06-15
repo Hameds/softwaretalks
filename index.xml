@@ -6,10 +6,20 @@
     <description>Recent content on جلسات باز نرم‌افزاری </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 23 Nov 2018 11:16:00 +0430</lastBuildDate>
+    <lastBuildDate>Fri, 07 Dec 2018 11:16:00 +0430</lastBuildDate>
     
 	<atom:link href="https://softwaretalks.ir/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>سی و ششمین جلسه باز نرم‌افزاری مشهد با سخنرانی خانم مهندس علیزاده در خصوص yii برگزار شد</title>
+      <link>https://softwaretalks.ir/events/36-yii/</link>
+      <pubDate>Fri, 07 Dec 2018 11:16:00 +0430</pubDate>
+      
+      <guid>https://softwaretalks.ir/events/36-yii/</guid>
+      <description>مطابق روال برگزاری منظم جلسات، روز دوشنبه ۱۶ آذر ۱۳۹۴ سی و ششمین جلسه باز نرم‌افزاری مشهد با موضوع آشنایی با فریمورک‌های php و معرفی yii2 در محل فرهنگسرای فناوری و رسانه برگزار شد.
+در ابتدای جلسه، برای شرکت‌کنندگانی که نخستین بار در جلسه باز شرکت‌ می‌کنند تاریخچه‌ای از روال شکل‌گیری و برگزاری جلسات عنوان از اقدامات مفید و موثر جلسات باز نرم‌افزاری در رشد و ارتقای فضای جامعه نرم‌افزاری مشهد گفته شد.</description>
+    </item>
     
     <item>
       <title>سی و پنجمین جلسه باز نرم‌افزاری مشهد با موضوع آشنایی با FreeBSD برگزار شد</title>

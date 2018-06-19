@@ -6,10 +6,19 @@
     <description>Recent content in Lives on جلسات باز نرم‌افزاری </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 16 May 2018 17:39:32 +0430</lastBuildDate>
+    <lastBuildDate>Tue, 19 Jun 2018 21:20:04 +0430</lastBuildDate>
     
 	<atom:link href="https://softwaretalks.ir/live/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>اپیزود دوازدهم: design patternها - بخش سوم</title>
+      <link>https://softwaretalks.ir/live/12-design-patterns-3/</link>
+      <pubDate>Tue, 19 Jun 2018 21:20:04 +0430</pubDate>
+      
+      <guid>https://softwaretalks.ir/live/12-design-patterns-3/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>اپیزود یازدهم: آشنایی با .NET Core</title>

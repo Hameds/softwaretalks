@@ -11,14 +11,14 @@ paginate = 100
 
 #SoftwareTalks
 [params.softwaretalks]
-  nexteventdate="سه‌شنبه ۲۹ خرداد ۹۷ ساعت ۱۹"
+  nexteventdate="سه‌شنبه ۵ تیر ۹۷ ساعت ۲۰"
   nexteventsubject="آشنایی با دیزاین پترن‌ها در برنامه‌نویسی قسمت سوم"
   nexteventlocation="‍<a href='https://www.youtube.com/softwaretalks'>کانال یوتیوب softwaretalks</a>"
-  nexteventid="۸۱"
-  eventcount="۸۰"
-  speakercount="۴۲"
-  topiccount="۷۸"
-  scheduleddate="۵ تیر ۹۷"
+  nexteventid="۸۲"
+  eventcount="۸۱"
+  speakercount="۴۳"
+  topiccount="۷۹"
+  scheduleddate="۱۲ تیر ۹۷"
 
 # Hero section (from here on is for icon theme)
 [params.hero]

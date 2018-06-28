@@ -12,7 +12,7 @@ paginate = 100
 #SoftwareTalks
 [params.softwaretalks]
   nexteventdate="سه‌شنبه ۵ تیر ۹۷ ساعت ۲۰"
-  nexteventsubject="آشنایی با دیزاین پترن‌ها در برنامه‌نویسی قسمت سوم"
+  nexteventsubject="TDD با فرزاد یوسف زاده از فنلاند"
   nexteventlocation="‍<a href='https://www.youtube.com/softwaretalks'>کانال یوتیوب softwaretalks</a>"
   nexteventid="۸۲"
   eventcount="۸۱"

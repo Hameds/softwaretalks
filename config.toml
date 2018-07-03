@@ -11,14 +11,14 @@ paginate = 100
 
 #SoftwareTalks
 [params.softwaretalks]
-  nexteventdate="سه‌شنبه ۵ تیر ۹۷ ساعت ۲۰"
-  nexteventsubject="TDD با فرزاد یوسف زاده از فنلاند"
+  nexteventdate="سه‌شنبه ۱۲ تیر ۹۷ ساعت ۱۹"
+  nexteventsubject="Design Pattern ها در برنامه‌نویسی قسمت چهارم"
   nexteventlocation="‍<a href='https://www.youtube.com/softwaretalks'>کانال یوتیوب softwaretalks</a>"
-  nexteventid="۸۲"
-  eventcount="۸۱"
-  speakercount="۴۳"
-  topiccount="۷۹"
-  scheduleddate="۱۲ تیر ۹۷"
+  nexteventid="۸۳"
+  eventcount="۸۲"
+  speakercount="۴۴"
+  topiccount="۸۰"
+  scheduleddate="۱۹ تیر ۹۷"
 
 # Hero section (from here on is for icon theme)
 [params.hero]

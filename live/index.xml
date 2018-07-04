@@ -6,10 +6,19 @@
     <description>Recent content in Lives on جلسات باز نرم‌افزاری </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 27 Jun 2018 09:00:05 +0430</lastBuildDate>
+    <lastBuildDate>Wed, 04 Jul 2018 09:28:56 +0430</lastBuildDate>
     
 	<atom:link href="https://softwaretalks.ir/live/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>اپیزود دوازدهم: design patternها - بخش چهارم</title>
+      <link>https://softwaretalks.ir/live/14-design-patterns-4/</link>
+      <pubDate>Wed, 04 Jul 2018 09:28:56 +0430</pubDate>
+      
+      <guid>https://softwaretalks.ir/live/14-design-patterns-4/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>اپیزود سیزدهم: TDD</title>

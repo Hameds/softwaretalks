@@ -1,5 +1,5 @@
 ---
-title: "اپیزود دوازدهم: design patternها - بخش چهارم"
+title: "اپیزود چهاردهم: design patternها - بخش چهارم"
 date: 2018-07-04T09:28:56+04:30
 draft: false
 subject: "Adapter Design Pattern"

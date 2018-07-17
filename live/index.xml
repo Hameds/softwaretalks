@@ -6,10 +6,19 @@
     <description>Recent content in Lives on جلسات باز نرم‌افزاری </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 11 Jul 2018 10:17:31 +0430</lastBuildDate>
+    <lastBuildDate>Wed, 18 Jul 2018 00:14:34 +0430</lastBuildDate>
     
 	<atom:link href="https://softwaretalks.ir/live/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>اپیزود شانزدهم: Encapsulation</title>
+      <link>https://softwaretalks.ir/live/16-encapsulation/</link>
+      <pubDate>Wed, 18 Jul 2018 00:14:34 +0430</pubDate>
+      
+      <guid>https://softwaretalks.ir/live/16-encapsulation/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>اپیزود پانزدهم: Refactoring</title>

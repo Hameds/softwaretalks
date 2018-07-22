@@ -12,13 +12,13 @@ paginate = 100
 #SoftwareTalks
 [params.softwaretalks]
   nexteventdate="سه‌شنبه ۲۶ تیر ۹۷ ساعت ۱۹"
-  nexteventsubject="Encapsulation به همراه علیرضا حسینی از بوشهر"
+  nexteventsubject="DevOps به همراه وحید اشرفیان، سروش نیک‌پور و علیرضا داودی"
   nexteventlocation="‍<a href='https://www.youtube.com/softwaretalks'>کانال یوتیوب softwaretalks</a>"
-  nexteventid="۸۵"
-  eventcount="۸۴"
-  speakercount="۴۵"
-  topiccount="۸۱"
-  scheduleddate="۲ مرداد ۹۷"
+  nexteventid="۸۶"
+  eventcount="۸۵"
+  speakercount="۴۶"
+  topiccount="۸۲"
+  scheduleddate="۹ مرداد ۹۷"
 
 # Hero section (from here on is for icon theme)
 [params.hero]

@@ -11,14 +11,14 @@ paginate = 100
 
 #SoftwareTalks
 [params.softwaretalks]
-  nexteventdate="سه‌شنبه ۲ مرداد ۹۷ ساعت ۱۹"
-  nexteventsubject="DevOps به همراه وحید اشرفیان، سروش نیک‌پور و علیرضا داودی"
+  nexteventdate="سه‌شنبه ۹ مرداد ۹۷ ساعت ۱۹"
+  nexteventsubject="Design Pattern در کدنویسی - قسمت پنجم: Proxy"
   nexteventlocation="‍<a href='https://www.youtube.com/softwaretalks'>کانال یوتیوب softwaretalks</a>"
-  nexteventid="۸۶"
-  eventcount="۸۵"
-  speakercount="۴۶"
-  topiccount="۸۲"
-  scheduleddate="۹ مرداد ۹۷"
+  nexteventid="۸۷"
+  eventcount="۸۶"
+  speakercount="۴۹"
+  topiccount="۸۳"
+  scheduleddate="۱۶ مرداد ۹۷"
 
 # Hero section (from here on is for icon theme)
 [params.hero]

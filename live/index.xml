@@ -6,10 +6,19 @@
     <description>Recent content in Lives on جلسات باز نرم‌افزاری </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 01 Aug 2018 09:26:01 +0430</lastBuildDate>
+    <lastBuildDate>Wed, 08 Aug 2018 13:11:51 +0430</lastBuildDate>
     
 	<atom:link href="https://softwaretalks.ir/live/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>اپیزود ۱۹: Frontend Development</title>
+      <link>https://softwaretalks.ir/live/19-frontend-dev/</link>
+      <pubDate>Wed, 08 Aug 2018 13:11:51 +0430</pubDate>
+      
+      <guid>https://softwaretalks.ir/live/19-frontend-dev/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>اپیزود هجده: Proxy Design Pattern</title>

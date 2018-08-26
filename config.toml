@@ -11,14 +11,14 @@ paginate = 100
 
 #SoftwareTalks
 [params.softwaretalks]
-  nexteventdate="سه‌شنبه ۲۳ مرداد ۹۷ ساعت ۱۹"
-  nexteventsubject="Backend Development با محمد جهانی و محسن زارع"
+  nexteventdate="سه‌شنبه ۶ شهریور ۹۷ ساعت ۱۹"
+  nexteventsubject="اخلاق حرفه‌ای در صنعت نرم‌افزار با ایلیا وکیلی، امیرحسین محمدی و مهدی قایینی"
   nexteventlocation="‍<a href='https://www.youtube.com/softwaretalks'>کانال یوتیوب softwaretalks</a>"
-  nexteventid="۸۹"
-  eventcount="۸۸"
-  speakercount="۵۱"
-  topiccount="۸۴"
-  scheduleddate="۳۰ مرداد ۹۷"
+  nexteventid="۹۰"
+  eventcount="۸۹"
+  speakercount="۵۳"
+  topiccount="۸۵"
+  scheduleddate="۱۳ شهریور ۹۷"
 
 # Hero section (from here on is for icon theme)
 [params.hero]

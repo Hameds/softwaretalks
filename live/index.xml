@@ -6,10 +6,19 @@
     <description>Recent content in Lives on جلسات باز نرم‌افزاری </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 29 Aug 2018 19:35:15 +0430</lastBuildDate>
+    <lastBuildDate>Thu, 06 Sep 2018 13:09:11 +0430</lastBuildDate>
     
 	<atom:link href="https://softwaretalks.ir/live/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>اپیزود ۲۲: برنامه‌ریزی تولید نرم‌افزار</title>
+      <link>https://softwaretalks.ir/live/22-planning/</link>
+      <pubDate>Thu, 06 Sep 2018 13:09:11 +0430</pubDate>
+      
+      <guid>https://softwaretalks.ir/live/22-planning/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>اپیزود ۲۱: اخلاق حرفه‌ای</title>

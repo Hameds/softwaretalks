@@ -11,14 +11,14 @@ paginate = 100
 
 #SoftwareTalks
 [params.softwaretalks]
-  nexteventdate="سه‌شنبه ۱۳ شهریور ۹۷ ساعت ۱۹"
-  nexteventsubject="برنامه‌ریزی تولید نرم‌افزار با حضور حمید پورجم، اسد صفری و ریحانه خزانه"
+  nexteventdate="سه‌شنبه ۲۰ شهریور ۹۷ ساعت ۱۹"
+  nexteventsubject="مهاجرت و کار ریموت با حضور علی کلاهدوزان، مصطفی سجادی و سینا یزدانیان"
   nexteventlocation="‍<a href='https://www.youtube.com/softwaretalks'>کانال یوتیوب softwaretalks</a>"
-  nexteventid="۹۱"
-  eventcount="۹۰"
-  speakercount="۵۶"
-  topiccount="۸۶"
-  scheduleddate="۲۰ شهریور ۹۷"
+  nexteventid="۹۲"
+  eventcount="۹۱"
+  speakercount="۵۹"
+  topiccount="۸۷"
+  scheduleddate="۲۷ شهریور ۹۷"
 
 # Hero section (from here on is for icon theme)
 [params.hero]

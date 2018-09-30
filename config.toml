@@ -11,14 +11,14 @@ paginate = 100
 
 #SoftwareTalks
 [params.softwaretalks]
-  nexteventdate="سه‌شنبه ۳ مهر ۹۷ ساعت ۱۹"
-  nexteventsubject="Microservices با حضور سجاد حیدری و محمد ولی‌پور"
+  nexteventdate="سه‌شنبه ۱۰ مهر ۹۷ ساعت ۱۹"
+  nexteventsubject="یادگیری ماشین"
   nexteventlocation="‍<a href='https://www.youtube.com/softwaretalks'>کانال یوتیوب softwaretalks</a>"
-  nexteventid="۹۳"
-  eventcount="۹۲"
-  speakercount="۶۲"
-  topiccount="۸۸"
-  scheduleddate="۱۰ مهر ۹۷"
+  nexteventid="۹۴"
+  eventcount="۹۳"
+  speakercount="۶۴"
+  topiccount="۸۹"
+  scheduleddate="۱۷ مهر ۹۷"
 
 # Hero section (from here on is for icon theme)
 [params.hero]

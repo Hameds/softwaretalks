@@ -11,14 +11,14 @@ paginate = 100
 
 #SoftwareTalks
 [params.softwaretalks]
-  nexteventdate="سه‌شنبه ۲۴ مهر ۹۷ ساعت ۱۹"
-  nexteventsubject="تست‌نویس برای نرم‌افزارها با حضور رضا کمالی‌فرد، محمدعلی بزرگ‌زاده و امیر سرابادانی"
+  nexteventdate="سه‌شنبه ۱ آبان ۹۷ ساعت ۱۹"
+  nexteventsubject="امنیت نرم‌افزارها"
   nexteventlocation="‍<a href='https://www.youtube.com/softwaretalks'>کانال یوتیوب softwaretalks</a>"
-  nexteventid="۹۵"
-  eventcount="۹۴"
-  speakercount="۶۶"
-  topiccount="۹۰"
-  scheduleddate="۱ آبان ۹۷"
+  nexteventid="۹۶"
+  eventcount="۹۵"
+  speakercount="۶۹"
+  topiccount="۹۱"
+  scheduleddate="۱۵ آبان ۹۷"
 
 # Hero section (from here on is for icon theme)
 [params.hero]

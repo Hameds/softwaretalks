@@ -6,10 +6,19 @@
     <description>Recent content in Lives on جلسات باز نرم‌افزاری </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 03 Oct 2018 22:14:41 +0330</lastBuildDate>
+    <lastBuildDate>Sun, 21 Oct 2018 19:55:39 +0330</lastBuildDate>
     
 	<atom:link href="https://softwaretalks.ir/live/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>اپیزود ۲۶: تست نرم‌افزارها</title>
+      <link>https://softwaretalks.ir/live/26-software-testing/</link>
+      <pubDate>Sun, 21 Oct 2018 19:55:39 +0330</pubDate>
+      
+      <guid>https://softwaretalks.ir/live/26-software-testing/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>اپیزود ۲۵: یادگیری ماشین</title>

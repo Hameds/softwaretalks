@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://softwaretalks.ir/live/26-software-testing/</loc>
+    <lastmod>2018-10-21T19:55:39+03:30</lastmod>
+  </url>
+  
+  <url>
     <loc>https://softwaretalks.ir/live/25-machine-learning/</loc>
     <lastmod>2018-10-03T22:14:41+03:30</lastmod>
   </url>
@@ -339,7 +344,7 @@
   
   <url>
     <loc>https://softwaretalks.ir/live/</loc>
-    <lastmod>2018-10-03T22:14:41+03:30</lastmod>
+    <lastmod>2018-10-21T19:55:39+03:30</lastmod>
     <priority>0</priority>
   </url>
   
@@ -351,7 +356,7 @@
   
   <url>
     <loc>https://softwaretalks.ir/</loc>
-    <lastmod>2018-10-03T22:14:41+03:30</lastmod>
+    <lastmod>2018-10-21T19:55:39+03:30</lastmod>
     <priority>0</priority>
   </url>
   

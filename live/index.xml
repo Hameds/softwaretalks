@@ -6,10 +6,19 @@
     <description>Recent content in Lives on جلسات باز نرم‌افزاری </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 21 Oct 2018 19:55:39 +0330</lastBuildDate>
+    <lastBuildDate>Thu, 25 Oct 2018 15:37:17 +0330</lastBuildDate>
     
 	<atom:link href="https://softwaretalks.ir/live/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>اپیزود ۲۷: امنیت نرم‌افزارها</title>
+      <link>https://softwaretalks.ir/live/27-software-security/</link>
+      <pubDate>Thu, 25 Oct 2018 15:37:17 +0330</pubDate>
+      
+      <guid>https://softwaretalks.ir/live/27-software-security/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>اپیزود ۲۶: تست نرم‌افزارها</title>

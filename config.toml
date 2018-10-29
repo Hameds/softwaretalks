@@ -11,14 +11,14 @@ paginate = 100
 
 #SoftwareTalks
 [params.softwaretalks]
-  nexteventdate="سه‌شنبه ۱ آبان ۹۷ ساعت ۱۹"
-  nexteventsubject="امنیت نرم‌افزار با حضور مرتضی خزامی‌پور و یاشار شاهین‌زاده"
+  nexteventdate="سه‌شنبه ۱۵ آبان ۹۷ ساعت ۱۹"
+  nexteventsubject="ارتباط frontend و backend"
   nexteventlocation="‍<a href='https://www.youtube.com/softwaretalks'>کانال یوتیوب softwaretalks</a>"
-  nexteventid="۹۶"
-  eventcount="۹۵"
-  speakercount="۶۹"
-  topiccount="۹۱"
-  scheduleddate="۱۵ آبان ۹۷"
+  nexteventid="۹۷"
+  eventcount="۹۶"
+  speakercount="۷۱"
+  topiccount="۹۲"
+  scheduleddate="۲۲ آبان ۹۷"
 
 # Hero section (from here on is for icon theme)
 [params.hero]

@@ -11,14 +11,14 @@ paginate = 100
 
 #SoftwareTalks
 [params.softwaretalks]
-  nexteventdate="سه‌شنبه ۱۵ آبان ۹۷ ساعت ۱۹"
+  nexteventdate="سه‌شنبه ۲۲ آبان ۹۷ ساعت ۱۹"
   nexteventsubject="ارتباط frontend و backend با حضور اشکان نورزاده و محسن زارع"
   nexteventlocation="‍<a href='https://www.youtube.com/softwaretalks'>کانال یوتیوب softwaretalks</a>"
   nexteventid="۹۷"
   eventcount="۹۶"
   speakercount="۷۱"
   topiccount="۹۲"
-  scheduleddate="۲۲ آبان ۹۷"
+  scheduleddate="۲۹ آبان ۹۷"
 
 # Hero section (from here on is for icon theme)
 [params.hero]

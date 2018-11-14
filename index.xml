@@ -6,10 +6,19 @@
     <description>Recent content on جلسات باز نرم‌افزاری </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 25 Oct 2018 15:37:17 +0330</lastBuildDate>
+    <lastBuildDate>Wed, 14 Nov 2018 17:52:32 +0330</lastBuildDate>
     
 	<atom:link href="https://softwaretalks.ir/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>اپیزود ۲۸: ارتباط frontend و backend</title>
+      <link>https://softwaretalks.ir/live/28-frontend-backend/</link>
+      <pubDate>Wed, 14 Nov 2018 17:52:32 +0330</pubDate>
+      
+      <guid>https://softwaretalks.ir/live/28-frontend-backend/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>اپیزود ۲۷: امنیت نرم‌افزارها</title>

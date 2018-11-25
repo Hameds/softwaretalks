@@ -12,13 +12,13 @@ paginate = 100
 #SoftwareTalks
 [params.softwaretalks]
   nexteventdate="سه‌شنبه ۲۹ آبان ۹۷ ساعت ۱۹"
-  nexteventsubject="مستندسازی برای نرم‌افزارها با حضور سارا حلم‌زاده، پدرام اسماعیلی و مصطفی کاوه‌نیا"
+  nexteventsubject="برنامه‌نویس موبایل iOS با حضور فرزاد نظیفی و یاسر بهرامی"
   nexteventlocation="‍<a href='https://www.youtube.com/softwaretalks'>کانال یوتیوب softwaretalks</a>"
-  nexteventid="۹۸"
-  eventcount="۹۷"
-  speakercount="۷۲"
-  topiccount="۹۳"
-  scheduleddate="۶ آذر ۹۷"
+  nexteventid="۹۹"
+  eventcount="۹۸"
+  speakercount="۷۵"
+  topiccount="۹۴"
+  scheduleddate="۱۳ آذر ۹۷"
 
 # Hero section (from here on is for icon theme)
 [params.hero]

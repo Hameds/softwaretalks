@@ -11,14 +11,14 @@ paginate = 100
 
 #SoftwareTalks
 [params.softwaretalks]
-  nexteventdate="سه‌شنبه ۲۹ آبان ۹۷ ساعت ۱۹"
-  nexteventsubject="برنامه‌نویس موبایل iOS با حضور فرزاد نظیفی و یاسر بهرامی"
+  nexteventdate="سه‌شنبه ۱۳ آذر ۹۷ ساعت ۱۹"
+  nexteventsubject="برنامه‌نویسی موبایل برای اندروید با حضور سید محمدحسین جعفری، مرتضی وظیفه‌شناس و سپیده باقرپور"
   nexteventlocation="‍<a href='https://www.youtube.com/softwaretalks'>کانال یوتیوب softwaretalks</a>"
-  nexteventid="۹۹"
-  eventcount="۹۸"
-  speakercount="۷۵"
-  topiccount="۹۴"
-  scheduleddate="۱۳ آذر ۹۷"
+  nexteventid="۱۰۰"
+  eventcount="۹۹"
+  speakercount="۷۷"
+  topiccount="۹۵"
+  scheduleddate="۲۰ آذر ۹۷"
 
 # Hero section (from here on is for icon theme)
 [params.hero]

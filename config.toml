@@ -11,14 +11,14 @@ paginate = 100
 
 #SoftwareTalks
 [params.softwaretalks]
-  nexteventdate="سه‌شنبه ۲۰ آذر ۹۷ ساعت ۱۹"
-  nexteventsubject="تجربه کاربری با حضور حسین شرفی و داود تراب‌زاده"
+  nexteventdate="سه‌شنبه ۲۷ آذر ۹۷ ساعت ۱۹"
+  nexteventsubject="دیتابیس‌ها با حضور هومن محمدیان‌پور"
   nexteventlocation="‍<a href='https://www.youtube.com/softwaretalks'>کانال یوتیوب softwaretalks</a>"
-  nexteventid="۱۰۱"
-  eventcount="۱۰۰"
-  speakercount="۸۰"
-  topiccount="۹۶"
-  scheduleddate="۲۷ آذر ۹۷"
+  nexteventid="۱۰۲"
+  eventcount="۱۰۱"
+  speakercount="۸۲"
+  topiccount="۹۷"
+  scheduleddate="۴ دی ۹۷"
 
 # Hero section (from here on is for icon theme)
 [params.hero]

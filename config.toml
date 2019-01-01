@@ -11,14 +11,14 @@ paginate = 100
 
 #SoftwareTalks
 [params.softwaretalks]
-  nexteventdate="سه‌شنبه ۴ دی ۹۷ ساعت ۱۹"
-  nexteventsubject="کار با کدهای قدیمی با حضور عباس یزدان‌پناه"
+  nexteventdate="سه‌شنبه ۱۱ دی ۹۷ ساعت ۱۹"
+  nexteventsubject="GraphQL با حضور محسن زارع"
   nexteventlocation="‍<a href='https://www.youtube.com/softwaretalks'>کانال یوتیوب softwaretalks</a>"
-  nexteventid="۱۰۳"
-  eventcount="۱۰۲"
+  nexteventid="۱۰۴"
+  eventcount="۱۰۳"
   speakercount="۸۳"
-  topiccount="۹۸"
-  scheduleddate="۱۱ دی ۹۷"
+  topiccount="۹۹"
+  scheduleddate="۱۸ دی ۹۷"
 
 # Hero section (from here on is for icon theme)
 [params.hero]

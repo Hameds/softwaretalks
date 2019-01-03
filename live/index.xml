@@ -6,10 +6,28 @@
     <description>Recent content in Lives on جلسات باز نرم‌افزاری </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 22 Dec 2018 21:54:21 +0330</lastBuildDate>
+    <lastBuildDate>Thu, 03 Jan 2019 10:25:11 +0330</lastBuildDate>
     
 	<atom:link href="https://softwaretalks.ir/live/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>اپیزود ۳۵: GraphQL</title>
+      <link>https://softwaretalks.ir/live/35-graphql/</link>
+      <pubDate>Thu, 03 Jan 2019 10:25:11 +0330</pubDate>
+      
+      <guid>https://softwaretalks.ir/live/35-graphql/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>اپیزود ۳۴: کار با کدهای قدیمی</title>
+      <link>https://softwaretalks.ir/live/34-legacy-code/</link>
+      <pubDate>Thu, 03 Jan 2019 10:24:59 +0330</pubDate>
+      
+      <guid>https://softwaretalks.ir/live/34-legacy-code/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>اپیزود ۳۳: دیتابیس‌ها</title>

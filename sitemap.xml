@@ -3,6 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://softwaretalks.ir/live/35-graphql/</loc>
+    <lastmod>2019-01-03T10:25:11+03:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://softwaretalks.ir/live/34-legacy-code/</loc>
+    <lastmod>2019-01-03T10:24:59+03:30</lastmod>
+  </url>
+  
+  <url>
     <loc>https://softwaretalks.ir/live/33-databases/</loc>
     <lastmod>2018-12-22T21:54:21+03:30</lastmod>
   </url>
@@ -384,7 +394,7 @@
   
   <url>
     <loc>https://softwaretalks.ir/live/</loc>
-    <lastmod>2018-12-22T21:54:21+03:30</lastmod>
+    <lastmod>2019-01-03T10:25:11+03:30</lastmod>
     <priority>0</priority>
   </url>
   
@@ -396,7 +406,7 @@
   
   <url>
     <loc>https://softwaretalks.ir/</loc>
-    <lastmod>2018-12-22T21:54:21+03:30</lastmod>
+    <lastmod>2019-01-03T10:25:11+03:30</lastmod>
     <priority>0</priority>
   </url>
   

@@ -11,14 +11,14 @@ paginate = 100
 
 #SoftwareTalks
 [params.softwaretalks]
-  nexteventdate="سه‌شنبه ۱۱ دی ۹۷ ساعت ۱۹"
-  nexteventsubject="GraphQL با حضور محسن زارع"
+  nexteventdate="سه‌شنبه ۱۸ دی ۹۷ ساعت ۱۹"
+  nexteventsubject="مقایسه Object Oriented و Functional Programming با حضور محمدحسین جعفری، سجاد حیدری و نیما طاهری"
   nexteventlocation="‍<a href='https://www.youtube.com/softwaretalks'>کانال یوتیوب softwaretalks</a>"
-  nexteventid="۱۰۴"
-  eventcount="۱۰۳"
+  nexteventid="۱۰۵"
+  eventcount="۱۰۴"
   speakercount="۸۳"
-  topiccount="۹۹"
-  scheduleddate="۱۸ دی ۹۷"
+  topiccount="۱۰۰"
+  scheduleddate="۲۵ دی ۹۷"
 
 # Hero section (from here on is for icon theme)
 [params.hero]

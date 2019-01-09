@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://softwaretalks.ir/live/36-oop-fp/</loc>
+    <lastmod>2019-01-09T14:21:43+03:30</lastmod>
+  </url>
+  
+  <url>
     <loc>https://softwaretalks.ir/live/35-graphql/</loc>
     <lastmod>2019-01-03T10:25:11+03:30</lastmod>
   </url>
@@ -394,7 +399,7 @@
   
   <url>
     <loc>https://softwaretalks.ir/live/</loc>
-    <lastmod>2019-01-03T10:25:11+03:30</lastmod>
+    <lastmod>2019-01-09T14:21:43+03:30</lastmod>
     <priority>0</priority>
   </url>
   
@@ -406,7 +411,7 @@
   
   <url>
     <loc>https://softwaretalks.ir/</loc>
-    <lastmod>2019-01-03T10:25:11+03:30</lastmod>
+    <lastmod>2019-01-09T14:21:43+03:30</lastmod>
     <priority>0</priority>
   </url>
   

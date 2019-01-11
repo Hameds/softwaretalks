@@ -11,14 +11,14 @@ paginate = 100
 
 #SoftwareTalks
 [params.softwaretalks]
-  nexteventdate="سه‌شنبه ۱۸ دی ۹۷ ساعت ۱۹"
-  nexteventsubject="مقایسه Object Oriented و Functional Programming با حضور محمدحسین جعفری، سجاد حیدری و نیما طاهری"
+  nexteventdate="سه‌شنبه ۲۵ دی ۹۷ ساعت ۱۹"
+  nexteventsubject="تاریخچه و آینده لایو softwaretalks"
   nexteventlocation="‍<a href='https://www.youtube.com/softwaretalks'>کانال یوتیوب softwaretalks</a>"
-  nexteventid="۱۰۵"
-  eventcount="۱۰۴"
-  speakercount="۸۳"
-  topiccount="۱۰۰"
-  scheduleddate="۲۵ دی ۹۷"
+  nexteventid="۱۰۶"
+  eventcount="۱۰۵"
+  speakercount="۸۴"
+  topiccount="۱۰۱"
+  scheduleddate="۹ بهمن ۹۷"
 
 # Hero section (from here on is for icon theme)
 [params.hero]

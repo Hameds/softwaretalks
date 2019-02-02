@@ -11,7 +11,7 @@ paginate = 100
 
 #SoftwareTalks
 [params.softwaretalks]
-  nexteventdate="سه‌شنبه ۲۵ دی ۹۷ ساعت ۱۹"
+  nexteventdate="سه‌شنبه ۱۶ بهمن ۹۷ ساعت ۱۹"
   nexteventsubject="Kubernetes با حضور محمدرضا کمالی‌فرد، سروش سرابادانی و مهدی بیاضی"
   nexteventlocation="‍<a href='https://www.youtube.com/softwaretalks'>کانال یوتیوب softwaretalks</a>"
   nexteventid="۱۰۷"

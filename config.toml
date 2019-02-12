@@ -11,14 +11,14 @@ paginate = 100
 
 #SoftwareTalks
 [params.softwaretalks]
-  nexteventdate="سه‌شنبه ۱۶ بهمن ۹۷ ساعت ۱۹"
-  nexteventsubject="Kubernetes با حضور خسرو موسوی، سروش سرابادانی و مهدی بیاضی"
+  nexteventdate="سه‌شنبه ۲۳ بهمن ۹۷ ساعت ۱۹:۳۰"
+  nexteventsubject="DDD با حضور سپهر نامدار و خسرو پاک‌منش"
   nexteventlocation="‍<a href='https://www.youtube.com/softwaretalks'>کانال یوتیوب softwaretalks</a>"
-  nexteventid="۱۰۷"
-  eventcount="۱۰۶"
-  speakercount="۸۵"
-  topiccount="۱۰۲"
-  scheduleddate="۲۳ بهمن ۹۷"
+  nexteventid="۱۰۸"
+  eventcount="۱۰۷"
+  speakercount="۸۸"
+  topiccount="۱۰۳"
+  scheduleddate="۳۰ بهمن ۹۷"
 
 # Hero section (from here on is for icon theme)
 [params.hero]

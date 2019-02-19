@@ -11,14 +11,14 @@ paginate = 100
 
 #SoftwareTalks
 [params.softwaretalks]
-  nexteventdate="سه‌شنبه ۲۳ بهمن ۹۷ ساعت ۱۹:۳۰"
-  nexteventsubject="DDD با حضور سپهر نامدار و خسرو پاک‌منش"
+  nexteventdate="سه‌شنبه ۳۰ بهمن ۹۷ ساعت ۱۹"
+  nexteventsubject="سلامت روان برنامه‌نویسان با حضور مریم کشت‌پرور و زهره رحمان‌نژاد"
   nexteventlocation="‍<a href='https://www.youtube.com/softwaretalks'>کانال یوتیوب softwaretalks</a>"
-  nexteventid="۱۰۸"
-  eventcount="۱۰۷"
-  speakercount="۸۸"
-  topiccount="۱۰۳"
-  scheduleddate="۳۰ بهمن ۹۷"
+  nexteventid="۱۰۹"
+  eventcount="۱۰۸"
+  speakercount="۹۰"
+  topiccount="۱۰۴"
+  scheduleddate="۷ اسفند ۹۷"
 
 # Hero section (from here on is for icon theme)
 [params.hero]

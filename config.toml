@@ -11,14 +11,14 @@ paginate = 100
 
 #SoftwareTalks
 [params.softwaretalks]
-  nexteventdate="سه‌شنبه ۷ اسفند ۹۷ ساعت ۱۹"
-  nexteventsubject="زبان Rust با حضور محمدرضا علی‌حسینی و امید متقی‌راد"
+  nexteventdate="سه‌شنبه ۱۴ اسفند ۹۷ ساعت ۱۹"
+  nexteventsubject="شروع برنامه‌نویسی و مسیر شغلی با حضور ایلیا وکیلی و توحید ارسطو و علی عظیمی‌پور"
   nexteventlocation="‍<a href='https://www.youtube.com/softwaretalks'>کانال یوتیوب softwaretalks</a>"
-  nexteventid="۱۱۰"
-  eventcount="۱۰۹"
-  speakercount="۹۲"
-  topiccount="۱۰۵"
-  scheduleddate="۱۴ اسفند ۹۷"
+  nexteventid="۱۱۱"
+  eventcount="۱۱۰"
+  speakercount="۹۴"
+  topiccount="۱۰۶"
+  scheduleddate="۲۱ اسفند ۹۷"
 
 # Hero section (from here on is for icon theme)
 [params.hero]

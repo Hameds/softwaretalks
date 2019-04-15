@@ -11,14 +11,14 @@ paginate = 100
 
 #SoftwareTalks
 [params.softwaretalks]
-  nexteventdate="سه‌شنبه ۲۰ فروردین ۹۸ ساعت ۱۹"
-  nexteventsubject="وب اسمبلی با حضور مهران ضیابری"
+  nexteventdate="سه‌شنبه ۲۷ فروردین ۹۸ ساعت ۱۹"
+  nexteventsubject="Clean Architecture با حضور سپهر نامدار و نیما شایافر"
   nexteventlocation="‍<a href='https://www.youtube.com/softwaretalks'>کانال یوتیوب softwaretalks</a>"
-  nexteventid="۱۱۳"
-  eventcount="۱۱۲"
-  speakercount="۹۷"
-  topiccount="۱۱۰"
-  scheduleddate="۲۷ فروردین ۹۸"
+  nexteventid="۱۱۴"
+  eventcount="۱۱۳"
+  speakercount="۹۸"
+  topiccount="۱۱۱"
+  scheduleddate="۳ اردیبهشت ۹۸"
 
 # Hero section (from here on is for icon theme)
 [params.hero]

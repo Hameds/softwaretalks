@@ -11,14 +11,14 @@ paginate = 100
 
 #SoftwareTalks
 [params.softwaretalks]
-  nexteventdate="سه‌شنبه ۲۱ اسفند ۹۷ ساعت ۱۹"
-  nexteventsubject="چالش‌های مدیریت نیروی انسانی آی‌تی با حضور حمید پورجم، مصطفی رحمانی و مجتبی طباطبایی"
+  nexteventdate="سه‌شنبه ۲۰ فروردین ۹۸ ساعت ۱۹"
+  nexteventsubject="وب اسمبلی با حضور مهران ضیابری"
   nexteventlocation="‍<a href='https://www.youtube.com/softwaretalks'>کانال یوتیوب softwaretalks</a>"
-  nexteventid="۱۱۲"
-  eventcount="۱۱۱"
-  speakercount="۹۶"
-  topiccount="۱۰۷"
-  scheduleddate="۲۰ فروردین ۹۷"
+  nexteventid="۱۱۳"
+  eventcount="۱۱۲"
+  speakercount="۹۷"
+  topiccount="۱۱۰"
+  scheduleddate="۲۷ فروردین ۹۸"
 
 # Hero section (from here on is for icon theme)
 [params.hero]

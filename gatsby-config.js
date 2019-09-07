@@ -18,6 +18,7 @@ module.exports = {
         allExtensions: true
       }
     },
+    'gatsby-plugin-sass',
     'gatsby-plugin-react-helmet',
     {
       resolve: 'gatsby-source-filesystem',

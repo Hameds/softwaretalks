@@ -11,6 +11,13 @@ module.exports = {
     author: 'Mohammad Hasani <thebrodmann@gmail.com> (https://github.com/thebrodmann)',
   },
   plugins: [
+    {
+      resolve: 'gatsby-plugin-typescript',
+      options: {
+        isTSX: true,
+        allExtensions: true
+      }
+    },
     'gatsby-plugin-react-helmet',
     {
       resolve: 'gatsby-source-filesystem',

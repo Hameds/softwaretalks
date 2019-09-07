@@ -1,9 +1,13 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "softwaretalks.ir",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "SoftwareTalks website",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": {
+    "name": "Mohammad Hasani",
+    "email": "thebrodmann@gmail.com",
+    "url": "https://github.com/thebrodmann"
+  },
   "dependencies": {
     "gatsby": "^2.15.9",
     "gatsby-image": "^2.2.17",
@@ -35,9 +39,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/thebrodmann/softwaretalks.ir"
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/thebrodmann/softwaretalks.ir/issues"
   }
 }

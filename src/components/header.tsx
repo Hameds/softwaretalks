@@ -1,8 +1,11 @@
 import { Link } from 'gatsby'
-import PropTypes from 'prop-types'
 import React from 'react'
 
-function Header({ siteTitle }) {
+type HeaderProps = {
+  siteTitle: string
+}
+
+function Header({ siteTitle }: HeaderProps) {
   return (
     <header
       style={{
@@ -31,10 +34,6 @@ function Header({ siteTitle }) {
       </div>
     </header>
   )
-}
-
-Header.propTypes = {
-  siteTitle: PropTypes.string,
 }
 
 Header.defaultProps = {

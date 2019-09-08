@@ -1,4 +1,4 @@
-# [softwaretalks.ir](https://softwaretalks.ir) · [![LICENSE](https://img.shields.io/github/license/thebrodmann/softwaretalks.ir?style=flat-square)](LICENSE) ![PRs welcome](https://img.shields.io/badge/PRs-welcome-green.svg?style=flat-square)
+# [softwaretalks.ir](https://softwaretalks.ir) · [![LICENSE](https://img.shields.io/github/license/softwaretalks/softwaretalks.ir?style=flat-square)](LICENSE) ![PRs welcome](https://img.shields.io/badge/PRs-welcome-green.svg?style=flat-square)
 
 The next version of SoftwareTalks website.
 

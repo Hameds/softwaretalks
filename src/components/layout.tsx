@@ -10,6 +10,7 @@ import { useStaticQuery, graphql } from 'gatsby'
 
 import Header from './header'
 
+import 'normalize.css'
 import '../sass/main.scss'
 
 type LayoutProps = {

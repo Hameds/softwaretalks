@@ -9,7 +9,8 @@
     "jsx": "react",
     "lib": ["esnext", "dom", "scripthost"],
     "strict": true,
+    "skipLibCheck": true,
     "allowSyntheticDefaultImports": true,
-    "rootDir": "src"
+    "rootDirs": ["src", "stories"]
   }
 }

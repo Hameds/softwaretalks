@@ -1,8 +1,4 @@
-const path = require('path')
-
-function root(...args) {
-  return path.resolve(__dirname, ...args)
-}
+const utils = require('./scripts/utils')
 
 module.exports = {
   siteMetadata: {
@@ -24,7 +20,7 @@ module.exports = {
       resolve: 'gatsby-source-filesystem',
       options: {
         name: 'images',
-        path: root('src/images'),
+        path: utils.root('src/images'),
       },
     },
     'gatsby-transformer-sharp',

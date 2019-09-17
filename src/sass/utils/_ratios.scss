@@ -1,0 +1,18 @@
+$ratios: (
+  phi: 1.61803398875,
+);
+
+/// Ratio helper function as a specific wrap arround map-get for $ratios map
+///
+/// @group Utils
+/// @author Mohammad Hasani
+///
+/// @parameter {String} $key - A key of $ratios map
+/// @return {Number} A ratio based on $ratios map
+@function ratio($key) {
+  @if map-has-key($ratios, $key) {
+    @return map-get($ratios, $key);
+  }
+
+  @error "Unknown key '#{$key}' in $ratios map.";
+}

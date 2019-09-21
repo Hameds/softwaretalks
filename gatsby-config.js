@@ -1,8 +1,5 @@
-const path = require('path')
-
-function root(...args) {
-  return path.resolve(__dirname, ...args)
-}
+const utils = require('./scripts/utils')
+const postCSSConfig = require('./postcss.config')
 
 module.exports = {
   siteMetadata: {
@@ -18,13 +15,18 @@ module.exports = {
         allExtensions: true
       }
     },
-    'gatsby-plugin-sass',
+    {
+      resolve: 'gatsby-plugin-sass',
+      options: {
+        postCssPlugins: postCSSConfig.plugins,
+      },
+    },
     'gatsby-plugin-react-helmet',
     {
       resolve: 'gatsby-source-filesystem',
       options: {
         name: 'images',
-        path: root('src/images'),
+        path: utils.root('src/images'),
       },
     },
     'gatsby-transformer-sharp',

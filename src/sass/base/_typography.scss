@@ -1,0 +1,110 @@
+$base-font-size: 17px;
+$base-line-height: ratio(phi);
+$font-families: (
+  en: (
+    'Poppins',
+    sans-serif,
+  ),
+  fa: 'Iran Yekan',
+);
+
+/// Font family helper function as a specific wrap arround map-get for $font-families map
+///
+/// @group Typography
+/// @author Mohammad Hasani
+///
+/// @parameter {String} $key - A key of $font-families map
+/// @return {String | List} A font family or a list of fomt families based on $font-families map
+@function font-family($key) {
+  @if map-has-key($font-families, $key) {
+    @return map-get($font-families, $key);
+  }
+
+  @error "Unknown key '#{$key}' in $font-families map.";
+}
+
+$rfs-base-value: 12px;
+$rfs-unit: rem;
+$rfs-breakpoint: 1920px;
+$rfs-breakpoint-unit: px;
+$rfs-factor: 2;
+$rfs-rem-value: strip-unit($base-font-size);
+
+// According to https://github.com/twbs/rfs/issues/163
+// Configuration should be defined before loading the rfs library
+@import '~rfs/scss';
+
+/// Convert other units to EM unit
+///
+/// @group Typography
+/// @author Mohammad Hasani
+///
+/// @parameter {Number} $target - The target value
+/// @parameter {Number} $base [$base-font-size] - The base value
+/// @return {Number} The converted value to EM unit
+@function em($target, $base: $base-font-size) {
+  @if (unitless($target)) {
+    $target: $target * 1px;
+  }
+
+  @if (unitless($base)) {
+    $base: $base * 1px;
+  }
+
+  @return #{$target / $base}em;
+}
+
+/// Text antialiasing
+///
+/// @group Typography
+/// @author Mohammad Hasani
+///
+/// @output Platform compatible text antializing CSS properties
+@mixin font-smoothing {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+}
+
+:root {
+  @include font-smoothing;
+
+  font-size: $base-font-size;
+  line-height: $base-line-height;
+  // Unfortunately postcss-font-magician plugin just loads the first font declared in font-family CSS property.
+  // So as a workarround for this limitation we can define multiple times font-family CSS property
+  // with different font we want to be load by postcss-font-magician.
+  font-family: font-family(en);
+  font-family: font-family(fa);
+  // The intentional font-family CSS property.
+  font-family: font-family(en), font-family(fa);
+}
+
+$text-scale-steps: (
+  -2: 10px,
+  -1: 14px,
+  1: 24px,
+  2: 32px,
+  3: 40px,
+  4: 48px,
+  5: 56px
+);
+
+.o-text {
+  @include rfs($base-font-size);
+
+  margin: 0;
+}
+
+$text-scale-down-modifier: 'down';
+$text-scale-up-modifier: 'up';
+
+@each $step, $font-size in $text-scale-steps {
+  $modifier: if($step < 0, $text-scale-down-modifier, $text-scale-up-modifier);
+  $scale: abs($step);
+
+  .o-text--#{$modifier}-#{$scale} {
+    @include rfs($font-size);
+  }
+}

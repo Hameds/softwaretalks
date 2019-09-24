@@ -23,6 +23,7 @@
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-helmet": "^5.2.1",
+    "rfs": "^9.0.0",
     "tslib": "^1.10.0"
   },
   "devDependencies": {

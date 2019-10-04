@@ -1,5 +1,5 @@
 {
-  "include": ["src/**/*"],
+  "include": ["src/**/*", "stories/**/*"],
   "exclude": ["node_modules", "public", ".cache"],
   "compilerOptions": {
     "target": "esnext",
@@ -11,6 +11,7 @@
     "lib": ["esnext", "dom", "scripthost"],
     "strict": true,
     "skipLibCheck": true,
+    "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
     "rootDirs": ["src", "stories"]
   }

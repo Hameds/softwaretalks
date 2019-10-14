@@ -2,6 +2,10 @@
 
 The next version of SoftwareTalks website.
 
+## Design Resources
+
+You can access to design resources in [Dropbox](https://www.dropbox.com/sh/ims08p69wpj5dse/AAB1YqbdQcaAKAn1t5k256BBa?dl=0).
+
 ## 👏 Respect earns Respect
 
 Please respect our [Code of Conduct](CODE_OF_CONDUCT.md), in short:

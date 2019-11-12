@@ -1,11 +1,23 @@
+@use "sass:map";
+@use "math";
+
 $base-font-size: 17px;
-$base-line-height: ratio(phi);
+$base-line-height: math.ratio(phi);
 $font-families: (
   en: (
     'Poppins',
     sans-serif,
   ),
   fa: 'Iran Yekan',
+);
+
+@use "rfs/scss" as * with (
+  $rfs-base-value: 12px,
+  $rfs-unit: rem,
+  $rfs-breakpoint: 1920px,
+  $rfs-breakpoint-unit: px,
+  $rfs-factor: 2,
+  $rfs-rem-value: math.strip-unit($base-font-size),
 );
 
 /// Font family helper function as a specific wrap arround map-get for $font-families map
@@ -16,23 +28,12 @@ $font-families: (
 /// @parameter {String} $key - A key of $font-families map
 /// @return {String | List} A font family or a list of fomt families based on $font-families map
 @function font-family($key) {
-  @if map-has-key($font-families, $key) {
-    @return map-get($font-families, $key);
+  @if map.has-key($font-families, $key) {
+    @return map.get($font-families, $key);
   }
 
   @error "Unknown key '#{$key}' in $font-families map.";
 }
-
-$rfs-base-value: 12px;
-$rfs-unit: rem;
-$rfs-breakpoint: 1920px;
-$rfs-breakpoint-unit: px;
-$rfs-factor: 2;
-$rfs-rem-value: strip-unit($base-font-size);
-
-// According to https://github.com/twbs/rfs/issues/163
-// Configuration should be defined before loading the rfs library
-@import '~rfs/scss';
 
 /// Convert other units to EM unit
 ///
@@ -43,11 +44,11 @@ $rfs-rem-value: strip-unit($base-font-size);
 /// @parameter {Number} $base [$base-font-size] - The base value
 /// @return {Number} The converted value to EM unit
 @function em($target, $base: $base-font-size) {
-  @if (unitless($target)) {
+  @if (math.is-unitless($target)) {
     $target: $target * 1px;
   }
 
-  @if (unitless($base)) {
+  @if (math.is-unitless($base)) {
     $base: $base * 1px;
   }
 
@@ -102,7 +103,7 @@ $text-scale-up-modifier: 'up';
 
 @each $step, $font-size in $text-scale-steps {
   $modifier: if($step < 0, $text-scale-down-modifier, $text-scale-up-modifier);
-  $scale: abs($step);
+  $scale: math.abs($step);
 
   .o-text--#{$modifier}-#{$scale} {
     @include rfs($font-size);

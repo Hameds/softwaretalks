@@ -1,0 +1,75 @@
+@forward "sass:color";
+
+@use "sass:color";
+@use "sass:map";
+
+/// Color palette map
+///
+/// @group Color
+/// @author Mohammad Hasani
+///
+/// @prop {Color} primary - Used for the heading, the link, the button background color, etc.
+/// @prop {Color} accent  - N/A
+/// @prop {Color} black   - N/A
+/// @prop {Color} gray-7  - N/A
+/// @prop {Color} gray-6  - N/A
+/// @prop {Color} gray-5  - N/A
+/// @prop {Color} gray-4  - N/A
+/// @prop {Color} gray-3  - N/A
+/// @prop {Color} gray-2  - N/A
+/// @prop {Color} gray-1  - Used for the sections background color
+/// @prop {Color} white   - N/A
+$_colors: (
+  primary: #f25d1d,
+  accent: #a70d03,
+  black: #0d0504,
+  gray-7: #242424,
+  gray-6: hsl(0, 0%, 14%),
+  gray-5: hsl(0, 0%, 30%),
+  gray-4: hsl(0, 0%, 60%),
+  gray-3: hsl(0, 0%, 70%),
+  gray-2: hsl(0, 0%, 93%),
+  gray-1: #faf9f5,
+  white: #ffffff,
+);
+
+/// Color palette helper function as a specific wrap arround map-get for $_colors map
+///
+/// @group Color
+/// @author Mohammad Hasani
+///
+/// @parameter {String} $key - A key of $_colors map
+/// @return {Color} Specified color based on $_colors map
+@function get($key) {
+  @if map.has-key($_colors, $key) {
+    @return map.get($_colors, $key);
+  }
+
+  @error "Unknown key '#{$key}' in $_colors map.";
+}
+
+/// Slightly lighten a color
+///
+/// @group Color
+/// @author Mohammad Hasani
+///
+/// @param {Color} $color - color to tint
+/// @param {Number} $percentage - percentage of `$color` in returned color
+/// @return {Color}
+///
+@function tint($color, $percentage) {
+  @return color.mix(white, $color, $percentage);
+}
+
+/// Slightly darken a color
+///
+/// @group Color
+/// @author Mohammad Hasani
+///
+/// @param {Color} $color - color to shade
+/// @param {Number} $percentage - percentage of `$color` in returned color
+/// @return {Color}
+///
+@function shade($color, $percentage) {
+  @return color.mix(black, $color, $percentage);
+}

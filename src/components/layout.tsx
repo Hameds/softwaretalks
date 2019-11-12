@@ -11,7 +11,7 @@ import { useStaticQuery, graphql } from 'gatsby'
 import Header from './header'
 
 import 'normalize.css'
-import '../sass/main.scss'
+import '../scss/main.scss'
 
 type LayoutProps = {
   children: React.ReactNode

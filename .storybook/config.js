@@ -2,7 +2,7 @@ import { configure, addDecorator } from '@storybook/react'
 import { withInfo } from '@storybook/addon-info'
 
 import 'normalize.css'
-import '../src/sass/main.scss'
+import '../src/scss/main.scss'
 
 addDecorator(withInfo)
 

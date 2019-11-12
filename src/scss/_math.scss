@@ -1,0 +1,39 @@
+@forward "sass:math";
+
+@use "sass:meta";
+@use "sass:map";
+
+/// Remove the unit of a value
+///
+/// @group Math
+/// @author Mohammad Hasani
+///
+/// @param {Number} $number - Number to remove unit from
+/// @return {Number} - Unitless number
+@function strip-unit($value) {
+  @if meta.type-of($value) != 'number' {
+    @warn "You tried to remove unit from a non-number value (#{meta.type-of($value)})";
+    @return $value;
+  }
+
+  @return $value / ($value * 0 + 1);
+}
+
+$_ratios: (
+  phi: 1.61803398875,
+);
+
+/// Ratio helper function as a specific wrap arround map-get for $_ratios map
+///
+/// @group Math
+/// @author Mohammad Hasani
+///
+/// @parameter {String} $key - A key of $_ratios map
+/// @return {Number} A ratio based on $_ratios map
+@function ratio($key) {
+  @if map.has-key($_ratios, $key) {
+    @return map.get($_ratios, $key);
+  }
+
+  @error "Unknown key '#{$key}' in $_ratios map.";
+}

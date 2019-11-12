@@ -5,20 +5,22 @@ module.exports = {
   siteMetadata: {
     title: 'SoftwareTalks - Next Version',
     description: 'The next version of SoftwareTalks website.',
-    author: 'Mohammad Hasani <thebrodmann@gmail.com> (https://github.com/thebrodmann)',
+    author:
+      'Mohammad Hasani <thebrodmann@gmail.com> (https://github.com/thebrodmann)',
   },
   plugins: [
     {
       resolve: 'gatsby-plugin-typescript',
       options: {
         isTSX: true,
-        allExtensions: true
-      }
+        allExtensions: true,
+      },
     },
     {
       resolve: 'gatsby-plugin-sass',
       options: {
         postCssPlugins: postCSSConfig.plugins,
+        includePaths: [utils.root('node_modules'), utils.root('src/scss')],
       },
     },
     'gatsby-plugin-react-helmet',

@@ -5,7 +5,7 @@
 
 /// Color palette map
 ///
-/// @group Color
+/// @group Colour
 /// @author Mohammad Hasani
 ///
 /// @prop {Color} primary - Used for the heading, the link, the button background color, etc.
@@ -22,7 +22,8 @@
 $_colors: (
   primary: #f25d1d,
   accent: #a70d03,
-  black: #0d0504,
+  black: #000,
+  dark: #0d0504,
   gray-7: #242424,
   gray-6: hsl(0, 0%, 14%),
   gray-5: hsl(0, 0%, 30%),

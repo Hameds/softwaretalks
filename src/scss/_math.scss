@@ -37,3 +37,22 @@ $_ratios: (
 
   @error "Unknown key '#{$key}' in $_ratios map.";
 }
+
+/// Ease helper function as a specific wrap arround map-get for $_eases map
+///
+/// @group Math
+/// @author Mohammad Hasani
+///
+/// @parameter {String} $key - A key of $_eases map
+/// @return {Number} A ratio based on $_eases map
+$_eases: (
+  default: cubic-bezier(0.25, 0.1, 0.25, 1),
+);
+
+@function ease($key: default) {
+  @if map.has-key($_eases, $key) {
+    @return map.get($_eases, $key);
+  }
+
+  @error "Unknown key '#{$key}' in $_eases map.";
+}

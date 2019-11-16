@@ -1,0 +1,279 @@
+@use "typography";
+@use "layout";
+@use "colour";
+@use "math";
+
+%c-button {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: center;
+
+  padding: 14px 42px;
+  border: none;
+
+  @include layout.round(1);
+  outline: none;
+
+  @extend .o-text, .o-text--down-1;
+  font-weight: 700;
+  line-height: math.ratio(phi);
+
+  transition: all 0.3s math.ease() 0s;
+
+  cursor: pointer;
+
+  &:disabled {
+    cursor: not-allowed;
+  }
+
+  &.-width-full {
+    width: 100%;
+  }
+}
+
+/// Ordinary button component
+///
+/// @group Components
+/// @author Mohammad Hasani
+///
+/// @example markup - HTML usage
+///   <button class="c-button--ordinary">Label</button>
+///
+.c-button--ordinary {
+  @extend %c-button;
+
+  &.-color-primary {
+    background-color: colour.get(primary);
+    box-shadow: 0 10px 20px -6px rgba(colour.get(primary), 0.15);
+    color: colour.get(white);
+
+    &:hover {
+      background-color: colour.tint(colour.get(primary), 14%);
+      box-shadow: 0 12px 18px -7px rgba(colour.get(primary), 0.2);
+    }
+
+    &:active {
+      background-color: colour.shade(colour.get(primary), 14%);
+      box-shadow: 0 8px 22px -5px rgba(colour.get(primary), 0.1);
+
+      transition-duration: 0.1s;
+    }
+
+    &:disabled {
+      background-color: colour.tint(colour.get(primary), 93%);
+      box-shadow: 0 6px 9px -4px rgba(colour.get(primary), 0.1);
+      color: colour.get(gray-3);
+    }
+  }
+}
+
+/// CTA button component
+///
+/// @group Components
+/// @author Mohammad Hasani
+///
+/// @example markup - HTML usage
+///   <button class="c-button--cta">Label</button>
+///
+.c-button--cta {
+  @extend %c-button;
+
+  padding: 48px 44px;
+
+  @include layout.round(0);
+  box-shadow: -10px 10px 16px -12px rgba(colour.get(black), 0.34);
+
+  &:hover {
+    box-shadow: -10px 12px 14px -13px rgba(colour.get(black), 0.39);
+  }
+
+  &:active {
+    box-shadow: -10px 8px 18px -11px rgba(colour.get(black), 0.29);
+  }
+
+  &:disabled {
+    box-shadow: -5px 5px 8px -6px rgba(colour.get(black), 0.17);
+    color: colour.get(gray-3);
+  }
+
+  &.-color-primary {
+    background-color: colour.get(primary);
+    color: colour.get(white);
+
+    &:hover {
+      background-color: colour.tint(colour.get(primary), 14%);
+    }
+
+    &:active {
+      background-color: colour.shade(colour.get(primary), 14%);
+    }
+
+    &:disabled {
+      background-color: colour.tint(colour.get(primary), 93%);
+      color: colour.get(gray-3);
+    }
+  }
+
+  &.-color-white {
+    background-color: colour.get(gray-1);
+    color: colour.get(primary);
+
+    &:hover {
+      background-color: colour.tint(colour.get(gray-1), 14%);
+    }
+
+    &:active {
+      background-color: colour.shade(colour.get(gray-1), 7%);
+    }
+
+    &:disabled {
+      background-color: colour.tint(colour.get(primary), 93%);
+    }
+  }
+}
+
+/// Ghost button component
+///
+/// @group Components
+/// @author Mohammad Hasani
+///
+/// @example markup - HTML usage
+///   <button class="c-button--ghost">Label</button>
+///
+.c-button--ghost {
+  @extend %c-button;
+
+  padding: 16px 124px;
+  border-width: 1px;
+  border-style: solid;
+
+  background-color: transparent;
+
+  &.-color-primary {
+    border-color: colour.get(primary);
+    color: colour.get(primary);
+
+    &:hover {
+      border-color: colour.tint(colour.get(primary), 14%);
+      color: colour.tint(colour.get(primary), 14%);
+    }
+
+    &:active {
+      border-color: colour.shade(colour.get(primary), 14%);
+      color: colour.shade(colour.get(primary), 14%);
+    }
+
+    &:disabled {
+      border-color: colour.get(gray-3);
+      color: colour.get(gray-3);
+    }
+  }
+}
+
+/// Link button component
+///
+/// @group Components
+/// @author Mohammad Hasani
+///
+/// @example markup - HTML usage
+///   <button class="c-button--link">Label</button>
+///
+.c-button--link {
+  @extend %c-button;
+
+  align-items: baseline;
+
+  padding: 8px;
+
+  background-color: transparent;
+
+  &::before {
+    content: '';
+    width: 41px;
+    height: 2px;
+    margin-left: 6px;
+
+    transition: all 0.3s math.ease() 0s;
+  }
+
+  &:hover::before {
+    width: 61px;
+  }
+
+  &.-color-primary {
+    color: colour.get(primary);
+
+    &::before {
+      background-color: colour.get(primary);
+    }
+
+    &:hover {
+      color: colour.tint(colour.get(primary), 14%);
+
+      &::before {
+        background-color: colour.tint(colour.get(primary), 14%);
+      }
+    }
+
+    &:active {
+      color: colour.shade(colour.get(primary), 14%);
+
+      &::before {
+        background-color: colour.shade(colour.get(primary), 14%);
+      }
+    }
+  }
+
+  &:disabled {
+    color: colour.get(gray-3) !important;
+
+    &::before {
+      width: 41px;
+
+      background-color: colour.get(gray-3) !important;
+    }
+  }
+}
+
+/// Text button component
+///
+/// @group Components
+/// @author Mohammad Hasani
+///
+/// @example markup - HTML usage
+///   <button class="c-button--text">Label</button>
+///
+.c-button--text {
+  @extend %c-button;
+
+  padding: 8px;
+
+  &.-color-black {
+    color: colour.get(black);
+
+    &:hover {
+      color: colour.get(primary);
+    }
+
+    &:active {
+      color: colour.shade(colour.get(primary), 14%);
+    }
+  }
+
+  &.-color-primary {
+    color: colour.get(primary);
+
+    &:hover {
+      color: colour.tint(colour.get(primary), 14%);
+    }
+
+    &:active {
+      color: colour.shade(colour.get(primary), 14%);
+    }
+  }
+
+  &:disabled,
+  &:hover:disabled {
+    color: colour.get(gray-3);
+  }
+}

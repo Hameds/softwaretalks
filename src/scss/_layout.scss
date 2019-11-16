@@ -1,0 +1,7 @@
+@use "sass:list";
+
+$radiuses: 0px, 6px, 16px, 50%;
+
+@mixin round($level) {
+  border-radius: list.nth($radiuses, $level + 1);
+}

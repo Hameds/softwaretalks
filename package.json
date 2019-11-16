@@ -9,6 +9,7 @@
     "url": "https://github.com/thebrodmann"
   },
   "dependencies": {
+    "classcat": "^4.0.2",
     "gatsby": "^2.15.9",
     "gatsby-image": "^2.2.17",
     "gatsby-plugin-manifest": "^2.2.14",

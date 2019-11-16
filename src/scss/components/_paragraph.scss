@@ -1,0 +1,8 @@
+@use "typography";
+
+.c-paragraph {
+  @extend .o-text;
+
+  width: 60ch;
+  margin-bottom: typography.$base-font-size * typography.$base-line-height;
+}

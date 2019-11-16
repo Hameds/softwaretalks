@@ -1,0 +1,29 @@
+@use "typography";
+
+%c-heading {
+  @extend .o-text;
+}
+
+.c-heading--h1 {
+  @extend %c-heading, .o-text--up-5;
+}
+
+.c-heading--h2 {
+  @extend %c-heading, .o-text--up-4;
+}
+
+.c-heading--h3 {
+  @extend %c-heading, .o-text--up-3;
+}
+
+.c-heading--h4 {
+  @extend %c-heading, .o-text--up-2;
+}
+
+.c-heading--h5 {
+  @extend %c-heading, .o-text--up-1;
+}
+
+.c-heading--h6 {
+  @extend %c-heading;
+}

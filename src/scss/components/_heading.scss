@@ -4,26 +4,74 @@
   @extend .o-text;
 }
 
+/// H1 heading component
+///
+/// @group Components
+/// @author Mohammad Hasani
+///
+/// @example markup - HTML usage
+///   <h1 class="c-heading--h1">Heading</h1>
+///
 .c-heading--h1 {
   @extend %c-heading, .o-text--up-5;
 }
 
+/// H2 heading component
+///
+/// @group Components
+/// @author Mohammad Hasani
+///
+/// @example markup - HTML usage
+///   <h2 class="c-heading--h2">Heading</h2>
+///
 .c-heading--h2 {
   @extend %c-heading, .o-text--up-4;
 }
 
+/// H3 heading component
+///
+/// @group Components
+/// @author Mohammad Hasani
+///
+/// @example markup - HTML usage
+///   <h3 class="c-heading--h3">Heading</h3>
+///
 .c-heading--h3 {
   @extend %c-heading, .o-text--up-3;
 }
 
+/// H4 heading component
+///
+/// @group Components
+/// @author Mohammad Hasani
+///
+/// @example markup - HTML usage
+///   <h4 class="c-heading--h4">Heading</h4>
+///
 .c-heading--h4 {
   @extend %c-heading, .o-text--up-2;
 }
 
+/// H5 heading component
+///
+/// @group Components
+/// @author Mohammad Hasani
+///
+/// @example markup - HTML usage
+///   <h5 class="c-heading--h5">Heading</h5>
+///
 .c-heading--h5 {
   @extend %c-heading, .o-text--up-1;
 }
 
+/// H6 heading component
+///
+/// @group Components
+/// @author Mohammad Hasani
+///
+/// @example markup - HTML usage
+///   <h6 class="c-heading--h6">Heading</h6>
+///
 .c-heading--h6 {
   @extend %c-heading;
 }

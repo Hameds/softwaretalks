@@ -1,5 +1,13 @@
 @use "typography";
 
+/// Paragraph component
+///
+/// @group Components
+/// @author Mohammad Hasani
+///
+/// @example markup - HTML usage
+///   <p class="c-paragraph">Heading</p>
+///
 .c-paragraph {
   @extend .o-text;
 

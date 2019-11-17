@@ -20,4 +20,15 @@ describe('<Heading.component/>', () => {
       expect((container.firstChild as Element).tagName).toBe(tagName)
     }
   )
+
+  it('should add custom class name in front of other class names', () => {
+    const { container } = render(
+      <Heading.component variant={Heading.Variant.H1} className="test" />
+    )
+
+    expect(container.firstChild).toHaveAttribute(
+      'class',
+      expect.stringMatching(/test$/)
+    )
+  })
 })

@@ -1,0 +1,47 @@
+@use "sass:map";
+@use "colour";
+
+%c-logo {
+  width: 160px;
+  height: 160px;
+}
+
+$variants: (
+  primary: (
+    background: colour.get(primary),
+    foreground: colour.get(white),
+  ),
+  black: (
+    background: colour.get(dark),
+    foreground: colour.get(white),
+  ),
+);
+
+@each $name, $variant in $variants {
+  $background: map.get($variant, background);
+  $foreground: map.get($variant, foreground);
+
+  .c-logo--#{$name} {
+    @extend %c-logo;
+
+    .c-logo__frame {
+      fill: $background;
+      stroke: $foreground;
+    }
+
+    .c-logo__shape {
+      fill: $foreground;
+    }
+  }
+
+  .c-logo--#{$name}.-inverse {
+    .c-logo__frame {
+      fill: $foreground;
+      stroke: $background;
+    }
+
+    .c-logo__shape {
+      fill: $background;
+    }
+  }
+}

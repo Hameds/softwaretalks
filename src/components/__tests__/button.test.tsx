@@ -59,6 +59,9 @@ describe('<Button.component>', () => {
   it('should add custom class name in front of other class names', () => {
     const { container } = render(<Button.component className="test" />)
 
-    expect((container.firstChild as Element).className).toMatch(/test$/)
+    expect(container.firstChild).toHaveAttribute(
+      'class',
+      expect.stringMatching(/test$/)
+    )
   })
 })

@@ -62,7 +62,7 @@
     &:disabled {
       background-color: colour.tint(colour.get(primary), 93%);
       box-shadow: 0 6px 9px -4px rgba(colour.get(primary), 0.1);
-      color: colour.get(gray-3);
+      color: colour.get(gray-5);
     }
   }
 }
@@ -93,7 +93,7 @@
 
   &:disabled {
     box-shadow: -5px 5px 8px -6px rgba(colour.get(black), 0.17);
-    color: colour.get(gray-3);
+    color: colour.get(gray-5);
   }
 
   &.-color-primary {
@@ -110,7 +110,7 @@
 
     &:disabled {
       background-color: colour.tint(colour.get(primary), 93%);
-      color: colour.get(gray-3);
+      color: colour.get(gray-5);
     }
   }
 
@@ -164,8 +164,8 @@
     }
 
     &:disabled {
-      border-color: colour.get(gray-3);
-      color: colour.get(gray-3);
+      border-color: colour.get(gray-5);
+      color: colour.get(gray-5);
     }
   }
 }
@@ -225,12 +225,12 @@
   }
 
   &:disabled {
-    color: colour.get(gray-3) !important;
+    color: colour.get(gray-5) !important;
 
     &::before {
       width: 41px;
 
-      background-color: colour.get(gray-3) !important;
+      background-color: colour.get(gray-5) !important;
     }
   }
 }
@@ -274,6 +274,6 @@
 
   &:disabled,
   &:hover:disabled {
-    color: colour.get(gray-3);
+    color: colour.get(gray-5);
   }
 }

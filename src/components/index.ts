@@ -3,5 +3,6 @@ import * as Button from './button'
 import * as Heading from './heading'
 import * as Paragraph from './paragraph'
 import * as Logo from './logo'
+import * as EpisodeSign from './episode-sign'
 
-export { Preview, Button, Heading, Paragraph, Logo }
+export { Preview, Button, Heading, Paragraph, Logo, EpisodeSign }

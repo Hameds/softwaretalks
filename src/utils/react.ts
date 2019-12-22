@@ -1,3 +1,6 @@
+import { navigate as gatsbyNavigate } from 'gatsby'
+import { NavigateOptions } from '@reach/router'
+
 export function defineDisplayName(
   moduleName: string,
   componentMap: { [name: string]: Function }
@@ -8,3 +11,9 @@ export function defineDisplayName(
     })
   })
 }
+
+export type RouterState = undefined
+
+export const navigate = <
+  (to: string, options?: NavigateOptions<RouterState>) => void
+>gatsbyNavigate

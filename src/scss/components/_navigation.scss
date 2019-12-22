@@ -1,0 +1,84 @@
+@use "sass:map";
+@use "typography";
+@use "math";
+@use "colour";
+
+%c-navigation {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  list-style: none;
+}
+
+.c-navigation__link {
+  position: relative;
+
+  padding: 8px 12px;
+
+  font-weight: 700;
+  text-decoration: none;
+
+  &::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -6px;
+    transform: translateX(-50%);
+
+    width: calc(100% - #{12px * 2});
+    height: 2px;
+
+    visibility: hidden;
+    opacity: 0;
+
+    pointer-events: none;
+
+    transition: visibility 0s math.ease() 300ms, opacity 150ms math.ease() 0s;
+  }
+
+  &.is-active::after {
+    visibility: visible;
+    opacity: 1;
+
+    transition: visibility 0s math.ease() 0s, opacity 300ms math.ease() 0s;
+  }
+}
+
+.c-navigation__divider {
+  margin: 0 12px;
+
+  pointer-events: none;
+  user-select: none;
+}
+
+$variants: (
+  black: (
+    divider-foreground: colour.get(dark),
+    link-foreground: colour.get(dark),
+    indicator-background: colour.get(dark),
+  ),
+  white: (
+    divider-foreground: colour.get(white),
+    link-foreground: colour.get(white),
+    indicator-background: colour.get(white),
+  ),
+);
+
+@each $name, $variant in $variants {
+  .c-navigation--#{$name} {
+    @extend %c-navigation;
+
+    .c-navigation__divider {
+      color: map.get($variant, divider-foreground);
+    }
+
+    .c-navigation__link {
+      color: map.get($variant, link-foreground);
+
+      &::after {
+        background-color: map.get($variant, indicator-background);
+      }
+    }
+  }
+}

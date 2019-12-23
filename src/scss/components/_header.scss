@@ -1,0 +1,37 @@
+@use "sass:map";
+@use "colour";
+
+%c-header {
+}
+
+.c-header__container {
+  display: flex;
+  align-items: center;
+}
+
+.c-header__logo {
+  width: 72px;
+  height: 72px;
+  margin-left: 28px;
+}
+
+.c-header__cta {
+  margin-right: auto;
+}
+
+$variants: (
+  primary: (
+    background: colour.get(primary),
+  ),
+  gray: (
+    background: transparent,
+  ),
+);
+
+@each $name, $variant in $variants {
+  .c-header--#{$name} {
+    @extend %c-header;
+
+    background-color: map.get($variant, background);
+  }
+}

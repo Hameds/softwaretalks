@@ -7,6 +7,7 @@ import * as EpisodeSign from './episode-sign'
 import * as Link from './link'
 import * as Navigation from './navigation'
 import * as Footer from './footer'
+import * as Header from './header'
 
 export {
   Preview,
@@ -18,4 +19,5 @@ export {
   Link,
   Navigation,
   Footer,
+  Header,
 }

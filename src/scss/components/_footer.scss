@@ -1,0 +1,45 @@
+@use "layout";
+@use "typography";
+@use "colour";
+
+.c-footer {
+  color: colour.get(gray-6);
+
+  &__container {
+    position: relative;
+    display: flex;
+    align-items: center;
+
+    height: 128px;
+
+    &::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: -10%;
+
+      width: 120%;
+      height: 1px;
+
+      background-color: colour.get(gray-6);
+    }
+  }
+
+  &__logo {
+    width: 48px;
+    height: 48px;
+  }
+
+  &__note {
+    margin: 0 16px 0 0;
+
+    @extend .o-text--down-1;
+    font-weight: 500;
+  }
+
+  &__link {
+    font-weight: 600;
+
+    color: colour.get(gray-6);
+  }
+}

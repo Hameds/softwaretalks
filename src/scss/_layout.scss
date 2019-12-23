@@ -5,3 +5,17 @@ $radiuses: 0px, 6px, 16px, 50%;
 @mixin round($level) {
   border-radius: list.nth($radiuses, $level + 1);
 }
+
+.l-container {
+  max-width: 1260px;
+  margin-right: auto;
+  margin-left: auto;
+
+  @media screen and (max-width: 1260px) {
+    max-width: 834px;
+  }
+
+  @media screen and (max-width: 834px) {
+    max-width: 343px;
+  }
+}

@@ -6,6 +6,7 @@ import * as Logo from './logo'
 import * as EpisodeSign from './episode-sign'
 import * as Link from './link'
 import * as Navigation from './navigation'
+import * as Footer from './footer'
 
 export {
   Preview,
@@ -16,4 +17,5 @@ export {
   EpisodeSign,
   Link,
   Navigation,
+  Footer,
 }

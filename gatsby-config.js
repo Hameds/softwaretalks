@@ -7,6 +7,10 @@ module.exports = {
     description: 'The next version of SoftwareTalks website.',
     author:
       'Mohammad Hasani <thebrodmann@gmail.com> (https://github.com/thebrodmann)',
+    licenseSpecLink: 'https://opensource.org/licenses/GPL-3.0',
+    socialLinks: {
+      youtube: 'https://youtube.com/softwaretalks',
+    },
   },
   plugins: [
     {

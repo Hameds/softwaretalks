@@ -8,6 +8,7 @@ import * as Link from './link'
 import * as Navigation from './navigation'
 import * as Footer from './footer'
 import * as Header from './header'
+import * as Page from './page'
 
 export {
   Preview,
@@ -20,4 +21,5 @@ export {
   Navigation,
   Footer,
   Header,
+  Page,
 }

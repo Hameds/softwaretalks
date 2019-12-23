@@ -1,0 +1,12 @@
+@use "colour";
+
+.c-page {
+  direction: rtl;
+
+  background-color: colour.get(gray-1);
+}
+
+.c-page__main {
+  margin-top: -118px;
+  min-height: 118px;
+}

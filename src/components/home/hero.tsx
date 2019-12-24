@@ -1,7 +1,7 @@
 import React from 'react'
 
 import * as Heading from '../heading'
-import thoughtBubbleSrc from '../../assets/images/thought-bubble.svg'
+import thoughtBubbleUrl from '../../assets/images/thought-bubble.svg'
 
 const classNames = {
   block: 'c-hero',
@@ -17,7 +17,7 @@ export function component() {
       <Heading.H1 className={classNames.elements.headline}>
         <img
           className={classNames.elements.image}
-          src={thoughtBubbleSrc}
+          src={thoughtBubbleUrl}
           alt="Thought Bubble"
           title="Thought Bubble"
         />

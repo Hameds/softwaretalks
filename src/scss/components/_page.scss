@@ -1,6 +1,11 @@
 @use "colour";
 
 .c-page {
+  position: relative;
+  overflow: hidden;
+
+  width: 100%;
+
   direction: rtl;
 
   background-color: colour.get(gray-1);

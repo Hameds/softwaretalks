@@ -5,6 +5,7 @@ import * as Header from './header'
 import * as Squares from './squares'
 import * as Footer from './footer'
 import { Variant } from './header'
+import { defineDisplayName } from '../utils'
 
 import '../scss/main.scss'
 
@@ -50,3 +51,16 @@ export function component({ variant, children }: Props) {
     </div>
   )
 }
+
+function createVariantComponent(variant: Variant) {
+  function variantComponent(props: Omit<Props, 'variant'>) {
+    return component({ ...props, variant })
+  }
+
+  return variantComponent
+}
+
+export const primary = createVariantComponent(Variant.Primary)
+export const gray = createVariantComponent(Variant.Gray)
+
+defineDisplayName('Page', { component, primary, gray })

@@ -35,6 +35,9 @@ export const classNames = {
     [Variant.Link]: 'c-button--link',
     [Variant.Text]: 'c-button--text',
   },
+  elements: {
+    label: 'c-button__label',
+  },
   modifiers: {
     color: {
       [Color.Primary]: '-color-primary',
@@ -51,6 +54,7 @@ export function component<TTagName extends TagName = 'button'>({
   block,
   as: tagName,
   className: customClassName,
+  children,
   ...props
 }: Props<TTagName>) {
   const className = cc([
@@ -60,7 +64,17 @@ export function component<TTagName extends TagName = 'button'>({
     customClassName,
   ])
 
-  return React.createElement(tagName, { ...props, className })
+  return React.createElement(tagName, {
+    ...props,
+    className,
+    children: React.Children.map(children, child =>
+      typeof child === 'string' ? (
+        <span className={classNames.elements.label}>{child}</span>
+      ) : (
+        child
+      )
+    ),
+  })
 }
 component.defaultProps = {
   as: 'button',

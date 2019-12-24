@@ -4,6 +4,7 @@ import cc from 'classcat'
 import * as Logo from './logo'
 import * as Navigation from './navigation'
 import * as Button from './button'
+import * as Icon from './icon'
 import { defineDisplayName } from '../utils'
 
 export enum Variant {
@@ -54,6 +55,7 @@ export function component({ variant, youtubeSocialLink }: Props) {
           target="_blank"
         >
           کانال یوتیوب
+          <Icon.Link.external />
         </Button.cta>
       </div>
     </header>

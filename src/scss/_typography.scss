@@ -65,7 +65,7 @@ $font-families: (
 /// @parameter {Number} $top-adjustment [0px] - Top adjustment
 /// @parameter {Number} $bottom-adjustment [0px] - Bottom adjustment
 /// @output Text block without pesky space!
-@mixin poppins-extrabold-text-crop(
+@mixin poppins-text-crop(
   $line-height: $base-line-height,
   $top-adjustment: 0px,
   $bottom-adjustment: 0px

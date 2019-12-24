@@ -14,8 +14,9 @@
     bottom: 0;
     transform: translateX(-50%);
 
-    @include typography.poppins-extrabold-text-crop;
+    @include typography.poppins-text-crop;
     font-size: typography.em(169px);
+    font-weight: 800;
 
     color: colour.get(gray-1);
 

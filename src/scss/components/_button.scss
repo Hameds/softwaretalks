@@ -17,6 +17,7 @@
   @extend .o-text, .o-text--down-1;
   font-weight: 700;
   line-height: math.ratio(phi);
+  text-decoration: none;
 
   transition: all 0.3s math.ease() 0s;
 

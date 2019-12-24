@@ -1,7 +1,8 @@
 import React from 'react'
 import { storiesOf } from '@storybook/react'
 
-import { Preview, Logo } from '../src/components'
+import * as Preview from '../src/components/preview'
+import * as Logo from '../src/components/logo'
 
 storiesOf('Logo', module)
   .add('Primary', primary)

@@ -2,20 +2,20 @@ import React from 'react'
 import { storiesOf } from '@storybook/react'
 
 import { backgrounds } from './utils'
-import { Header } from '../src/components'
+import * as Header from '../src/components/header'
 
 storiesOf('Header', module)
-  .add('White', white, {
+  .add('Primary', primary, {
     backgrounds: [{ ...backgrounds.primary, default: true }],
   })
-  .add('Primary', primary, {
+  .add('gray', gray, {
     backgrounds: [{ ...backgrounds.gray1, default: true }],
   })
 
-function white() {
+function gray() {
   return (
     <Header.component
-      variant={Header.Variant.White}
+      variant={Header.Variant.Gray}
       youtubeSocialLink="https://XXX"
     />
   )

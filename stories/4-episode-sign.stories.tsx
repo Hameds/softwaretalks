@@ -1,7 +1,7 @@
 import React from 'react'
 import { storiesOf } from '@storybook/react'
 
-import { EpisodeSign } from '../src/components'
+import * as EpisodeSign from '../src/components/episode-sign'
 
 storiesOf('EpisodeSign', module)
   .add('Live', live)

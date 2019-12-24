@@ -1,0 +1,119 @@
+@use "sass:list";
+@use "colour";
+
+%c-square--thickness-1 {
+  border-width: 4px;
+}
+
+%c-square--thickness-2 {
+  border-width: 10px;
+}
+
+%c-square--thickness-3 {
+  border-width: 12px;
+}
+
+%c-square--thickness-4 {
+  border-width: 24px;
+}
+
+.c-square {
+  position: absolute;
+
+  box-sizing: border-box;
+
+  border-style: solid;
+  border-color: colour.get(white);
+
+  pointer-events: none;
+
+  &:nth-child(1) {
+    @extend %c-square--thickness-4;
+
+    top: 224px;
+    left: 130px;
+
+    width: 358px;
+    height: 358px;
+  }
+
+  &:nth-child(2) {
+    @extend %c-square--thickness-1;
+
+    top: 536px;
+    left: 618px;
+
+    width: 32px;
+    height: 32px;
+  }
+
+  &:nth-child(3) {
+    @extend %c-square--thickness-3;
+
+    top: 264px;
+    left: 742px;
+
+    width: 64px;
+    height: 64px;
+  }
+
+  &:nth-child(4) {
+    @extend %c-square--thickness-4;
+
+    top: 394px;
+    left: 932px;
+
+    width: 263px;
+    height: 263px;
+  }
+
+  &:nth-child(5) {
+    @extend %c-square--thickness-2;
+
+    top: 174px;
+    left: 953px;
+
+    width: 64px;
+    height: 64px;
+  }
+
+  &:nth-child(6) {
+    @extend %c-square--thickness-2;
+
+    top: 604px;
+    left: 1486px;
+
+    width: 64px;
+    height: 64px;
+  }
+
+  &:nth-child(7) {
+    @extend %c-square--thickness-1;
+
+    top: 714px;
+    left: 1625px;
+
+    width: 32px;
+    height: 32px;
+  }
+
+  &:nth-child(8) {
+    @extend %c-square--thickness-4;
+
+    top: 764px;
+    left: -220px;
+
+    width: 440px;
+    height: 440px;
+  }
+
+  &:nth-child(9) {
+    @extend %c-square--thickness-4;
+
+    top: 1014px;
+    left: 1731px;
+
+    width: 440px;
+    height: 440px;
+  }
+}

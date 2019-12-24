@@ -2,6 +2,7 @@ import React from 'react'
 import { useStaticQuery, graphql } from 'gatsby'
 
 import * as Header from './header'
+import * as Squares from './squares'
 import * as Footer from './footer'
 import { Variant } from './header'
 
@@ -43,6 +44,7 @@ export function component({ variant, children }: Props) {
         variant={variant}
         youtubeSocialLink={siteMetadata.socialLinks.youtube}
       />
+      {variant === Variant.Gray && <Squares.component />}
       <main className={classNames.elements.main}>{children}</main>
       <Footer.component licenseSpecLink={siteMetadata.licenseSpecLink} />
     </div>

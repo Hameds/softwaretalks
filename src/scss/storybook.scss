@@ -7,3 +7,16 @@
 .info__overlay {
   direction: ltr;
 }
+
+.icons {
+  display: grid;
+
+  font-size: 24px;
+
+  grid-template-columns: repeat(8, minmax(24px, 1fr));
+  grid-template-rows: 24px;
+  grid-gap: 1em;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+}

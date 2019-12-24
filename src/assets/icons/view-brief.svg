@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="13px" height="12px" viewBox="0 0 13 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>icon_list</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icons/list-view" fill="#000000" fill-rule="nonzero">
+            <g id="icon_list" transform="translate(6.500000, 6.000000) scale(-1, 1) translate(-6.500000, -6.000000) ">
+                <path d="M4,7 L13,7 L13,5 L4,5 L4,7 Z M4,0 L4,2 L13,2 L13,0 L4,0 Z M4,12 L13,12 L13,10 L4,10 L4,12 Z M0,7 L2,7 L2,5 L0,5 L0,7 Z M0,0 L0,2 L2,2 L2,0 L0,0 Z M0,12 L2,12 L2,10 L0,10 L0,12 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -10,6 +10,7 @@ import * as Footer from './footer'
 import * as Header from './header'
 import * as Page from './page'
 import * as Home from './home'
+import * as Icon from './icon'
 
 export {
   Preview,
@@ -24,4 +25,5 @@ export {
   Header,
   Page,
   Home,
+  Icon
 }

@@ -47,6 +47,13 @@ module.exports = ({ config }) => {
     ],
   })
 
+  // Define SVG rule to occur before predefined rules for SVG in base config
+  config.module.rules.unshift({
+    test: /\.svg$/,
+    use: ['@svgr/webpack', 'url-loader'],
+    include: /assets\/icons/,
+  })
+
   config.resolve.extensions.push('.ts', '.tsx')
 
   return config

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="42px" viewBox="0 0 40 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>icons/twitch</title>
+    <desc>Created with Sketch.</desc>
+    <g id="icons/twitch" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="twitch" fill="#000000" fill-rule="nonzero">
+            <path d="M2.81308411,0 L0,7.18691589 L0,36.5607477 L10,36.5607477 L10,41.8691589 L15.6261682,41.8691589 L20.9345794,36.5607477 L29.0654206,36.5607477 L40,25.6261682 L40,0 L2.81308411,0 Z M36.2523364,23.7476636 L30,30 L20,30 L14.6915888,35.3084112 L14.6915888,30 L6.25233645,30 L6.25233645,3.74766355 L36.2523364,3.74766355 L36.2523364,23.7476636 Z M30,10.9345794 L30,21.8598131 L26.2523364,21.8598131 L26.2523364,10.9345794 L30,10.9345794 Z M20,10.9345794 L20,21.8598131 L16.2523364,21.8598131 L16.2523364,10.9345794 L20,10.9345794 Z" id="Shape"></path>
+        </g>
+    </g>
+</svg>

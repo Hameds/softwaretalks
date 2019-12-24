@@ -27,6 +27,12 @@ module.exports = {
         includePaths: [utils.root('node_modules'), utils.root('src/scss')],
       },
     },
+    {
+      resolve: 'gatsby-plugin-svgr',
+      options: {
+        include: /assets\/icons/i,
+      },
+    },
     'gatsby-plugin-react-helmet',
     {
       resolve: 'gatsby-source-filesystem',

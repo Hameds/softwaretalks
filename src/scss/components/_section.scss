@@ -1,0 +1,28 @@
+@use "colour";
+
+.c-section__container {
+  &::after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+
+    width: 100%;
+    height: 1px;
+
+    background-color: colour.get(gray-3);
+  }
+}
+
+.c-section__headline {
+  position: absolute;
+  right: 0;
+  transform: translate(+99px, -99px);
+
+  box-sizing: border-box;
+  width: 338px;
+  padding: 42px 64px 42px 134px;
+  border: 6px solid colour.get(white);
+
+  color: colour.get(primary);
+}

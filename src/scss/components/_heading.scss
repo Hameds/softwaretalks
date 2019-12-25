@@ -2,6 +2,8 @@
 
 %c-heading {
   @extend .o-text;
+
+  font-weight: 800;
 }
 
 /// H1 heading component
@@ -74,4 +76,6 @@
 ///
 .c-heading--h6 {
   @extend %c-heading;
+
+  font-weight: 700;
 }

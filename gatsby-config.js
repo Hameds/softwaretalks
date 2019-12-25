@@ -1,3 +1,4 @@
+const path = require('path')
 const utils = require('./scripts/utils')
 const postCSSConfig = require('./postcss.config')
 
@@ -34,6 +35,28 @@ module.exports = {
       },
     },
     'gatsby-plugin-react-helmet',
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'data',
+        path: utils.root('src/data'),
+      },
+    },
+    {
+      resolve: 'gatsby-transformer-yaml',
+      options: {
+        typeName({ node }) {
+          switch (utils.getYAMLDataTypeFromFile(node)) {
+            case 'guests':
+              return 'GuestYAML'
+            case 'episodes':
+              return 'EpisodeYAML'
+            default:
+              throw new Error('Unknown YAML entity.')
+          }
+        },
+      },
+    },
     {
       resolve: 'gatsby-source-filesystem',
       options: {

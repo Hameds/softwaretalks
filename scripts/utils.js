@@ -127,4 +127,39 @@ function root(...args) {
   return path.resolve(__dirname, '..', ...args)
 }
 
-module.exports = { root, customFontFoundries }
+function getYAMLDataTypeFromFile(file) {
+  return file.relativePath.split('/')[0]
+}
+
+function getGuestIdFromFile(file) {
+  return file.relativePath.split('/')[1]
+}
+
+function getEpisodeTypeFromFile(file) {
+  switch (file.relativePath.split('/')[1].toLowerCase()) {
+    case 'live':
+      return 0
+    case 'meetup':
+      return 1
+    default:
+      throw new Error('Unknown episode type!')
+  }
+}
+
+function getEpisodeSeasonFromFile(file) {
+  return parseInt(
+    file.relativePath
+      .split('/')[2]
+      .toLowerCase()
+      .replace(/season\-/i, '')
+  )
+}
+
+module.exports = {
+  root,
+  customFontFoundries,
+  getYAMLDataTypeFromFile,
+  getGuestIdFromFile,
+  getEpisodeTypeFromFile,
+  getEpisodeSeasonFromFile,
+}

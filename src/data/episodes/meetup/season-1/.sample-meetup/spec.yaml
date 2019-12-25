@@ -1,0 +1,28 @@
+title: Sample Meetup Episode
+spoiler: |-
+  This is just sample!
+  Nothing else.
+scheduled_at: 1398-10-04 10:30:00
+cover: ./cover.jpeg
+guests:
+  - .sample-guest
+references:
+  books:
+    - name: Sample Book
+      author: Sample Book Author
+      image: ./book.jpeg
+      url: https://book.com
+  videos:
+    - title: Sample Video
+      image: ./video.jpeg
+      url: https://video.com
+  podcasts:
+    - name: Sample Podcast
+      image: ./podcast.jpeg
+      url: https://podcast.com
+  papers:
+    - title: Sample Paper
+      spoiler: |-
+        This is just a sample paper!
+        Nothing else.
+      url: https://paper.com

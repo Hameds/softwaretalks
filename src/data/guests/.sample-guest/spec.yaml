@@ -1,0 +1,9 @@
+first_name: sample
+last_name: simply
+bio: A sample in SoftwareTalks
+avatar: ./avatar.jpeg
+social_links:
+  github: https://github.com/sample_simply
+  twitter: https://twitter.com/sample_simply
+  telegram: https://t.me/sample_simply
+  youtube: https://youtube.com/sample_simply

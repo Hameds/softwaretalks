@@ -90,7 +90,7 @@ function createSchemaCustomization({ actions, schema }) {
         },
       },
       season: {
-        type: 'Int!',
+        type: 'Int',
         resolve(source, _args, context) {
           const file = context.nodeModel.getNodeById({
             id: source.parent,

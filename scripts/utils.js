@@ -147,6 +147,10 @@ function getEpisodeTypeFromFile(file) {
 }
 
 function getEpisodeSeasonFromFile(file) {
+  if (getEpisodeTypeFromFile(file) === 0) {
+    return undefined
+  }
+
   return parseInt(
     file.relativePath
       .split('/')[2]

@@ -12,9 +12,6 @@ export enum Variant {
   H6 = 'h6',
 }
 
-type Props = React.PropsWithChildren<{ variant: Variant }> &
-  JSX.IntrinsicElements[Variant]
-
 export const classNames = {
   variants: {
     [Variant.H1]: 'c-heading--h1',
@@ -26,22 +23,33 @@ export const classNames = {
   },
 }
 
-export function component({
+type TagName = 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6'
+
+type Props<TTagName extends TagName> = React.PropsWithChildren<{
+  variant: Variant
+  as?: TTagName
+}> &
+  JSX.IntrinsicElements[TagName | Variant]
+
+export function component<TTagName extends TagName>({
   variant,
+  as: tagName,
   className: customClassName,
   ...props
-}: Props) {
+}: Props<TTagName>) {
   const className = cc([
     'o-text',
     classNames.variants[variant],
     customClassName,
   ])
 
-  return React.createElement(variant, { ...props, className })
+  return React.createElement(tagName || variant, { ...props, className })
 }
 
 function createVariantComponent(variant: Variant) {
-  function variantComponent(props: Omit<Props, 'variant'>) {
+  function variantComponent<TTagName extends TagName>(
+    props: Omit<Props<TTagName>, 'variant'>
+  ) {
     return component({ ...props, variant })
   }
 

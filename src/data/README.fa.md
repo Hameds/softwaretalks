@@ -39,6 +39,8 @@
 
 ## فایل spec.yaml مهمان
 
+نمونه فایل spec.yaml مهمان:
+
 <div dir="ltr">
 
 ```yaml
@@ -67,13 +69,15 @@ social_links:
 
 ## فایل spec.yaml اپیزود
 
+نمونه فایل spec.yaml اپیزود:
+
 <div dir="ltr">
 
 ```yaml
 title: عنوان
 spoiler: |-
   توضیحی کوتاه درباره اپیزود
-scheduled_at: 1398-10-04 10:30:00
+scheduled_at: 1398/10/4 10:30
 cover: ./cover.jpeg
 guests:
   - x
@@ -104,7 +108,7 @@ references:
 
 - **`title`** - عنوان اپیزود.
 - **`spoiler`** - توضیحی کوتاه درباره اپیزود.
-- **`scheduled_at`** - تاریخ برگزاری اپیزود.
+- **`scheduled_at`** - تاریخ و زمان برگزاری اپیزود با فرمت مشخص شده در نمونه بالا.
 - **`cover`** - مسیر relative از فایل spec.yaml به فایل تصویر کاور اپیزود.
 - **`guests`** - لیستی از <span dir="ltr">\$GUEST_IDENTITY</span>.
 - **`references`** - منابع معرفی شده در اپیزود. (**اختیاری**)

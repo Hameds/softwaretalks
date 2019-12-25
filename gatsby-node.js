@@ -1,4 +1,5 @@
 const utils = require('./scripts/utils')
+const moment = require('moment-jalaali')
 
 function createSchemaCustomization({ actions, schema }) {
   // GuestYAML
@@ -102,7 +103,9 @@ function createSchemaCustomization({ actions, schema }) {
       scheduledAt: {
         type: 'Date!',
         resolve(source) {
-          return source.scheduled_at
+          return moment(source.scheduled_at, 'jYYYY/jM/jD HH:mm')
+            .utc()
+            .format('YYYY-MM-DDTHH:mm:ssZ')
         },
         extensions: {
           dateformat: {},

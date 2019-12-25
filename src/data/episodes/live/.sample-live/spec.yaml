@@ -2,7 +2,7 @@ title: Sample Live Episode
 spoiler: |-
   This is just sample!
   Nothing else.
-scheduled_at: 1398-10-04 10:30:00
+scheduled_at: 1398/10/4 10:30
 cover: ./cover.jpeg
 guests:
   - .sample-guest

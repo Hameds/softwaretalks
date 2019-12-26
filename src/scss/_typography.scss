@@ -4,10 +4,7 @@
 $base-font-size: 17px;
 $base-line-height: math.ratio(phi);
 $font-families: (
-  en: (
-    'Poppins',
-    sans-serif,
-  ),
+  en: 'Poppins',
   fa: 'Iran Yekan',
 );
 
@@ -133,7 +130,7 @@ $font-families: (
   font-family: font-family(en);
   font-family: font-family(fa);
   // The intentional font-family CSS property.
-  font-family: font-family(en), font-family(fa);
+  font-family: font-family(en), font-family(fa), sans-serif;
 }
 
 $text-scale-steps: (

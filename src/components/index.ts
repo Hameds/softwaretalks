@@ -12,6 +12,9 @@ import * as Page from './page'
 import * as Home from './home'
 import * as Icon from './icon'
 import * as Section from './section'
+import * as EpisodeCover from './episode-cover'
+import * as EpisodeDetail from './episode-detail'
+import * as Episode from './episode'
 
 export {
   Preview,
@@ -28,4 +31,7 @@ export {
   Home,
   Icon,
   Section,
+  EpisodeCover,
+  EpisodeDetail,
+  Episode,
 }

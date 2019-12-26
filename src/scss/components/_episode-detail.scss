@@ -1,0 +1,10 @@
+@use "colour";
+
+.c-episode-detail {
+  color: colour.get(gray-6);
+}
+
+.c-episode-detail__divider,
+.c-episode-detail__value {
+  font-weight: 400;
+}

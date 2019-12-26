@@ -1,0 +1,113 @@
+@use "typography";
+@use "colour";
+
+%c-episode-preview {
+  display: flex;
+
+  margin-top: 145px;
+}
+
+.c-episode-preview__content {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+
+  box-sizing: border-box;
+}
+
+.c-episode-preview__information {
+  display: flex;
+  flex-direction: column;
+
+  color: colour.get(dark);
+}
+
+.c-episode-preview__scheduled-time {
+  display: flex;
+  align-items: center;
+
+  color: colour.get(gray-6);
+}
+
+.c-episode-preview__scheduled-time-icon {
+  margin-right: 8px;
+
+  font-size: 1.3em;
+
+  color: colour.get(dark);
+}
+
+.c-episode-preview--vertical {
+  @extend %c-episode-preview;
+
+  flex-direction: column;
+
+  .c-episode-preview__content {
+    flex-direction: row;
+
+    padding: 42px 160px 0 160px;
+  }
+
+  .c-episode-preview__information {
+    margin: 0 68px;
+  }
+
+  .c-episode-preview__spoiler {
+    margin-top: typography.$base-font-size * typography.$base-line-height;
+    margin-bottom: 0;
+  }
+}
+
+.c-episode-preview--horizontal {
+  @extend %c-episode-preview;
+
+  flex-direction: row;
+
+  .c-episode-preview__cover {
+    flex-grow: 1;
+  }
+
+  .c-episode-preview__content {
+    flex-direction: column;
+
+    width: 340px;
+    padding: 64px 40px 24px 0;
+  }
+
+  .c-episode-preview__type-sign {
+    display: none;
+  }
+
+  .c-episode-preview__title {
+    order: 2;
+  }
+
+  .c-episode-preview__season-detail {
+    display: flex;
+    order: 1;
+  }
+
+  .c-episode-preview__season-detail-divider {
+    display: none;
+  }
+
+  .c-episode-preview__season-detail-value {
+    margin-right: auto;
+  }
+
+  .c-episode-preview__guests-detail {
+    order: 4;
+  }
+
+  .c-episode-preview__spoiler {
+    order: 3;
+
+    width: 100%;
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+
+  .c-episode-preview__scheduled-time {
+    margin-top: auto;
+  }
+}

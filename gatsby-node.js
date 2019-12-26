@@ -173,6 +173,12 @@ function createSchemaCustomization({ actions, schema }) {
           dateformat: {},
         },
       },
+      isPublished: {
+        type: 'Boolean!',
+        resolve(source) {
+          return new Date() > new Date(source.fields.scheduledAt)
+        },
+      },
       cover: {
         type: 'File!',
         extensions: {

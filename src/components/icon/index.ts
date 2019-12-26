@@ -1,7 +1,7 @@
-import * as Caret from './caret'
-import * as Link from './link'
-import * as Telegram from './telegram'
-import * as View from './view'
+import * as caret from './caret'
+import * as link from './link'
+import * as telegram from './telegram'
+import * as view from './view'
 import { defineDisplayName } from '../../utils'
 import { ReactComponent as check } from '../../assets/icons/check.svg'
 import { ReactComponent as close } from '../../assets/icons/close.svg'
@@ -46,16 +46,16 @@ defineDisplayName('Icon', {
   virgool,
   youtube,
 })
-defineDisplayName('Icon.Caret', Caret)
-defineDisplayName('Icon.Link', Link)
-defineDisplayName('Icon.Telegram', Telegram)
-defineDisplayName('Icon.View', View)
+defineDisplayName('Icon.caret', caret)
+defineDisplayName('Icon.link', link)
+defineDisplayName('Icon.telegram', telegram)
+defineDisplayName('Icon.view', view)
 
 export {
-  Caret,
-  Link,
-  Telegram,
-  View,
+  caret,
+  link,
+  telegram,
+  view,
   check,
   close,
   email,

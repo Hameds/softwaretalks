@@ -11,6 +11,7 @@ import * as Header from './header'
 import * as Page from './page'
 import * as Home from './home'
 import * as Icon from './icon'
+import * as Section from './section'
 
 export {
   Preview,
@@ -25,5 +26,6 @@ export {
   Header,
   Page,
   Home,
-  Icon
+  Icon,
+  Section,
 }

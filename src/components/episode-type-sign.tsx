@@ -6,7 +6,7 @@ import { defineDisplayName } from '../utils'
 type Props = { type: Episode.Type } | { label: string }
 
 export const classNames = {
-  block: 'c-episode-sign',
+  block: 'c-episode-type-sign',
 }
 
 export const typeToLabelMap = {

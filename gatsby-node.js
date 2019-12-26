@@ -1,5 +1,72 @@
-const utils = require('./scripts/utils')
 const moment = require('moment-jalaali')
+const { attachFields } = require('gatsby-plugin-node-fields')
+
+const utils = require('./scripts/utils')
+
+function isGuestYAMLNode(node) {
+  return node.internal.type === 'GuestYAML'
+}
+
+function isEpisodeYAMLNode(node) {
+  return node.internal.type === 'EpisodeYAML'
+}
+
+const descriptor = [
+  {
+    predicate: isGuestYAMLNode,
+    fields: [
+      {
+        name: 'slug',
+        getter(node, _context, _actions, getNode) {
+          const file = getNode(node.parent)
+
+          return utils.getGuestSlugFromFile(file)
+        },
+      },
+    ],
+  },
+  {
+    predicate: isEpisodeYAMLNode,
+    fields: [
+      {
+        name: 'slug',
+        getter(node, _context, _actions, getNode) {
+          const file = getNode(node.parent)
+
+          return utils.getEpisodeSlugFromFile(file)
+        },
+      },
+      {
+        name: 'type',
+        getter(node, _context, _actions, getNode) {
+          const file = getNode(node.parent)
+
+          return utils.getEpisodeTypeFromFile(file)
+        },
+      },
+      {
+        name: 'season',
+        getter(node, _context, _actions, getNode) {
+          const file = getNode(node.parent)
+
+          return utils.getEpisodeSeasonFromFile(file)
+        },
+      },
+      {
+        name: 'scheduledAt',
+        getter(node, _context, _actions, getNode) {
+          return moment(node.scheduled_at, 'jYYYY/jM/jD HH:mm')
+            .utc()
+            .format('YYYY-MM-DDTHH:mm:ssZ')
+        },
+      },
+    ],
+  },
+]
+
+function onCreateNode({ node, actions, getNode }) {
+  attachFields(node, actions, getNode, descriptor)
+}
 
 function createSchemaCustomization({ actions, schema }) {
   // GuestYAML
@@ -37,13 +104,8 @@ function createSchemaCustomization({ actions, schema }) {
       },
       slug: {
         type: 'String!',
-        resolve(source, _args, context) {
-          const file = context.nodeModel.getNodeById({
-            id: source.parent,
-            type: 'File',
-          })
-
-          return utils.getGuestSlugFromFile(file)
+        resolve(source) {
+          return source.fields.slug
         },
       },
       socialLinks: {
@@ -57,16 +119,9 @@ function createSchemaCustomization({ actions, schema }) {
         resolve(source, _args, context) {
           return context.nodeModel
             .getAllNodes({ type: 'EpisodeYAML' })
-            .filter(episodeYAML => {
-              const file = context.nodeModel.getNodeById({
-                id: source.parent,
-                type: 'File',
-              })
-
-              return episodeYAML.guests.includes(
-                utils.getGuestSlugFromFile(file)
-              )
-            })
+            .filter(episodeYAML =>
+              episodeYAML.guests.includes(source.fields.slug)
+            )
         },
       },
     },
@@ -93,43 +148,26 @@ function createSchemaCustomization({ actions, schema }) {
       spoiler: 'String!',
       type: {
         type: 'EpisodeYAMLType!',
-        resolve(source, _args, context) {
-          const file = context.nodeModel.getNodeById({
-            id: source.parent,
-            type: 'File',
-          })
-
-          return utils.getEpisodeTypeFromFile(file)
+        resolve(source) {
+          return source.fields.type
         },
       },
       season: {
         type: 'Int',
-        resolve(source, _args, context) {
-          const file = context.nodeModel.getNodeById({
-            id: source.parent,
-            type: 'File',
-          })
-
-          return utils.getEpisodeSeasonFromFile(file)
+        resolve(source) {
+          return source.fields.season
         },
       },
       slug: {
         type: 'String!',
-        resolve(source, _args, context) {
-          const file = context.nodeModel.getNodeById({
-            id: source.parent,
-            type: 'File',
-          })
-
-          return utils.getEpisodeSlugFromFile(file)
+        resolve(source) {
+          return source.fields.slug
         },
       },
       scheduledAt: {
         type: 'Date!',
         resolve(source) {
-          return moment(source.scheduled_at, 'jYYYY/jM/jD HH:mm')
-            .utc()
-            .format('YYYY-MM-DDTHH:mm:ssZ')
+          return source.fields.scheduledAt
         },
         extensions: {
           dateformat: {},
@@ -146,14 +184,7 @@ function createSchemaCustomization({ actions, schema }) {
         resolve(source, _args, context) {
           return context.nodeModel
             .getAllNodes({ type: 'GuestYAML' })
-            .filter(guestYAML => {
-              const file = context.nodeModel.getNodeById({
-                id: guestYAML.parent,
-                type: 'File',
-              })
-
-              return source.guests.includes(utils.getGuestSlugFromFile(file))
-            })
+            .filter(guestYAML => source.guests.includes(guestYAML.fields.slug))
         },
       },
       references: 'EpisodeYAMLReferences',
@@ -237,4 +268,4 @@ function createSchemaCustomization({ actions, schema }) {
   ])
 }
 
-module.exports = { createSchemaCustomization }
+module.exports = { onCreateNode, createSchemaCustomization }

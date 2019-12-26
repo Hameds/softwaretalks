@@ -42,6 +42,7 @@ module.exports = {
         path: utils.root('src/data'),
       },
     },
+    'gatsby-plugin-node-fields',
     {
       resolve: 'gatsby-transformer-yaml',
       options: {

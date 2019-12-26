@@ -36,7 +36,7 @@ $variants: (
 
   .c-logo--#{$name}.-inverse {
     .c-logo__frame {
-      fill: $foreground;
+      fill: transparent;
       stroke: $background;
     }
 

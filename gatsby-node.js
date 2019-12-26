@@ -35,6 +35,17 @@ function createSchemaCustomization({ actions, schema }) {
           fileByRelativePath: {},
         },
       },
+      slug: {
+        type: 'String!',
+        resolve(source, _args, context) {
+          const file = context.nodeModel.getNodeById({
+            id: source.parent,
+            type: 'File',
+          })
+
+          return utils.getGuestSlugFromFile(file)
+        },
+      },
       socialLinks: {
         type: 'GuestYAMLSocialLinks',
         resolve(source) {
@@ -44,16 +55,18 @@ function createSchemaCustomization({ actions, schema }) {
       episodes: {
         type: '[EpisodeYAML!]!',
         resolve(source, _args, context) {
-          const file = context.nodeModel.getNodeById({
-            id: source.parent,
-            type: 'File',
-          })
-
-          const id = utils.getGuestIdFromFile(file)
-
           return context.nodeModel
             .getAllNodes({ type: 'EpisodeYAML' })
-            .filter(episodeYAML => episodeYAML.guests.includes(id))
+            .filter(episodeYAML => {
+              const file = context.nodeModel.getNodeById({
+                id: source.parent,
+                type: 'File',
+              })
+
+              return episodeYAML.guests.includes(
+                utils.getGuestSlugFromFile(file)
+              )
+            })
         },
       },
     },
@@ -100,6 +113,17 @@ function createSchemaCustomization({ actions, schema }) {
           return utils.getEpisodeSeasonFromFile(file)
         },
       },
+      slug: {
+        type: 'String!',
+        resolve(source, _args, context) {
+          const file = context.nodeModel.getNodeById({
+            id: source.parent,
+            type: 'File',
+          })
+
+          return utils.getEpisodeSlugFromFile(file)
+        },
+      },
       scheduledAt: {
         type: 'Date!',
         resolve(source) {
@@ -128,7 +152,7 @@ function createSchemaCustomization({ actions, schema }) {
                 type: 'File',
               })
 
-              return source.guests.includes(file.relativePath.split('/')[1])
+              return source.guests.includes(utils.getGuestSlugFromFile(file))
             })
         },
       },

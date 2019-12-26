@@ -131,8 +131,14 @@ function getYAMLDataTypeFromFile(file) {
   return file.relativePath.split('/')[0]
 }
 
-function getGuestIdFromFile(file) {
+function getGuestSlugFromFile(file) {
   return file.relativePath.split('/')[1]
+}
+
+function getEpisodeSlugFromFile(file) {
+  const directoryIndex = getEpisodeTypeFromFile(file) === 0 ? 2 : 3
+
+  return file.relativePath.split('/')[directoryIndex]
 }
 
 function getEpisodeTypeFromFile(file) {
@@ -163,7 +169,8 @@ module.exports = {
   root,
   customFontFoundries,
   getYAMLDataTypeFromFile,
-  getGuestIdFromFile,
+  getGuestSlugFromFile,
+  getEpisodeSlugFromFile,
   getEpisodeTypeFromFile,
   getEpisodeSeasonFromFile,
 }

@@ -158,6 +158,28 @@ function createSchemaCustomization({ actions, schema }) {
           return source.fields.season
         },
       },
+      episode: {
+        type: 'Int!',
+        resolve(source, _args, context) {
+          const index = context.nodeModel
+            .getAllNodes({ type: 'EpisodeYAML' })
+            .filter(
+              episodeYAML =>
+                episodeYAML.fields.type === source.fields.type &&
+                episodeYAML.fields.season === source.fields.season
+            )
+            .sort(
+              (a, b) =>
+                new Date(a.fields.scheduledAt).getTime() -
+                new Date(b.fields.scheduledAt).getTime()
+            )
+            .findIndex(
+              episodeYAML => episodeYAML.fields.slug === source.fields.slug
+            )
+
+          return index + 1
+        },
+      },
       slug: {
         type: 'String!',
         resolve(source) {

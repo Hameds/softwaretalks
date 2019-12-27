@@ -221,8 +221,8 @@ function createSchemaCustomization({ actions, schema }) {
   const episodeYAMLTypeEnumDef = schema.buildEnumType({
     name: 'EpisodeYAMLType',
     values: {
-      LIVE: { value: 0 },
-      MEETUP: { value: 1 },
+      Live: { value: 0 },
+      Meetup: { value: 1 },
     },
   })
   const episodeYAMLReferencesTypeDef = schema.buildObjectType({

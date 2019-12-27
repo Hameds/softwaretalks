@@ -41,7 +41,7 @@ type Props = {
   cover: GatsbyImageProps['fluid']
   type: Episode.Type
   title: string
-  season: string
+  season?: string | null
   episode: number
   scheduledAt: Date
   guests: string[]
@@ -75,7 +75,10 @@ export function component({
             {title}
           </Heading.H5>
           <EpisodeDetail.component
-            name={`فصل ${season} ∙ اپیزود ${episode.toLocaleString('fa-IR')}`}
+            name={[
+              season && `فصل ${season}`,
+              `اپیزود ${episode.toLocaleString('fa-IR')}`,
+            ]}
             value={scheduledAt.toLocaleDateString('fa-IR', {
               year: 'numeric',
               month: 'long',
@@ -89,7 +92,7 @@ export function component({
           />
           <EpisodeDetail.component
             name={'مهمانان'}
-            value={guests.join(' ∙ ')}
+            value={guests}
             className={{ block: classNames.elements.guestsDetail }}
           />
           <Paragraph.component className={classNames.elements.spoiler}>

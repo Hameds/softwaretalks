@@ -2,7 +2,7 @@ import React from 'react'
 import cc from 'classcat'
 import { Link as GatsbyLink, GatsbyLinkProps } from 'gatsby'
 
-import { RouterState, defineDisplayName } from '~/utils'
+import { defineDisplayName } from '~/utils'
 
 type OwnInternalProps = {
   className: {
@@ -11,10 +11,7 @@ type OwnInternalProps = {
   }
 }
 
-export type Props = Omit<
-  GatsbyLinkProps<RouterState>,
-  'className' | 'innerRef'
-> &
+export type Props = Omit<GatsbyLinkProps<any>, 'className' | 'innerRef'> &
   OwnInternalProps
 
 const classNames = {

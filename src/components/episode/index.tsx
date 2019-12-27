@@ -1,8 +1,8 @@
 import * as Preview from './preview'
 
 export enum Type {
-  Live,
-  Meetup,
+  Live = 'Live',
+  Meetup = 'Meetup',
 }
 
 export { Preview }

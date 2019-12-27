@@ -158,6 +158,15 @@ function createSchemaCustomization({ actions, schema }) {
           return source.fields.season
         },
       },
+      seasonPersianOrdinal: {
+        type: 'String',
+        resolve(source) {
+          return (
+            source.fields.season &&
+            utils.numberToPersianOrdinal(source.fields.season.toString())
+          )
+        },
+      },
       episode: {
         type: 'Int!',
         resolve(source, _args, context) {

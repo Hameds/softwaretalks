@@ -1,4 +1,7 @@
+require = require('esm')(module)
+
 const path = require('path')
+const numberToPersianCardinal = require('num2persian').default
 
 const customFontFoundries = {
   'Iran Yekan': {
@@ -165,6 +168,19 @@ function getEpisodeSeasonFromFile(file) {
   )
 }
 
+function mapPersianCardinalToOrdinal(word) {
+  return word === 'سه' ? 'سوم' : word + 'م'
+}
+
+function numberToPersianOrdinal(number) {
+  const cardinal = numberToPersianCardinal(number)
+  const words = cardinal.split(/\s+/i)
+
+  words.push(mapPersianCardinalToOrdinal(words.pop()))
+
+  return words.join(' ')
+}
+
 module.exports = {
   root,
   customFontFoundries,
@@ -173,4 +189,5 @@ module.exports = {
   getEpisodeSlugFromFile,
   getEpisodeTypeFromFile,
   getEpisodeSeasonFromFile,
+  numberToPersianOrdinal,
 }

@@ -55,10 +55,10 @@ const descriptor = [
       },
       {
         name: 'scheduledAt',
-        getter(node, _context, _actions, getNode) {
+        getter(node, _context, _actions) {
           return moment(node.scheduled_at, 'jYYYY/jM/jD HH:mm')
             .utc()
-            .format('YYYY-MM-DDTHH:mm:ssZ')
+            .toISOString()
         },
       },
     ],

@@ -42,6 +42,12 @@ module.exports = {
         path: utils.root('src/data'),
       },
     },
+    {
+      resolve: 'gatsby-plugin-graphql-codegen',
+      options: {
+        fileName: 'types/generated/graphql.d.ts',
+      },
+    },
     'gatsby-plugin-node-fields',
     {
       resolve: 'gatsby-transformer-yaml',

@@ -14,6 +14,10 @@
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
     "resolveJsonModule": true,
-    "rootDirs": ["src", "stories", "types"]
+    "rootDirs": ["src", "stories", "types"],
+    "baseUrl": "./src",
+    "paths": {
+      "~/*": ["./*"]
+    }
   }
 }

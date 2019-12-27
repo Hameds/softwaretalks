@@ -1,7 +1,7 @@
 import React from 'react'
 import cc from 'classcat'
 
-import { intersperse, defineDisplayName } from '../utils'
+import { intersperse, defineDisplayName } from '~/utils'
 
 type Props = React.PropsWithChildren<{}>
 

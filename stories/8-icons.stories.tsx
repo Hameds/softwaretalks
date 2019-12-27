@@ -3,7 +3,7 @@ import isPlainObject from 'is-plain-object'
 import { storiesOf } from '@storybook/react'
 
 import { backgrounds } from './utils'
-import * as Icon from '../src/components/icon'
+import * as Icon from '~/components/icon'
 
 storiesOf('Icons', module).add('Default', story, {
   backgrounds: [{ ...backgrounds.gray1, default: true }],

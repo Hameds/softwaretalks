@@ -2,7 +2,7 @@ import React from 'react'
 import { storiesOf } from '@storybook/react'
 
 import { backgrounds } from './utils'
-import * as Header from '../src/components/header'
+import * as Header from '~/components/header'
 
 storiesOf('Header', module)
   .add('Primary', primary, {

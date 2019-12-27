@@ -1,11 +1,11 @@
 import React from 'react'
 import cc from 'classcat'
 
-import * as Logo from './logo'
-import * as Navigation from './navigation'
-import * as Button from './button'
-import * as Icon from './icon'
-import { defineDisplayName } from '../utils'
+import * as Logo from '~/components/logo'
+import * as Navigation from '~/components/navigation'
+import * as Button from '~/components/button'
+import * as Icon from '~/components/icon'
+import { defineDisplayName } from '~/utils'
 
 export enum Variant {
   Primary,

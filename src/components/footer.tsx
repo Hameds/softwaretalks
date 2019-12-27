@@ -1,10 +1,10 @@
 import React from 'react'
 import cc from 'classcat'
+import * as Logo from '~/components/logo'
+import * as Paragraph from '~/components/paragraph'
+import { defineDisplayName } from '~/utils'
 
 import pkg from '../../package.json'
-import * as Logo from './logo'
-import * as Paragraph from './paragraph'
-import { defineDisplayName } from '../utils'
 
 const classNames = {
   block: 'c-footer',

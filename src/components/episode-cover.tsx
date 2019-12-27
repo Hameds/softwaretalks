@@ -2,7 +2,7 @@ import React from 'react'
 import Image, { GatsbyImageProps } from 'gatsby-image'
 import cc from 'classcat'
 
-import * as Icon from './icon'
+import * as Icon from '~/components/icon'
 
 const classNames = {
   block: 'c-episode-cover',

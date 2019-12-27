@@ -14,6 +14,6 @@ export function defineDisplayName(
 
 export type RouterState = undefined
 
-export const navigate = <
-  (to: string, options?: NavigateOptions<RouterState>) => void
->gatsbyNavigate
+// export const navigate = <
+//   (to: string, options?: NavigateOptions<RouterState>) => void
+// >gatsbyNavigate

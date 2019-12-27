@@ -1,8 +1,8 @@
 import React from 'react'
 
-import * as Section from '../section'
-import * as Episode from '../episode'
-import { useLastPublishedEpisode } from '../../hooks'
+import * as Section from '~/components/section'
+import * as Episode from '~/components/episode'
+import { useLastPublishedEpisode } from '~/hooks'
 
 export function component() {
   const lastPublishedEpisode = useLastPublishedEpisode()

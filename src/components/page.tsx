@@ -5,9 +5,9 @@ import * as Header from './header'
 import * as Squares from './squares'
 import * as Footer from './footer'
 import { Variant } from './header'
-import { defineDisplayName } from '../utils'
+import { defineDisplayName } from '~/utils'
 
-import '../scss/main.scss'
+import '~/scss/main.scss'
 
 export { Variant } from './header'
 

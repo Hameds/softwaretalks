@@ -1,7 +1,7 @@
 import React from 'react'
 
-import * as Heading from '../heading'
-import thoughtBubbleUrl from '../../assets/images/thought-bubble.svg'
+import * as Heading from '~/components/heading'
+import thoughtBubbleUrl from '~/assets/images/thought-bubble.svg'
 
 const classNames = {
   block: 'c-hero',

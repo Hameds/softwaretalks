@@ -1,8 +1,8 @@
 import React from 'react'
 import { storiesOf } from '@storybook/react'
 
-import * as Heading from '../src/components/heading'
-import * as Paragraph from '../src/components/paragraph'
+import * as Heading from '~/components/heading'
+import * as Paragraph from '~/components/paragraph'
 
 storiesOf('Typography', module)
   .add('Heading', heading)

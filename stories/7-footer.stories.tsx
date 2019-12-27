@@ -1,7 +1,7 @@
 import React from 'react'
 import { storiesOf } from '@storybook/react'
 
-import * as Footer from '../src/components/footer'
+import * as Footer from '~/components/footer'
 
 storiesOf('Footer', module).add('Default', story)
 

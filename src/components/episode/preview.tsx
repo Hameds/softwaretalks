@@ -1,14 +1,14 @@
 import React from 'react'
 import { GatsbyImageProps } from 'gatsby-image'
 
-import * as Episode from '../episode'
-import * as EpisodeCover from '../episode-cover'
-import * as EpisodeTypeSign from '../episode-type-sign'
-import * as EpisodeDetail from '../episode-detail'
-import * as Heading from '../heading'
-import * as Paragraph from '../paragraph'
-import * as Icon from '../icon'
-import { defineDisplayName } from '../../utils'
+import * as Episode from '~/components/episode'
+import * as EpisodeCover from '~/components/episode-cover'
+import * as EpisodeTypeSign from '~/components/episode-type-sign'
+import * as EpisodeDetail from '~/components/episode-detail'
+import * as Heading from '~/components/heading'
+import * as Paragraph from '~/components/paragraph'
+import * as Icon from '~/components/icon'
+import { defineDisplayName } from '~/utils'
 
 export enum Variant {
   Vertical,

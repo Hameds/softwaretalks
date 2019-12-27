@@ -1,7 +1,7 @@
 import React from 'react'
 import cc from 'classcat'
 
-import * as Heading from './heading'
+import * as Heading from '~/components/heading'
 
 const classNames = {
   elements: {

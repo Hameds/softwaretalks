@@ -2,7 +2,7 @@ import React from 'react'
 import { storiesOf } from '@storybook/react'
 
 import { backgrounds } from './utils'
-import * as Navigation from '../src/components/navigation'
+import * as Navigation from '~/components/navigation'
 
 storiesOf('Navigation', module)
   .add('Black', black)

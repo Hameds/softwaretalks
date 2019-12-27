@@ -2,7 +2,7 @@ import React from 'react'
 import cc from 'classcat'
 
 import * as Link from './link'
-import { intersperse, defineDisplayName } from '../utils'
+import { intersperse, defineDisplayName } from '~/utils'
 
 export enum Variant {
   Black,

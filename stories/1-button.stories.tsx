@@ -2,8 +2,8 @@ import React from 'react'
 import { action } from '@storybook/addon-actions'
 import { storiesOf } from '@storybook/react'
 
-import * as Preview from '../src/components/preview'
-import * as Button from '../src/components/button'
+import * as Preview from '~/components/preview'
+import * as Button from '~/components/button'
 
 storiesOf('Button', module)
   .add('Ordinary', ordinary)

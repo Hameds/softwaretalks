@@ -1,7 +1,7 @@
 import React from 'react'
 import cc from 'classcat'
 
-import { defineDisplayName } from '../utils'
+import { defineDisplayName } from '~/utils'
 
 type Props = JSX.IntrinsicElements['p']
 

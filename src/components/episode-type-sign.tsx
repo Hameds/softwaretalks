@@ -2,7 +2,7 @@ import React from 'react'
 import cc from 'classcat'
 
 import * as Episode from './episode'
-import { defineDisplayName } from '../utils'
+import { defineDisplayName } from '~/utils'
 
 type Props =
   | { type: Episode.Type; className?: string }

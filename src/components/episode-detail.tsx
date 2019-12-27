@@ -2,7 +2,7 @@ import React from 'react'
 import cc from 'classcat'
 
 import * as Heading from './heading'
-import { castArray, isString } from '../utils'
+import { castArray, isString } from '~/utils'
 
 const classNames = {
   block: 'c-episode-detail',

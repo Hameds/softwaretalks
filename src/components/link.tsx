@@ -2,7 +2,7 @@ import React from 'react'
 import cc from 'classcat'
 import { Link as GatsbyLink, GatsbyLinkProps } from 'gatsby'
 
-import { RouterState, defineDisplayName } from '../utils'
+import { RouterState, defineDisplayName } from '~/utils'
 
 type OwnInternalProps = {
   className: {

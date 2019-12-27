@@ -1,4 +1,5 @@
 const moment = require('moment-jalaali')
+const TsconfigPathsPlugin = require('tsconfig-paths-webpack-plugin')
 const { attachFields } = require('gatsby-plugin-node-fields')
 
 const utils = require('./scripts/utils')
@@ -305,4 +306,16 @@ function createSchemaCustomization({ actions, schema }) {
   ])
 }
 
-module.exports = { onCreateNode, createSchemaCustomization }
+function onCreateWebpackConfig({ actions }) {
+  actions.setWebpackConfig({
+    resolve: {
+      plugins: [new TsconfigPathsPlugin()],
+    },
+  })
+}
+
+module.exports = {
+  onCreateNode,
+  createSchemaCustomization,
+  onCreateWebpackConfig,
+}

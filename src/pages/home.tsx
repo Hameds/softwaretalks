@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { Page, Home } from '../components'
+import { Page, Home } from '~/components'
 
 function component() {
   return (

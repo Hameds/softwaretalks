@@ -55,7 +55,7 @@ export function component({ variant, youtubeSocialLink }: Props) {
           target="_blank"
         >
           کانال یوتیوب
-          <Icon.Link.external />
+          <Icon.Link.external size={Icon.Size.S17} />
         </Button.cta>
       </div>
     </header>

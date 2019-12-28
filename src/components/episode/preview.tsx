@@ -104,7 +104,10 @@ export function component({
             hour: '2-digit',
             minute: '2-digit',
           })}
-          <Icon.time className={classNames.elements.scheduledTimeIcon} />
+          <Icon.time
+            size={Icon.Size.S24}
+            className={classNames.elements.scheduledTimeIcon}
+          />
         </div>
       </div>
     </div>

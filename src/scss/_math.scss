@@ -56,3 +56,19 @@ $_eases: (
 
   @error "Unknown key '#{$key}' in $_eases map.";
 }
+
+/// Remove the unit of a length
+///
+/// @group Math
+/// @author Mohammad Hasani
+/// @link https://css-tricks.com/snippets/sass/strip-unit-function/
+///
+/// @parameter {Number} $number - Number to remove unit from
+/// @return {Number} - Unitless number
+@function strip-unit($number) {
+  @if type-of($number) == 'number' and not unitless($number) {
+    @return $number / ($number * 0 + 1);
+  }
+
+  @return $number;
+}

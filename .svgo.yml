@@ -1,3 +1,0 @@
-plugins:
-  - addClassesToSVGElement:
-      className: "c-icon"

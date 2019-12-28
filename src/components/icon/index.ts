@@ -24,6 +24,17 @@ import { ReactComponent as twitter } from '~/assets/icons/twitter.svg'
 import { ReactComponent as virgool } from '~/assets/icons/virgool.svg'
 import { ReactComponent as youtube } from '~/assets/icons/youtube.svg'
 
+export enum Size {
+  S10 = '10',
+  S14 = '14',
+  S17 = '17',
+  S24 = '24',
+  S32 = '32',
+  S40 = '40',
+  S48 = '48',
+  S56 = '56',
+}
+
 defineDisplayName('Icon', {
   check,
   close,

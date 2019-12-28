@@ -52,6 +52,26 @@ $font-families: (
   @return #{$target / $base}em;
 }
 
+/// Convert other units to REM unit
+///
+/// @group Typography
+/// @author Mohammad Hasani
+///
+/// @parameter {Number} $target - The target value
+/// @parameter {Number} $base [$base-font-size] - The base value
+/// @return {Number} The converted value to REM unit
+@function rem($target, $base: $base-font-size) {
+  @if (math.is-unitless($target)) {
+    $target: $target * 1px;
+  }
+
+  @if (math.is-unitless($base)) {
+    $base: $base * 1px;
+  }
+
+  @return #{$target / $base}rem;
+}
+
 /// Get rid of pesky space above and below a block of text due to line height
 ///
 /// @group Typography

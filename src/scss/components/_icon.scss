@@ -1,0 +1,15 @@
+@use "sass:list";
+@use "sass:map";
+@use "math";
+@use "typography";
+
+$sizes: list.append(
+  map.values(typography.$text-scale-steps),
+  typography.$base-font-size
+);
+
+@each $size in $sizes {
+  .c-icon.-size-#{math.strip-unit($size)} {
+    font-size: typography.rem($size);
+  }
+}

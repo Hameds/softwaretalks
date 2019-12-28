@@ -1,0 +1,28 @@
+@use "colour";
+
+.c-more-episodes {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.c-more-episodes__headline {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-bottom: 40px;
+
+  color: colour.get(gray-7);
+}
+
+.c-more-episodes__episodes-link {
+  color: colour.get(primary);
+  text-decoration: none;
+}
+
+.c-more-episodes__content {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px 40px;
+}

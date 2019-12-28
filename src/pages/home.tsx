@@ -7,6 +7,7 @@ function component() {
     <Page.primary>
       <Home.hero />
       <Home.lastPublishedEpisode />
+      <Home.moreEpisodes />
     </Page.primary>
   )
 }

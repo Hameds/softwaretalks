@@ -1,9 +1,9 @@
 import { graphql, useStaticQuery } from 'gatsby'
 import { GatsbyImageProps } from 'gatsby-image'
 
-import { Episode } from './components'
+import { Episode } from '~/components'
 
-import { LastPublishedEpisodeQuery } from '../types/generated/graphql'
+import { LastPublishedEpisodeQuery } from '../../types/generated/graphql'
 
 const lastPublishedEpisodeQuery = graphql`
   query LastPublishedEpisode {

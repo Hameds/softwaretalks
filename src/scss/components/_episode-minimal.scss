@@ -1,0 +1,17 @@
+@use "typography";
+
+.c-episode-minimal {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.c-episode-minimal__cover-icon {
+  font-size: typography.em(24px);
+}
+
+.c-episode-minimal__title {
+  text-align: center;
+
+  margin-top: 8px;
+}

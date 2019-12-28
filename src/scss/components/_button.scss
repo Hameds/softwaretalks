@@ -43,6 +43,10 @@
   margin-right: 8px;
 }
 
+.c-button__triangle {
+  transform: scaleX(-1);
+}
+
 /// Ordinary button component
 ///
 /// @group Components

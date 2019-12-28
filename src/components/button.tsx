@@ -37,6 +37,7 @@ export const classNames = {
   },
   elements: {
     label: 'c-button__label',
+    triangle: 'c-button__triangle',
   },
   modifiers: {
     color: {
@@ -47,6 +48,8 @@ export const classNames = {
     block: '-width-full',
   },
 }
+
+const triangle = <span className={classNames.elements.triangle}>▸</span>
 
 export function component<TTagName extends TagName = 'button'>({
   variant,
@@ -73,7 +76,7 @@ export function component<TTagName extends TagName = 'button'>({
       ) : (
         child
       )
-    ),
+    ).concat([variant === Variant.Link && triangle]),
   })
 }
 component.defaultProps = {

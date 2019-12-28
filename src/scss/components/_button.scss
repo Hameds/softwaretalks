@@ -19,6 +19,7 @@
   font-weight: 700;
   line-height: math.ratio(phi);
   text-decoration: none;
+  white-space: nowrap;
 
   transition: all 0.3s math.ease() 0s;
 
@@ -260,8 +261,8 @@
 
   padding: 8px;
 
-  &.-color-black {
-    color: colour.get(black);
+  &.-color-dark {
+    color: colour.get(dark);
 
     &:hover {
       color: colour.get(primary);

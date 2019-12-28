@@ -14,7 +14,7 @@ export enum Variant {
 export enum Color {
   Primary,
   White,
-  Black,
+  Dark,
 }
 
 export type TagName = 'button' | 'a'
@@ -42,7 +42,7 @@ export const classNames = {
     color: {
       [Color.Primary]: '-color-primary',
       [Color.White]: '-color-white',
-      [Color.Black]: '-color-black',
+      [Color.Dark]: '-color-dark',
     },
     block: '-width-full',
   },

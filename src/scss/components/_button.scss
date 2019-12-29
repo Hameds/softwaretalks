@@ -36,6 +36,10 @@
   .c-icon {
     margin-left: 8px;
   }
+
+  .c-icon:only-child {
+    margin: 0;
+  }
 }
 
 .c-button__label + .c-icon {

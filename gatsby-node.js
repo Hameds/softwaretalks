@@ -70,6 +70,40 @@ function onCreateNode({ node, actions, getNode }) {
 }
 
 function createSchemaCustomization({ actions, schema }) {
+  // Site
+  const siteTypeDef = schema.buildObjectType({
+    name: 'Site',
+    interfaces: ['Node'],
+    extensions: {
+      infer: true,
+    },
+    fields: {
+      siteMetadata: 'SiteSiteMetadata!',
+    },
+  })
+  // SiteSiteMetadata
+  const siteSiteMetadataTypeDef = schema.buildObjectType({
+    name: 'SiteSiteMetadata',
+    extensions: {
+      infer: true,
+    },
+    fields: {
+      licenseSpecLink: 'String!',
+      platforms: 'SiteSiteMetadataPlatforms!',
+    },
+  })
+  // SiteSiteMetadataPlatforms
+  const siteSiteMetadataPlatformsTypeDef = schema.buildObjectType({
+    name: 'SiteSiteMetadataPlatforms',
+    extensions: {
+      infer: true,
+    },
+    fields: {
+      youtube: 'String!',
+      hazy: 'String!',
+    },
+  })
+
   // GuestYAML
   const guestYAMLTypeDef = schema.buildObjectType({
     name: 'GuestYAML',
@@ -305,6 +339,8 @@ function createSchemaCustomization({ actions, schema }) {
   })
 
   actions.createTypes([
+    siteSiteMetadataTypeDef,
+    siteSiteMetadataPlatformsTypeDef,
     guestYAMLTypeDef,
     guestYAMLSocialLinksTypeDef,
     episodeYAMLTypeDef,

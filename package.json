@@ -85,9 +85,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/softwaretalks/softwaretalks.ir"
+    "url": "https://github.com/softwaretalks/softwaretalks"
   },
   "bugs": {
-    "url": "https://github.com/softwaretalks/softwaretalks.ir/issues"
+    "url": "https://github.com/softwaretalks/softwaretalks/issues"
   }
 }

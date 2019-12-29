@@ -40,6 +40,7 @@ module.exports = {
       options: {
         name: 'data',
         path: utils.root('src/data'),
+        ignore: ['**/.*'],
       },
     },
     {

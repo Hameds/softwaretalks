@@ -201,9 +201,12 @@ function createSchemaCustomization({ actions, schema }) {
         resolve(source) {
           return source.fields.scheduledAt
         },
-        extensions: {
-          dateformat: {},
-        },
+        // There is an issue with sorting based on custom fields
+        // which are using dateformat extension.
+        // https://github.com/gatsbyjs/gatsby/issues/20328
+        // extensions: {
+        //   dateformat: {},
+        // },
       },
       isPublished: {
         type: 'Boolean!',

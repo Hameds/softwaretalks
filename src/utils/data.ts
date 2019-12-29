@@ -11,3 +11,7 @@ export function castArray<T>(value: T | T[]): T[] {
 export function isString(value: unknown): value is string {
   return typeof value === 'string'
 }
+
+export function isNil(value: unknown): value is null | undefined {
+  return value === undefined || value === null
+}

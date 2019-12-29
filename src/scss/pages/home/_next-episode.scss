@@ -1,0 +1,75 @@
+@use "colour";
+
+.c-next-episode {
+  display: flex;
+  align-items: center;
+
+  margin-top: 84px;
+}
+
+.c-next-episode__cover {
+  flex-grow: 1;
+}
+
+.c-next-episode__content {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  flex-shrink: 0;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 32px;
+
+  box-sizing: border-box;
+  width: 552px;
+  min-height: 552px;
+  padding: 54px 92px;
+  margin-right: -72px;
+
+  background-color: colour.get(white);
+  color: colour.get(dark);
+}
+
+.c-next-episode__type-sign {
+  justify-self: start;
+}
+
+.c-next-episode__share {
+  justify-self: end;
+}
+
+.c-next-episode__information {
+  justify-self: start;
+}
+
+.c-next-episode__information,
+.c-next-episode__promotion {
+  grid-column: 1 / span 2;
+}
+
+.c-next-episode__title {
+  margin-bottom: 24px;
+}
+
+.c-next-episode__promotion {
+  position: relative;
+
+  padding: 16px 34px 0;
+
+  color: colour.get(gray-5);
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 1px;
+
+    background-color: colour.get(gray-3);
+  }
+}
+
+.c-next-episode__promotion-icon {
+  color: colour.get(dark);
+}

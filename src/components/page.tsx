@@ -6,23 +6,11 @@ import * as Squares from './squares'
 import * as Footer from './footer'
 import { Variant } from './header'
 import { defineDisplayName } from '~/utils'
+import { useMetadata } from '~/hooks'
 
 import '~/scss/main.scss'
 
 export { Variant } from './header'
-
-const siteMetadataQuery = graphql`
-  query siteMetadataQuery {
-    site {
-      siteMetadata {
-        licenseSpecLink
-        socialLinks {
-          youtube
-        }
-      }
-    }
-  }
-`
 
 const classNames = {
   block: 'c-page',
@@ -37,17 +25,17 @@ type Props = {
 }
 
 export function component({ variant, children }: Props) {
-  const siteMetadata = useStaticQuery(siteMetadataQuery).site.siteMetadata
+  const metadata = useMetadata()
 
   return (
     <div className={classNames.block}>
       <Header.component
         variant={variant}
-        youtubeSocialLink={siteMetadata.socialLinks.youtube}
+        youtubeSocialLink={metadata.platforms.youtube}
       />
       {variant === Variant.Gray && <Squares.component />}
       <main className={classNames.elements.main}>{children}</main>
-      <Footer.component licenseSpecLink={siteMetadata.licenseSpecLink} />
+      <Footer.component licenseSpecLink={metadata.licenseSpecLink} />
     </div>
   )
 }

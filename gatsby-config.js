@@ -9,8 +9,9 @@ module.exports = {
     author:
       'Mohammad Hasani <thebrodmann@gmail.com> (https://github.com/thebrodmann)',
     licenseSpecLink: 'https://opensource.org/licenses/GPL-3.0',
-    socialLinks: {
+    platforms: {
       youtube: 'https://youtube.com/softwaretalks',
+      hazy: 'https://hazyapp.com/softwaretalks',
     },
   },
   plugins: [

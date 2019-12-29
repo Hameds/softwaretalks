@@ -228,6 +228,7 @@ function createSchemaCustomization({ actions, schema }) {
             .filter(guestYAML => source.guests.includes(guestYAML.fields.slug))
         },
       },
+      platforms: 'EpisodeYAMLPlatforms!',
       references: 'EpisodeYAMLReferences',
     },
   })
@@ -236,6 +237,13 @@ function createSchemaCustomization({ actions, schema }) {
     values: {
       Live: { value: 0 },
       Meetup: { value: 1 },
+    },
+  })
+  const episodeYAMLPlatformsTypeDef = schema.buildObjectType({
+    name: 'EpisodeYAMLPlatforms',
+    fields: {
+      aparat: 'String',
+      youtube: 'String!',
     },
   })
   const episodeYAMLReferencesTypeDef = schema.buildObjectType({
@@ -301,6 +309,7 @@ function createSchemaCustomization({ actions, schema }) {
     guestYAMLSocialLinksTypeDef,
     episodeYAMLTypeDef,
     episodeYAMLTypeEnumDef,
+    episodeYAMLPlatformsTypeDef,
     episodeYAMLReferencesTypeDef,
     episodeYAMLBookReferenceTypeDef,
     episodeYAMLVideoReferenceTypeDef,

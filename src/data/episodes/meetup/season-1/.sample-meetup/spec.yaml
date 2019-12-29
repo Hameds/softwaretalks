@@ -6,6 +6,9 @@ scheduled_at: 1398/10/4 10:30
 cover: ./cover.jpeg
 guests:
   - .sample-guest
+platforms:
+  aparat: l1jpg
+  youtube: qDXZJ1-0WH8
 references:
   books:
     - name: Sample Book

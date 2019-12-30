@@ -11,6 +11,8 @@ const metadataQuery = graphql`
         platforms {
           youtube
           hazy
+          telegram
+          email
         }
       }
     }

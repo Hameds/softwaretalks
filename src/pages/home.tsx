@@ -16,6 +16,7 @@ function component() {
       {!!lastContributedGuests.length && (
         <Home.lastContributedGuests guests={lastContributedGuests} />
       )}
+      <Home.callToContribution />
     </Page.primary>
   )
 }

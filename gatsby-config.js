@@ -12,6 +12,8 @@ module.exports = {
     platforms: {
       youtube: 'https://youtube.com/softwaretalks',
       hazy: 'https://hazyapp.com/softwaretalks',
+      telegram: 'https://t.me/softwaretalks',
+      email: 'mailto:info@softwaretalks.com',
     },
   },
   plugins: [

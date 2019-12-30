@@ -2,19 +2,19 @@
 
 .c-section {
   padding: 64px 0;
-}
 
-.c-section__container::after {
-  content: '';
-  position: absolute;
-  top: 100%;
-  left: 0;
-  transform: translateY(64px);
+  &:not(.-is-terminal) .c-section__container::after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    transform: translateY(64px);
 
-  width: 100%;
-  height: 1px;
+    width: 100%;
+    height: 1px;
 
-  background-color: colour.get(gray-3);
+    background-color: colour.get(gray-3);
+  }
 }
 
 .c-section__headline {

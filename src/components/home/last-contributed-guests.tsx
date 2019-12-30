@@ -18,7 +18,7 @@ type Props = {
 
 export function component({ guests }: Props) {
   return (
-    <Section.component>
+    <Section.component terminal>
       <div className={classNames.block}>
         <div className={classNames.elements.headline}>
           <Heading.H1 as="h2">

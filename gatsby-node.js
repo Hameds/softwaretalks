@@ -101,6 +101,8 @@ function createSchemaCustomization({ actions, schema }) {
     fields: {
       youtube: 'String!',
       hazy: 'String!',
+      telegram: 'String!',
+      email: 'String!',
     },
   })
 

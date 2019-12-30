@@ -180,3 +180,37 @@ $text-scale-up-modifier: 'up';
     @include rfs($font-size);
   }
 }
+
+$_font-weights: (
+  thin: 100,
+  extralight: 200,
+  light: 300,
+  regular: 400,
+  medium: 500,
+  semibold: 600,
+  bold: 700,
+  extrabold: 800,
+  black: 900,
+  extrablack: 950,
+);
+
+/// Specify font weight with name instead of numerical value
+///
+/// @group Typography
+/// @author Mohammad Hasani
+///
+/// @parameter {String} $key - A key of $_font-weights map
+/// @output Font weight with numerical value
+@mixin font-weight($name) {
+  @if map.has-key($_font-weights, $name) {
+    font-weight: map.get($_font-weights, $name);
+  }
+
+  @error "Unknown key '#{$name}' in $_font-weights map.";
+}
+
+@each $name, $value in $_font-weights {
+  .-weight-#{$name} {
+    font-weight: $value;
+  }
+}

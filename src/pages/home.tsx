@@ -1,10 +1,11 @@
 import React from 'react'
 
 import { Page, Home } from '~/components'
-import { useNextEpisode } from '~/hooks'
+import { useNextEpisode, useLastContributedGuests } from '~/hooks'
 
 function component() {
   const nextEpisode = useNextEpisode()
+  const lastContributedGuests = useLastContributedGuests()
 
   return (
     <Page.primary>
@@ -12,6 +13,9 @@ function component() {
       <Home.lastPublishedEpisode />
       <Home.moreEpisodes />
       {nextEpisode && <Home.nextEpisode {...nextEpisode} />}
+      {!!lastContributedGuests.length && (
+        <Home.lastContributedGuests guests={lastContributedGuests} />
+      )}
     </Page.primary>
   )
 }

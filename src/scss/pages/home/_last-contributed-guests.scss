@@ -1,0 +1,14 @@
+@use "layout";
+@use "colour";
+
+.c-last-contributed-guests {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px 20px;
+}
+
+.c-last-contributed-guests__headline {
+  grid-area: 1 / span 2;
+
+  padding-left: 64px;
+}

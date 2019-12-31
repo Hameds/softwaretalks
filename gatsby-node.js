@@ -103,6 +103,14 @@ function createSchemaCustomization({ actions, schema }) {
       hazy: 'String!',
       telegram: 'String!',
       email: 'String!',
+      twitch: 'String!',
+      overcast: 'String!',
+      spotify: 'String!',
+      podcast: 'String!',
+      github: 'String!',
+      virgool: 'String!',
+      twitter: 'String!',
+      instagram: 'String!',
     },
   })
 

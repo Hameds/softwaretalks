@@ -1,0 +1,31 @@
+@use "typography";
+@use "colour";
+
+.c-platform-category {
+  display: flex;
+  align-items: center;
+
+  margin-bottom: 40px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.c-platform-category__label {
+  @include typography.font-weight(bold);
+
+  margin-left: auto;
+}
+
+.c-platform-category__item {
+  font-size: typography.rem(40px);
+  margin-left: 64px;
+
+  text-decoration: none;
+  color: colour.get(dark);
+
+  &:last-child {
+    margin-left: 0;
+  }
+}

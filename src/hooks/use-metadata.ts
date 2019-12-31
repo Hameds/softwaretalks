@@ -13,6 +13,14 @@ const metadataQuery = graphql`
           hazy
           telegram
           email
+          twitch
+          overcast
+          spotify
+          podcast
+          github
+          virgool
+          twitter
+          instagram
         }
       }
     }

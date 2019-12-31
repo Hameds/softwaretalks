@@ -15,6 +15,7 @@ import * as Section from './section'
 import * as EpisodeCover from './episode-cover'
 import * as EpisodeDetail from './episode-detail'
 import * as Episode from './episode'
+import * as PlatformCategory from './platform-category'
 
 export {
   Preview,
@@ -34,4 +35,5 @@ export {
   EpisodeCover,
   EpisodeDetail,
   Episode,
+  PlatformCategory,
 }

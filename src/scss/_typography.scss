@@ -202,11 +202,11 @@ $_font-weights: (
 /// @parameter {String} $key - A key of $_font-weights map
 /// @output Font weight with numerical value
 @mixin font-weight($name) {
-  @if map.has-key($_font-weights, $name) {
-    font-weight: map.get($_font-weights, $name);
+  @if not(map.has-key($_font-weights, $name)) {
+    @error "Unknown key '#{$name}' in $_font-weights map.";
   }
 
-  @error "Unknown key '#{$name}' in $_font-weights map.";
+  font-weight: map.get($_font-weights, $name);
 }
 
 @each $name, $value in $_font-weights {

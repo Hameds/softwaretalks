@@ -17,6 +17,7 @@ function component() {
         <Home.lastContributedGuests guests={lastContributedGuests} />
       )}
       <Home.callToContribution />
+      <Home.platforms />
     </Page.primary>
   )
 }

@@ -1,0 +1,52 @@
+@use "colour";
+
+.c-platforms {
+  position: relative;
+  direction: ltr;
+
+  color: colour.get(dark);
+}
+
+.c-platforms__camera {
+  position: absolute;
+  bottom: 0;
+  right: -24px;
+
+  width: 635px;
+
+  user-select: none;
+  pointer-events: none;
+}
+
+.c-platforms__microphone {
+  position: absolute;
+  bottom: 88px;
+  right: -32px;
+
+  width: 835px;
+
+  user-select: none;
+  pointer-events: none;
+}
+
+.c-platforms__content {
+  direction: rtl;
+
+  box-sizing: border-box;
+  width: 695px;
+  padding: 100px 76px 50px;
+  border: 24px solid colour.get(white);
+  margin-left: -100px;
+}
+
+.c-platforms__headline {
+  margin-bottom: 20px;
+}
+
+.c-platforms__categories {
+  display: grid;
+  grid-template-columns: auto repeat(3, 40px);
+  gap: 64px 40px;
+  align-items: center;
+  font-size: 40px;
+}

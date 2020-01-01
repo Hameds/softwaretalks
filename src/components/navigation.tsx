@@ -33,32 +33,11 @@ export function component({
   children,
   className: customClassName,
 }: Props) {
-  const [selected, setSelected] = React.useState(0)
-
   const className = cc([classNames.variants[variant], customClassName])
 
   return (
     <ul className={className}>
-      {intersperse(
-        divider,
-        React.Children.toArray(children).map((child, index) => {
-          const clonedElement = React.cloneElement(child, {
-            onClick() {
-              setSelected(index)
-              child.props.onClick && child.props.onClick()
-            },
-          })
-
-          return index === selected
-            ? React.cloneElement(clonedElement, {
-                className: {
-                  ...child.props.className,
-                  block: cc([child.props.className.block, 'is-active']),
-                },
-              })
-            : clonedElement
-        })
-      )}
+      {intersperse(divider, React.Children.toArray(children))}
     </ul>
   )
 }

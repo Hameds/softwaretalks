@@ -19,7 +19,7 @@ export function component() {
   ])
 
   return (
-    <Section.component terminal>
+    <Section.component>
       <div className={classNames.block}>
         <div className={classNames.elements.item}>
           <EpisodeTypeSign.meetup />

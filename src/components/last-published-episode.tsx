@@ -1,14 +1,25 @@
 import React from 'react'
+import cc from 'classcat'
 
 import * as Section from '~/components/section'
 import * as Episode from '~/components/episode'
 
-type Props = Omit<Episode.Preview.Props, 'variant'>
+const classNames = {
+  block: 'c-last-published-episode',
+}
 
-export function component(props: Props) {
+type Props = Omit<Episode.Preview.Props, 'variant'> & {
+  className?: string
+}
+
+export function component({ className: customClassName, ...episode }: Props) {
+  const blockClassName = cc([classNames.block, customClassName])
+
   return (
     <Section.component headline="آخرین برنامه پخش شده">
-      <Episode.Preview.vertical {...props} />
+      <div className={blockClassName}>
+        <Episode.Preview.vertical {...episode} />
+      </div>
     </Section.component>
   )
 }

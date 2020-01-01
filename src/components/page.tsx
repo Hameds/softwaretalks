@@ -1,5 +1,5 @@
 import React from 'react'
-import { useStaticQuery, graphql } from 'gatsby'
+import cc from 'classcat'
 
 import * as Header from './header'
 import * as Squares from './squares'
@@ -22,10 +22,15 @@ const classNames = {
 type Props = {
   variant: Variant
   children: React.ReactNode
+  className: {
+    main?: string
+  }
 }
 
-export function component({ variant, children }: Props) {
+export function component({ variant, children, className }: Props) {
   const metadata = useMetadata()
+
+  const mainClassName = cc([classNames.elements.main, className.main])
 
   return (
     <div className={classNames.block}>
@@ -34,16 +39,22 @@ export function component({ variant, children }: Props) {
         youtubeSocialLink={metadata.platforms.youtube}
       />
       {variant === Variant.Gray && <Squares.component />}
-      <main className={classNames.elements.main}>{children}</main>
+      <main className={mainClassName}>{children}</main>
       <Footer.component licenseSpecLink={metadata.licenseSpecLink} />
     </div>
   )
+}
+
+component.defaultProps = {
+  className: {},
 }
 
 function createVariantComponent(variant: Variant) {
   function variantComponent(props: Omit<Props, 'variant'>) {
     return component({ ...props, variant })
   }
+
+  variantComponent.defaultProps = component.defaultProps
 
   return variantComponent
 }

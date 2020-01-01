@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { Page, Home } from '~/components'
+import { Page, LastPublishedEpisode, Home } from '~/components'
 import {
   useNextEpisode,
   useLastContributedGuests,
@@ -19,7 +19,7 @@ function component() {
     <Page.primary>
       <Home.hero />
       {!isNil(lastPublishedEpisode) && (
-        <Home.lastPublishedEpisode {...lastPublishedEpisode} />
+        <LastPublishedEpisode.component {...lastPublishedEpisode} />
       )}
       {!isEmpty(lastPublishedEpisodes) && (
         <Home.moreEpisodes episodes={lastPublishedEpisodes} />

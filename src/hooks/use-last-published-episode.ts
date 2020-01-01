@@ -2,6 +2,7 @@ import { graphql, useStaticQuery } from 'gatsby'
 import { GatsbyImageProps } from 'gatsby-image'
 
 import { Episode } from '~/components'
+import { isNil } from '~/utils'
 
 import { LastPublishedEpisodeQuery } from '../../types/generated/graphql'
 
@@ -37,27 +38,19 @@ const lastPublishedEpisodeQuery = graphql`
 `
 
 export function useLastPublishedEpisode() {
-  const {
-    title,
-    type,
-    spoiler,
-    season,
-    episode,
-    scheduledAt,
-    cover,
-    guests,
-  } = useStaticQuery<LastPublishedEpisodeQuery>(
+  const edge = useStaticQuery<LastPublishedEpisodeQuery>(
     lastPublishedEpisodeQuery
-  ).allEpisodeYaml.edges[0].node
+  ).allEpisodeYaml.edges[0]
+
+  if (isNil(edge)) {
+    return undefined
+  }
 
   return {
-    title,
-    spoiler,
-    season,
-    episode,
-    scheduledAt: new Date(scheduledAt),
-    type: Episode.Type[type],
-    cover: cover.childImageSharp!.fluid as GatsbyImageProps['fluid'],
-    guests: guests.map(({ fullName }) => fullName),
+    ...edge.node,
+    scheduledAt: new Date(edge.node.scheduledAt),
+    type: Episode.Type[edge.node.type],
+    cover: edge.node.cover.childImageSharp!.fluid as GatsbyImageProps['fluid'],
+    guests: edge.node.guests.map(({ fullName }) => fullName),
   }
 }

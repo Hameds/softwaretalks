@@ -15,3 +15,7 @@ export function isString(value: unknown): value is string {
 export function isNil(value: unknown): value is null | undefined {
   return value === undefined || value === null
 }
+
+export function isEmpty(value: unknown[] | string) {
+  return value.length === 0
+}

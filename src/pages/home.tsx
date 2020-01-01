@@ -1,19 +1,31 @@
 import React from 'react'
 
 import { Page, Home } from '~/components'
-import { useNextEpisode, useLastContributedGuests } from '~/hooks'
+import {
+  useNextEpisode,
+  useLastContributedGuests,
+  useLastPublishedEpisodes,
+  useLastPublishedEpisode,
+} from '~/hooks'
+import { isEmpty, isNil } from '~/utils'
 
 function component() {
+  const lastPublishedEpisode = useLastPublishedEpisode()
+  const lastPublishedEpisodes = useLastPublishedEpisodes()
   const nextEpisode = useNextEpisode()
   const lastContributedGuests = useLastContributedGuests()
 
   return (
     <Page.primary>
       <Home.hero />
-      <Home.lastPublishedEpisode />
-      <Home.moreEpisodes />
-      {nextEpisode && <Home.nextEpisode {...nextEpisode} />}
-      {!!lastContributedGuests.length && (
+      {!isNil(lastPublishedEpisode) && (
+        <Home.lastPublishedEpisode {...lastPublishedEpisode} />
+      )}
+      {!isEmpty(lastPublishedEpisodes) && (
+        <Home.moreEpisodes episodes={lastPublishedEpisodes} />
+      )}
+      {!isNil(nextEpisode) && <Home.nextEpisode {...nextEpisode} />}
+      {!isEmpty(lastContributedGuests) && (
         <Home.lastContributedGuests guests={lastContributedGuests} />
       )}
       <Home.callToContribution />

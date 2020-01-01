@@ -1,11 +1,11 @@
 import React from 'react'
 import cc from 'classcat'
+import { GatsbyImageProps } from 'gatsby-image'
 
 import * as Section from '~/components/section'
 import * as Episode from '~/components/episode'
 import * as Heading from '~/components/heading'
 import * as Link from '~/components/link'
-import { useLastPublishedEpisodes } from '~/hooks'
 
 const classNames = {
   block: 'c-more-episodes',
@@ -16,9 +16,11 @@ const classNames = {
   },
 }
 
-export function component() {
-  const lastPublishedEpisodes = useLastPublishedEpisodes()
+type Props = {
+  episodes: Episode.Minimal.Props[]
+}
 
+export function component({ episodes }: Props) {
   return (
     <Section.component>
       <div className={classNames.block}>
@@ -32,7 +34,7 @@ export function component() {
           </Link.component>
         </div>
         <div className={classNames.elements.content}>
-          {lastPublishedEpisodes.map(episode => (
+          {episodes.map(episode => (
             <Episode.Minimal.component {...episode} />
           ))}
         </div>

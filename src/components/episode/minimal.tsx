@@ -12,7 +12,7 @@ const classNames = {
   },
 }
 
-type Props = {
+export type Props = {
   cover: GatsbyImageProps['fluid']
   title: string
 }

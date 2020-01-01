@@ -36,7 +36,7 @@ const classNames = {
   },
 }
 
-type Props = {
+export type Props = {
   variant: Variant
   cover: GatsbyImageProps['fluid']
   type: Episode.Type

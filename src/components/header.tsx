@@ -43,7 +43,7 @@ export function component({ variant, youtubeSocialLink }: Props) {
         <Logo.primary className={{ block: classNames.elements.logo }} />
         <Navigation.component variant={navigationVariant}>
           <Navigation.item to="/home">خانه</Navigation.item>
-          <Navigation.item to="/archive">آرشیو برنامه‌ها</Navigation.item>
+          <Navigation.item to="/episodes">آرشیو برنامه‌ها</Navigation.item>
           <Navigation.item to="/guests">مهمان‌ها</Navigation.item>
           <Navigation.item to="/about">درباره سافتویرتاکز</Navigation.item>
         </Navigation.component>

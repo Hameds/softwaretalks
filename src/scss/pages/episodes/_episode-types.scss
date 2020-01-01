@@ -1,0 +1,16 @@
+.c-episode-types {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 76px;
+
+  padding: 64px 0;
+  margin: 0 -100px;
+}
+
+.c-episode-types__item {
+  display: flex;
+}
+
+.c-episode-types__description {
+  margin-right: 16px;
+}

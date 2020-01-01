@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { Page, LastPublishedEpisode } from '~/components'
+import { Page, LastPublishedEpisode, Episodes } from '~/components'
 import { useLastPublishedEpisode } from '~/hooks'
 import { isNil } from '~/utils'
 
@@ -12,6 +12,7 @@ export function component() {
       {!isNil(lastPublishedEpisode) && (
         <LastPublishedEpisode.component {...lastPublishedEpisode} />
       )}
+      <Episodes.episodeTypes />
     </Page.gray>
   )
 }

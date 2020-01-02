@@ -19,10 +19,12 @@
 }
 
 .c-platform-category__item {
-  font-size: typography.rem(40px);
   margin-left: 64px;
 
+  font-size: typography.rem(40px);
+  line-height: 1;
   text-decoration: none;
+
   color: colour.get(dark);
 
   &:last-child {

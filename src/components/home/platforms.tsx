@@ -115,7 +115,13 @@ export function component() {
             >
               <Icon.instagram />
             </a>
-            <Icon.Telegram.circle />
+            <a
+              rel="noopener noreferrer"
+              target="_blank"
+              href={metadata.platforms.telegram}
+            >
+              <Icon.Telegram.circle />
+            </a>
             <a
               rel="noopener noreferrer"
               target="_blank"

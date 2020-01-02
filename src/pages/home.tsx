@@ -9,6 +9,12 @@ import {
 } from '~/hooks'
 import { isEmpty, isNil } from '~/utils'
 
+const classNames = {
+  elements: {
+    lastPublishedEpisode: 'c-home__last-published-episode',
+  },
+}
+
 function component() {
   const lastPublishedEpisode = useLastPublishedEpisode()
   const lastPublishedEpisodes = useLastPublishedEpisodes()
@@ -19,7 +25,10 @@ function component() {
     <Page.primary>
       <Home.hero />
       {!isNil(lastPublishedEpisode) && (
-        <LastPublishedEpisode.component {...lastPublishedEpisode} />
+        <LastPublishedEpisode.component
+          {...lastPublishedEpisode}
+          className={classNames.elements.lastPublishedEpisode}
+        />
       )}
       {!isEmpty(lastPublishedEpisodes) && (
         <Home.moreEpisodes episodes={lastPublishedEpisodes} />

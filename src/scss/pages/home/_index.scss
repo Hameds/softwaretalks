@@ -4,3 +4,7 @@
 @forward "last-contributed-guests" as last-contributed-guests-*;
 @forward "call-to-contribution" as call-to-contribution-*;
 @forward "platforms" as platforms-*;
+
+.c-home__last-published-episode {
+  margin-top: 200px;
+}

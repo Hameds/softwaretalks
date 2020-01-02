@@ -170,6 +170,7 @@ function createSchemaCustomization({ actions, schema }) {
               episodeYAML.guests.some(guest =>
                 source.fields.slug.endsWith(guest)
               )
+            )
         },
       },
     },
@@ -377,8 +378,35 @@ function onCreateWebpackConfig({ actions }) {
   })
 }
 
+async function createPages({ graphql, actions }) {
+  const publishedEpisodes = await graphql(`
+    query {
+      allEpisodeYaml(filter: { isPublished: { eq: true } }) {
+        edges {
+          node {
+            type
+            season
+            slug
+          }
+        }
+      }
+    }
+  `)
+
+  publishedEpisodes.data.allEpisodeYaml.edges.forEach(({ node }) =>
+    actions.createPage({
+      path: node.slug,
+      component: utils.root('src/templates/episode.tsx'),
+      context: {
+        slug: node.slug,
+      },
+    })
+  )
+}
+
 module.exports = {
   onCreateNode,
   createSchemaCustomization,
   onCreateWebpackConfig,
+  createPages,
 }

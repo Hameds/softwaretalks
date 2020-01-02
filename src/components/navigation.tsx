@@ -75,6 +75,7 @@ export function item({ className, ...props }: ItemProps) {
           ...className,
           block: cc([classNames.elements.link, className.block]),
         }}
+        partiallyActive={true}
       />
     </li>
   )

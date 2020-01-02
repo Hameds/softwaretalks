@@ -1,7 +1,7 @@
 import React from 'react'
 
 import { Page, LastPublishedEpisode, Episodes } from '~/components'
-import { useLastPublishedEpisode } from '~/hooks'
+import { useLastPublishedEpisode, usePublishedEpisodes } from '~/hooks'
 import { isNil } from '~/utils'
 
 const classNames = {
@@ -12,6 +12,7 @@ const classNames = {
 
 export function component() {
   const lastPublishedEpisode = useLastPublishedEpisode()
+  const publishedEpisodes = usePublishedEpisodes()
 
   return (
     <Page.gray>
@@ -22,6 +23,7 @@ export function component() {
         />
       )}
       <Episodes.episodeTypes />
+      <Episodes.episodesIndex episodes={publishedEpisodes} />
     </Page.gray>
   )
 }

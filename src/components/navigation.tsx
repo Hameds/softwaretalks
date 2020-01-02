@@ -33,10 +33,14 @@ export function component({
   children,
   className: customClassName,
 }: Props) {
-  const className = cc([classNames.variants[variant], customClassName])
+  const blockClassName = cc([
+    'l-list',
+    classNames.variants[variant],
+    customClassName,
+  ])
 
   return (
-    <ul className={className}>
+    <ul className={blockClassName}>
       {intersperse(divider, React.Children.toArray(children))}
     </ul>
   )

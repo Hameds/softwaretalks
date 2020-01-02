@@ -1,4 +1,3 @@
-const path = require('path')
 const utils = require('./scripts/utils')
 const postCSSConfig = require('./postcss.config')
 

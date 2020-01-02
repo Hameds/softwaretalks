@@ -20,10 +20,10 @@
 ├── episodes                             # All the data (e.g. YAML and image files)
 │   │                                    # related to episodes should place in this directory.
 │   │
-│   ├── live                             # Categorize live episodes.
+│   ├── lives                            # Categorize live episodes.
 │   │   └── $LIVE_EPISODE_IDENTITY       # A directory as a unique identity for each live episode.
 │   │       └── spec.yaml                # Information about the live episode.
-│   └── meetup                           # Categorize meetup episodes.
+│   └── meetups                          # Categorize meetup episodes.
 │       └── season-1                     # Categorize meetup episodes based on season.
 │           │                            # Each season category directory should follow
 │           │                            # season-* pattern in which * is a unsigned integer.

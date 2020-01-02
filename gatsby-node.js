@@ -1,6 +1,8 @@
+const path = require('path')
 const moment = require('moment-jalaali')
 const TsconfigPathsPlugin = require('tsconfig-paths-webpack-plugin')
 const { attachFields } = require('gatsby-plugin-node-fields')
+const { createFilePath } = require(`gatsby-source-filesystem`)
 
 const utils = require('./scripts/utils')
 
@@ -19,9 +21,9 @@ const descriptor = [
       {
         name: 'slug',
         getter(node, _context, _actions, getNode) {
-          const file = getNode(node.parent)
-
-          return utils.getGuestSlugFromFile(file)
+          return path.dirname(
+            createFilePath({ node, getNode, basePath: 'data' })
+          )
         },
       },
     ],
@@ -32,9 +34,9 @@ const descriptor = [
       {
         name: 'slug',
         getter(node, _context, _actions, getNode) {
-          const file = getNode(node.parent)
-
-          return utils.getEpisodeSlugFromFile(file)
+          return path.dirname(
+            createFilePath({ node, getNode, basePath: 'data' })
+          )
         },
       },
       {
@@ -165,8 +167,9 @@ function createSchemaCustomization({ actions, schema }) {
           return context.nodeModel
             .getAllNodes({ type: 'EpisodeYAML' })
             .filter(episodeYAML =>
-              episodeYAML.guests.includes(source.fields.slug)
-            )
+              episodeYAML.guests.some(guest =>
+                source.fields.slug.endsWith(guest)
+              )
         },
       },
     },
@@ -269,7 +272,9 @@ function createSchemaCustomization({ actions, schema }) {
         resolve(source, _args, context) {
           return context.nodeModel
             .getAllNodes({ type: 'GuestYAML' })
-            .filter(guestYAML => source.guests.includes(guestYAML.fields.slug))
+            .filter(guestYAML =>
+              source.guests.some(guest => guestYAML.fields.slug.endsWith(guest))
+            )
         },
       },
       platforms: 'EpisodeYAMLPlatforms!',

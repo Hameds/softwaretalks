@@ -134,21 +134,11 @@ function getYAMLDataTypeFromFile(file) {
   return file.relativePath.split('/')[0]
 }
 
-function getGuestSlugFromFile(file) {
-  return file.relativePath.split('/')[1]
-}
-
-function getEpisodeSlugFromFile(file) {
-  const directoryIndex = getEpisodeTypeFromFile(file) === 0 ? 2 : 3
-
-  return file.relativePath.split('/')[directoryIndex]
-}
-
 function getEpisodeTypeFromFile(file) {
   switch (file.relativePath.split('/')[1].toLowerCase()) {
-    case 'live':
+    case 'lives':
       return 0
-    case 'meetup':
+    case 'meetups':
       return 1
     default:
       throw new Error('Unknown episode type!')
@@ -185,8 +175,6 @@ module.exports = {
   root,
   customFontFoundries,
   getYAMLDataTypeFromFile,
-  getGuestSlugFromFile,
-  getEpisodeSlugFromFile,
   getEpisodeTypeFromFile,
   getEpisodeSeasonFromFile,
   numberToPersianOrdinal,

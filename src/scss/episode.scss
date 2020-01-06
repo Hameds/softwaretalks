@@ -1,3 +1,70 @@
+@use "layout";
+@use "colour";
+
 .c-episode {
   padding-top: 144px;
+}
+
+.c-episode__books,
+.c-episode__videos,
+.c-episode__podcasts {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.c-episode__book {
+  box-shadow: -10px 16px 30px -4px rgba(colour.get(black), 0.18);
+}
+
+.c-episode__podcast {
+  text-decoration: none;
+
+  color: inherit;
+}
+
+.c-episode__podcast-image {
+  @include layout.round(2);
+  box-shadow: -10px 16px 30px -4px rgba(colour.get(black), 0.18);
+}
+
+.c-episode__podcast-name {
+  margin-top: 16px;
+
+  text-align: center;
+}
+
+.c-episode__papers {
+  position: relative;
+  direction: ltr;
+
+  padding-left: 56px;
+}
+
+.c-episode__paper-title {
+  position: relative;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: -56px;
+    transform: translateY(-50%);
+
+    width: 10px;
+    height: 10px;
+
+    background-color: colour.get(primary);
+  }
+}
+
+.c-episode__paper-url {
+  display: block;
+
+  padding: 8px 32px;
+  margin: 8px 0;
+
+  @include layout.round(1);
+  background-color: colour.get(gray-3);
+  color: colour.get(gray-6);
 }

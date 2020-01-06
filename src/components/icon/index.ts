@@ -23,6 +23,9 @@ import { ReactComponent as twitch } from '~/assets/icons/twitch.svg'
 import { ReactComponent as twitter } from '~/assets/icons/twitter.svg'
 import { ReactComponent as virgool } from '~/assets/icons/virgool.svg'
 import { ReactComponent as youtube } from '~/assets/icons/youtube.svg'
+import { ReactComponent as video } from '~/assets/icons/video.svg'
+import { ReactComponent as microphone } from '~/assets/icons/microphone.svg'
+import { ReactComponent as book } from '~/assets/icons/book.svg'
 
 export enum Size {
   S10 = '10',
@@ -56,6 +59,9 @@ defineDisplayName('Icon', {
   twitter,
   virgool,
   youtube,
+  video,
+  microphone,
+  book,
 })
 defineDisplayName('Icon.Caret', Caret)
 defineDisplayName('Icon.Link', Link)
@@ -87,4 +93,7 @@ export {
   twitter,
   virgool,
   youtube,
+  video,
+  microphone,
+  book,
 }

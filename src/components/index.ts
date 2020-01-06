@@ -18,6 +18,7 @@ import * as Episode from './episode'
 import * as PlatformCategory from './platform-category'
 import * as LastPublishedEpisode from './last-published-episode'
 import * as Episodes from './episodes'
+import * as Reference from './reference'
 
 export {
   Preview,
@@ -40,4 +41,5 @@ export {
   PlatformCategory,
   LastPublishedEpisode,
   Episodes,
+  Reference,
 }

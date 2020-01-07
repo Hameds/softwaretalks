@@ -1,8 +1,7 @@
 import React from 'react'
 import { GatsbyImageProps } from 'gatsby-image'
 
-import * as EpisodeCover from '../episode-cover'
-import * as Heading from '../heading'
+import { EpisodeCover, Heading, Link } from '~/components'
 
 const classNames = {
   block: 'c-episode-minimal',
@@ -14,12 +13,13 @@ const classNames = {
 
 export type Props = {
   cover: GatsbyImageProps['fluid']
+  slug: string
   title: string
 }
 
-export function component({ cover, title }: Props) {
+export function component({ slug, cover, title }: Props) {
   return (
-    <div className={classNames.block}>
+    <Link.Internal.component to={slug} className={{ block: classNames.block }}>
       <EpisodeCover.component
         fluid={cover}
         className={{ icon: classNames.elements.coverIcon }}
@@ -27,6 +27,6 @@ export function component({ cover, title }: Props) {
       <Heading.H6 as="h4" className={classNames.elements.title}>
         {title}
       </Heading.H6>
-    </div>
+    </Link.Internal.component>
   )
 }

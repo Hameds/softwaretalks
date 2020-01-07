@@ -86,11 +86,12 @@ function component({ data }: Props) {
       )
     }
   )
-  const videos = episode.references?.videos.map(({ title, image }) => (
+  const videos = episode.references?.videos.map(({ title, image, url }) => (
     <li>
       <Episode.Minimal.component
         title={title}
         cover={image.childImageSharp?.fluid}
+        slug={url}
       />
     </li>
   ))

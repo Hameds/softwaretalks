@@ -32,7 +32,7 @@ export function useLastPublishedEpisodes() {
   return useStaticQuery<LastPublishedEpisodesQuery>(
     lastPublishedEpisodesQuery
   ).allEpisodeYaml.edges.map(({ node }) => ({
-    title: node.title,
+    ...node,
     cover: node.cover.childImageSharp!.fluid as GatsbyImageProps['fluid'],
   }))
 }

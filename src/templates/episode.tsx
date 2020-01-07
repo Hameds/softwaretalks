@@ -1,4 +1,5 @@
 import React from 'react'
+import cc from 'classcat'
 import Image, { GatsbyImageProps } from 'gatsby-image'
 import { graphql } from 'gatsby'
 
@@ -18,6 +19,18 @@ import { EpisodeQuery } from '../../types/generated/graphql'
 
 const classNames = {
   block: 'c-episode',
+  elements: {
+    books: 'c-episode__books',
+    book: 'c-episode__book',
+    videos: 'c-episode__videos',
+    podcasts: 'c-episode__podcasts',
+    podcast: 'c-episode__podcast',
+    podcastImage: 'c-episode__podcast-image',
+    podcastName: 'c-episode__podcast-name',
+    papers: 'c-episode__papers',
+    paperTitle: 'c-episode__paper-title',
+    paperURL: 'c-episode__paper-url',
+  },
 }
 
 const aspectRatios = {
@@ -40,6 +53,15 @@ function component({ data }: Props) {
     guests: data.episode!.guests.map(({ fullName }) => fullName),
   }
 
+  const booksClassName = cc(['l-list', classNames.elements.books])
+  const videosClassName = cc(['l-list', classNames.elements.videos])
+  const podcastsClassName = cc(['l-list', classNames.elements.podcasts])
+  const papersClassName = cc(['l-list', classNames.elements.papers])
+  const paperURLClassName = cc([
+    'o-text o-text--down-1',
+    classNames.elements.paperURL,
+  ])
+
   const books = episode.references?.books.map(
     ({ name, author, url, image }) => {
       const title = `${name} - ${author}`
@@ -48,7 +70,7 @@ function component({ data }: Props) {
         <li>
           <Link.External.component href={url} title={title}>
             <Image
-              className="c-episode__book"
+              className={classNames.elements.book}
               fluid={{
                 ...image.childImageSharp?.fluid,
                 aspectRatio: aspectRatios.book,
@@ -72,12 +94,12 @@ function component({ data }: Props) {
   const podcasts = episode.references?.podcasts.map(({ url, image, name }) => (
     <li>
       <Link.External.component
-        className="c-episode__podcast"
+        className={classNames.elements.podcast}
         href={url}
         title={name}
       >
         <Image
-          className="c-episode__podcast-image"
+          className={classNames.elements.podcastImage}
           fluid={{
             ...image.childImageSharp?.fluid,
             aspectRatio: aspectRatios.podcast,
@@ -85,7 +107,7 @@ function component({ data }: Props) {
           title={name}
           alt={name}
         />
-        <Heading.H6 as="h4" className="c-episode__podcast-name">
+        <Heading.H6 as="h4" className={classNames.elements.podcastName}>
           {name}
         </Heading.H6>
       </Link.External.component>
@@ -93,11 +115,12 @@ function component({ data }: Props) {
   ))
   const papers = episode.references?.papers.map(({ title, url, spoiler }) => (
     <li>
-      <Heading.H6 as="h4" className="c-episode__paper-title">
+      <Heading.H6 as="h4" className={classNames.elements.paperTitle}>
         {title}
       </Heading.H6>
       <Link.External.component
-        className="o-text o-text--down-1 c-episode__paper-url"
+        className={paperURLClassName}
+        title={title}
         href={url}
       >
         {url}
@@ -114,16 +137,16 @@ function component({ data }: Props) {
       <Section.component>
         <Heading.H3 as="h2">منابع معرفی شده</Heading.H3>
         <Reference.component headline="کتاب" icon={Icon.book}>
-          <ul className="l-list c-episode__books">{books}</ul>
+          <ul className={booksClassName}>{books}</ul>
         </Reference.component>
         <Reference.component headline="ویدئو" icon={Icon.video}>
-          <ul className="l-list c-episode__videos">{videos}</ul>
+          <ul className={videosClassName}>{videos}</ul>
         </Reference.component>
         <Reference.component headline="پادکست" icon={Icon.microphone}>
-          <ul className="l-list c-episode__podcasts">{podcasts}</ul>
+          <ul className={podcastsClassName}>{podcasts}</ul>
         </Reference.component>
         <Reference.component headline="لینک" icon={Icon.Link.chain}>
-          <ul className="l-list c-episode__papers">{papers}</ul>
+          <ul className={papersClassName}>{papers}</ul>
         </Reference.component>
       </Section.component>
     </Page.gray>

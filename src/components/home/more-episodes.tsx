@@ -26,12 +26,12 @@ export function component({ episodes }: Props) {
       <div className={classNames.block}>
         <div className={classNames.elements.headline}>
           <Heading.H5 as="h3">ویدئو‌های بیشتر</Heading.H5>
-          <Link.component
+          <Link.Internal.component
             to="/episodes"
             className={{ block: classNames.elements.episodesLink }}
           >
             آرشیو برنامه‌ها
-          </Link.component>
+          </Link.Internal.component>
         </div>
         <div className={classNames.elements.content}>
           {episodes.map(episode => (

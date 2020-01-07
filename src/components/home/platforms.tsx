@@ -1,13 +1,8 @@
 import React from 'react'
-import cc from 'classcat'
-
-import * as Section from '~/components/section'
-import * as Heading from '~/components/heading'
-import * as PlatformCategory from '~/components/platform-category'
-import * as Icon from '~/components/icon'
 
 import microphoneURL from '~/assets/images/microphone.png'
 import cameraURL from '~/assets/images/camera.png'
+import { Section, Heading, PlatformCategory, Icon, Link } from '~/components'
 import { useMetadata } from '~/hooks'
 
 const classNames = {
@@ -46,89 +41,45 @@ export function component() {
             بشنوید و بخوانید؟
           </Heading.H1>
           <PlatformCategory.component label="کانال‌های ویدئویی">
-            <a
-              rel="noopener noreferrer"
-              target="_blank"
-              href={metadata.platforms.twitch}
-            >
+            <Link.External.component href={metadata.platforms.twitch}>
               <Icon.twitch />
-            </a>
-            <a
-              rel="noopener noreferrer"
-              target="_blank"
-              href={metadata.platforms.youtube}
-            >
+            </Link.External.component>
+            <Link.External.component href={metadata.platforms.youtube}>
               <Icon.youtube />
-            </a>
+            </Link.External.component>
           </PlatformCategory.component>
           <PlatformCategory.component label="کانال‌های صوتی">
-            <a
-              rel="noopener noreferrer"
-              target="_blank"
-              href={metadata.platforms.podcast}
-            >
+            <Link.External.component href={metadata.platforms.podcast}>
               <Icon.podcast />
-            </a>
-            <a
-              rel="noopener noreferrer"
-              target="_blank"
-              href={metadata.platforms.spotify}
-            >
+            </Link.External.component>
+            <Link.External.component href={metadata.platforms.spotify}>
               <Icon.spotify />
-            </a>
-            <a
-              rel="noopener noreferrer"
-              target="_blank"
-              href={metadata.platforms.overcast}
-            >
+            </Link.External.component>
+            <Link.External.component href={metadata.platforms.overcast}>
               <Icon.overcast />
-            </a>
+            </Link.External.component>
           </PlatformCategory.component>
           <PlatformCategory.component label="کانال‌های دیگر">
-            <a
-              rel="noopener noreferrer"
-              target="_blank"
-              href={metadata.platforms.hazy}
-            >
+            <Link.External.component href={metadata.platforms.hazy}>
               <Icon.hazy />
-            </a>
-            <a
-              rel="noopener noreferrer"
-              target="_blank"
-              href={metadata.platforms.virgool}
-            >
+            </Link.External.component>
+            <Link.External.component href={metadata.platforms.virgool}>
               <Icon.virgool />
-            </a>
-            <a
-              rel="noopener noreferrer"
-              target="_blank"
-              href={metadata.platforms.github}
-            >
+            </Link.External.component>
+            <Link.External.component href={metadata.platforms.github}>
               <Icon.github />
-            </a>
+            </Link.External.component>
           </PlatformCategory.component>
           <PlatformCategory.component label="شبکه‌های اجتماعی">
-            <a
-              rel="noopener noreferrer"
-              target="_blank"
-              href={metadata.platforms.instagram}
-            >
+            <Link.External.component href={metadata.platforms.instagram}>
               <Icon.instagram />
-            </a>
-            <a
-              rel="noopener noreferrer"
-              target="_blank"
-              href={metadata.platforms.telegram}
-            >
+            </Link.External.component>
+            <Link.External.component href={metadata.platforms.telegram}>
               <Icon.Telegram.circle />
-            </a>
-            <a
-              rel="noopener noreferrer"
-              target="_blank"
-              href={metadata.platforms.twitter}
-            >
+            </Link.External.component>
+            <Link.External.component href={metadata.platforms.twitter}>
               <Icon.twitter />
-            </a>
+            </Link.External.component>
           </PlatformCategory.component>
         </div>
       </div>

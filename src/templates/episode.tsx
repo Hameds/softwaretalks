@@ -10,6 +10,7 @@ import {
   Icon,
   Reference,
   Paragraph,
+  Link,
 } from '~/components'
 import '~/scss/episode.scss'
 
@@ -39,6 +40,72 @@ function component({ data }: Props) {
     guests: data.episode!.guests.map(({ fullName }) => fullName),
   }
 
+  const books = episode.references?.books.map(
+    ({ name, author, url, image }) => {
+      const title = `${name} - ${author}`
+
+      return (
+        <li>
+          <Link.External.component href={url} title={title}>
+            <Image
+              className="c-episode__book"
+              fluid={{
+                ...image.childImageSharp?.fluid,
+                aspectRatio: aspectRatios.book,
+              }}
+              title={title}
+              alt={title}
+            />
+          </Link.External.component>
+        </li>
+      )
+    }
+  )
+  const videos = episode.references?.videos.map(({ title, image }) => (
+    <li>
+      <Episode.Minimal.component
+        title={title}
+        cover={image.childImageSharp?.fluid}
+      />
+    </li>
+  ))
+  const podcasts = episode.references?.podcasts.map(({ url, image, name }) => (
+    <li>
+      <Link.External.component
+        className="c-episode__podcast"
+        href={url}
+        title={name}
+      >
+        <Image
+          className="c-episode__podcast-image"
+          fluid={{
+            ...image.childImageSharp?.fluid,
+            aspectRatio: aspectRatios.podcast,
+          }}
+          title={name}
+          alt={name}
+        />
+        <Heading.H6 as="h4" className="c-episode__podcast-name">
+          {name}
+        </Heading.H6>
+      </Link.External.component>
+    </li>
+  ))
+  const papers = episode.references?.papers.map(({ title, url, spoiler }) => (
+    <li>
+      <Heading.H6 as="h4" className="c-episode__paper-title">
+        {title}
+      </Heading.H6>
+      <Link.External.component
+        className="o-text o-text--down-1 c-episode__paper-url"
+        href={url}
+      >
+        {url}
+      </Link.External.component>
+      <Paragraph.component>{spoiler}</Paragraph.component>
+    </li>
+  ))
+
   return (
     <Page.gray className={{ main: classNames.block }}>
       <Section.component>
@@ -47,88 +114,16 @@ function component({ data }: Props) {
       <Section.component>
         <Heading.H3 as="h2">منابع معرفی شده</Heading.H3>
         <Reference.component headline="کتاب" icon={Icon.book}>
-          <ul className="l-list c-episode__books">
-            {episode.references?.books.map(({ name, author, url, image }) => (
-              <li>
-                <a
-                  rel="noopener noreferrer"
-                  target="_blank"
-                  href={url}
-                  title={`${name} - ${author}`}
-                >
-                  <Image
-                    className="c-episode__book"
-                    fluid={{
-                      ...image.childImageSharp?.fluid,
-                      aspectRatio: aspectRatios.book,
-                    }}
-                    title={`${name} - ${author}`}
-                    alt={`${name} - ${author}`}
-                  />
-                </a>
-              </li>
-            ))}
-          </ul>
+          <ul className="l-list c-episode__books">{books}</ul>
         </Reference.component>
         <Reference.component headline="ویدئو" icon={Icon.video}>
-          <ul className="l-list c-episode__videos">
-            {episode.references?.videos.map(({ title, image }) => (
-              <li>
-                <Episode.Minimal.component
-                  title={title}
-                  cover={image.childImageSharp?.fluid}
-                />
-              </li>
-            ))}
-          </ul>
+          <ul className="l-list c-episode__videos">{videos}</ul>
         </Reference.component>
         <Reference.component headline="پادکست" icon={Icon.microphone}>
-          <ul className="l-list c-episode__podcasts">
-            {episode.references?.podcasts.map(({ url, image, name }) => (
-              <li>
-                <a
-                  rel="noopener noreferrer"
-                  target="_blank"
-                  className="c-episode__podcast"
-                  href={url}
-                  title={name}
-                >
-                  <Image
-                    className="c-episode__podcast-image"
-                    fluid={{
-                      ...image.childImageSharp?.fluid,
-                      aspectRatio: aspectRatios.podcast,
-                    }}
-                    title={name}
-                    alt={name}
-                  />
-                  <Heading.H6 as="h4" className="c-episode__podcast-name">
-                    {name}
-                  </Heading.H6>
-                </a>
-              </li>
-            ))}
-          </ul>
+          <ul className="l-list c-episode__podcasts">{podcasts}</ul>
         </Reference.component>
         <Reference.component headline="لینک" icon={Icon.Link.chain}>
-          <ul className="l-list c-episode__papers">
-            {episode.references?.papers.map(({ title, url, spoiler }) => (
-              <li>
-                <Heading.H6 as="h4" className="c-episode__paper-title">
-                  {title}
-                </Heading.H6>
-                <a
-                  rel="noopener noreferrer"
-                  target="_blank"
-                  className="o-text o-text--down-1 c-episode__paper-url"
-                  href={url}
-                >
-                  {url}
-                </a>
-                <Paragraph.component>{spoiler}</Paragraph.component>
-              </li>
-            ))}
-          </ul>
+          <ul className="l-list c-episode__papers">{papers}</ul>
         </Reference.component>
       </Section.component>
     </Page.gray>

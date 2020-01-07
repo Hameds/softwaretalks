@@ -1,7 +1,7 @@
 import React from 'react'
 import cc from 'classcat'
-import * as Logo from '~/components/logo'
-import * as Paragraph from '~/components/paragraph'
+
+import { Logo, Paragraph, Link } from '~/components'
 import { defineDisplayName } from '~/utils'
 
 import pkg from '../../package.json'
@@ -17,13 +17,12 @@ const classNames = {
 }
 
 const githubAnchor = (
-  <a
+  <Link.External.component
     className={classNames.elements.link}
     href={pkg.repository.url}
-    target="_blank"
   >
     گیت‌هاب
-  </a>
+  </Link.External.component>
 )
 
 type Props = {
@@ -32,13 +31,12 @@ type Props = {
 
 export function component({ licenseSpecLink }: Props) {
   const licenseAnchor = (
-    <a
+    <Link.External.component
       className={classNames.elements.link}
       href={licenseSpecLink}
-      target="_blank"
     >
       {pkg.license}
-    </a>
+    </Link.External.component>
   )
 
   return (

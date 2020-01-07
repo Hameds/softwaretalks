@@ -1,8 +1,7 @@
 import React from 'react'
 import cc from 'classcat'
 
-import * as Heading from '~/components/heading'
-import * as Icon from '~/components/icon'
+import { Heading, Icon, Link } from '~/components'
 import enterURL from '~/assets/images/enter.png'
 import { useMetadata } from '~/hooks'
 
@@ -47,25 +46,24 @@ export function component() {
             <Heading.H6 as="h4" className={classNames.elements.contactLabel}>
               ایمیل
             </Heading.H6>
-            <a
+            <Link.External.component
               href={metadata.platforms.email}
               className={contactValueClassName}
             >
               info@softwaretalks.com
-            </a>
+            </Link.External.component>
           </div>
           <div className={classNames.elements.contact}>
             <Icon.Telegram.bare size={Icon.Size.S24} />
             <Heading.H6 as="h4" className={classNames.elements.contactLabel}>
               تلگرام
             </Heading.H6>
-            <a
+            <Link.External.component
               href={metadata.platforms.telegram}
-              target="_blank"
               className={contactValueClassName}
             >
               @softwaretalks
-            </a>
+            </Link.External.component>
           </div>
         </div>
       </div>

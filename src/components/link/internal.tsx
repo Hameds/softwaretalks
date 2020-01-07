@@ -2,9 +2,7 @@ import React from 'react'
 import cc from 'classcat'
 import { Link as GatsbyLink, GatsbyLinkProps } from 'gatsby'
 
-import { defineDisplayName } from '~/utils'
-
-type OwnInternalProps = {
+type OwnProps = {
   className: {
     block?: string
     isActive?: string
@@ -12,7 +10,7 @@ type OwnInternalProps = {
 }
 
 export type Props = Omit<GatsbyLinkProps<any>, 'className' | 'innerRef'> &
-  OwnInternalProps
+  OwnProps
 
 const classNames = {
   block: 'c-link',
@@ -43,5 +41,3 @@ export function component<TState>({ className, ...props }: Props) {
 component.defaultProps = {
   className: {},
 }
-
-defineDisplayName('Link', { component })

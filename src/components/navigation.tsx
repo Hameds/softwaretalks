@@ -64,12 +64,12 @@ function createVariantComponent(variant: Variant) {
 export const black = createVariantComponent(Variant.Black)
 export const white = createVariantComponent(Variant.White)
 
-type ItemProps = Link.Props
+type ItemProps = Link.Internal.Props
 
 export function item({ className, ...props }: ItemProps) {
   return (
     <li className={classNames.elements.item}>
-      <Link.component
+      <Link.Internal.component
         {...props}
         className={{
           ...className,
@@ -81,6 +81,6 @@ export function item({ className, ...props }: ItemProps) {
   )
 }
 
-item.defaultProps = Link.component.defaultProps
+item.defaultProps = Link.Internal.component.defaultProps
 
 defineDisplayName('Navigation', { component, black, white, item })

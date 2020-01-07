@@ -14,6 +14,7 @@ const lastPublishedEpisodesQuery = graphql`
       edges {
         node {
           title
+          slug
           cover {
             childImageSharp {
               fluid(maxWidth: 1260, maxHeight: 680, quality: 100) {

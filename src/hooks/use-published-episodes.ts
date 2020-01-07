@@ -19,6 +19,7 @@ const publishedEpisodesQuery = graphql`
           spoiler
           season: seasonPersianOrdinal
           episode
+          slug
           scheduledAt
           platforms {
             aparat

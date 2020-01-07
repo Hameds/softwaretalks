@@ -7,9 +7,10 @@ import {
   Heading,
   Paragraph,
   Icon,
+  Link,
 } from '~/components'
 import { Aparat } from '~/platforms'
-import { defineDisplayName } from '~/utils'
+import { defineDisplayName, isNil } from '~/utils'
 
 export enum Variant {
   Vertical,
@@ -49,6 +50,7 @@ export type Props = {
   scheduledAt: Date
   guests: string[]
   spoiler: string
+  slug?: string
 }
 
 export function component({
@@ -61,6 +63,7 @@ export function component({
   scheduledAt,
   guests,
   spoiler,
+  slug,
 }: Props) {
   return (
     <div className={classNames.variants[variant]}>
@@ -75,9 +78,18 @@ export function component({
           className={classNames.elements.typeSign}
         />
         <div className={classNames.elements.information}>
-          <Heading.H5 as="h3" className={classNames.elements.title}>
-            {title}
-          </Heading.H5>
+          {isNil(slug) ? (
+            <Heading.H5 as="h3" className={classNames.elements.title}>
+              {title}
+            </Heading.H5>
+          ) : (
+            <Link.Internal.component
+              to={slug}
+              className={{ block: classNames.elements.title }}
+            >
+              <Heading.H5 as="h3">{title}</Heading.H5>
+            </Link.Internal.component>
+          )}
           <EpisodeDetail.component
             name={[
               season && `فصل ${season}`,

@@ -1,6 +1,6 @@
 import React from 'react'
 import cc from 'classcat'
-import Image, { GatsbyImageProps } from 'gatsby-image'
+import Image from 'gatsby-image'
 import { graphql } from 'gatsby'
 
 import {
@@ -164,7 +164,6 @@ export const query = graphql`
       episode
       season: seasonPersianOrdinal
       scheduledAt
-      slug
       spoiler
       title
       type

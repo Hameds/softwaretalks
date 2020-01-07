@@ -3,6 +3,7 @@ import cc from 'classcat'
 import Image from 'gatsby-image'
 import { graphql } from 'gatsby'
 
+import '~/scss/episode.scss'
 import {
   Page,
   Section,
@@ -13,7 +14,7 @@ import {
   Paragraph,
   Link,
 } from '~/components'
-import '~/scss/episode.scss'
+import { isNil } from '~/utils'
 
 import { EpisodeQuery } from '../../types/generated/graphql'
 
@@ -133,24 +134,34 @@ function component({ data }: Props) {
 
   return (
     <Page.gray className={{ main: classNames.block }}>
-      <Section.component>
+      <Section.component terminal={isNil(episode.references)}>
         <Episode.Preview.vertical {...episode} />
       </Section.component>
-      <Section.component>
-        <Heading.H3 as="h2">منابع معرفی شده</Heading.H3>
-        <Reference.component headline="کتاب" icon={Icon.book}>
-          <ul className={booksClassName}>{books}</ul>
-        </Reference.component>
-        <Reference.component headline="ویدئو" icon={Icon.video}>
-          <ul className={videosClassName}>{videos}</ul>
-        </Reference.component>
-        <Reference.component headline="پادکست" icon={Icon.microphone}>
-          <ul className={podcastsClassName}>{podcasts}</ul>
-        </Reference.component>
-        <Reference.component headline="لینک" icon={Icon.Link.chain}>
-          <ul className={papersClassName}>{papers}</ul>
-        </Reference.component>
-      </Section.component>
+      {!isNil(episode.references) && (
+        <Section.component>
+          <Heading.H3 as="h2">منابع معرفی شده</Heading.H3>
+          {!isNil(episode.references.books) && (
+            <Reference.component headline="کتاب" icon={Icon.book}>
+              <ul className={booksClassName}>{books}</ul>
+            </Reference.component>
+          )}
+          {!isNil(episode.references.videos) && (
+            <Reference.component headline="ویدئو" icon={Icon.video}>
+              <ul className={videosClassName}>{videos}</ul>
+            </Reference.component>
+          )}
+          {!isNil(episode.references.podcasts) && (
+            <Reference.component headline="پادکست" icon={Icon.microphone}>
+              <ul className={podcastsClassName}>{podcasts}</ul>
+            </Reference.component>
+          )}
+          {!isNil(episode.references.papers) && (
+            <Reference.component headline="لینک" icon={Icon.Link.chain}>
+              <ul className={papersClassName}>{papers}</ul>
+            </Reference.component>
+          )}
+        </Section.component>
+      )}
     </Page.gray>
   )
 }

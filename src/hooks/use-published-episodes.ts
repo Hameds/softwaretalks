@@ -9,7 +9,7 @@ const publishedEpisodesQuery = graphql`
   query PublishedEpisodes {
     allEpisodeYaml(
       sort: { fields: scheduledAt, order: DESC }
-      filter: { isPublished: { eq: true } }
+      filter: { isPublished: { eq: true }, platforms: { aparat: { ne: null } } }
       skip: 1
     ) {
       edges {
@@ -20,15 +20,11 @@ const publishedEpisodesQuery = graphql`
           season: seasonPersianOrdinal
           episode
           scheduledAt
+          platforms {
+            aparat
+          }
           guests {
             fullName
-          }
-          cover {
-            childImageSharp {
-              fluid(maxWidth: 920, maxHeight: 520, quality: 100) {
-                ...GatsbyImageSharpFluid
-              }
-            }
           }
         }
       }
@@ -43,7 +39,10 @@ export function usePublishedEpisodes() {
     ...node,
     scheduledAt: new Date(node.scheduledAt),
     type: Episode.Type[node.type],
-    cover: node.cover.childImageSharp!.fluid as GatsbyImageProps['fluid'],
     guests: node.guests.map(({ fullName }) => fullName),
+    platforms: {
+      ...node.platforms,
+      aparat: node.platforms.aparat!,
+    },
   }))
 }

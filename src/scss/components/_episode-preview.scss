@@ -1,8 +1,21 @@
+@use "layout";
 @use "typography";
 @use "colour";
 
 %c-episode-preview {
   display: flex;
+}
+
+.c-episode-preview__player {
+  position: relative;
+  overflow: hidden;
+
+  width: 100%;
+  border: none;
+
+  @include layout.round(2);
+  background: colour.get(white);
+  box-shadow: -20px 20px 40px -12px rgba(colour.get(black), 0.34);
 }
 
 .c-episode-preview__content {
@@ -36,6 +49,10 @@
 
   flex-direction: column;
 
+  .c-episode-preview__player {
+    height: 680px;
+  }
+
   .c-episode-preview__content {
     flex-direction: row;
 
@@ -57,8 +74,9 @@
 
   flex-direction: row;
 
-  .c-episode-preview__cover {
+  .c-episode-preview__player {
     flex-grow: 1;
+    height: 520px;
   }
 
   .c-episode-preview__content {

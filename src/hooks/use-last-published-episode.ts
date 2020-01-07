@@ -10,7 +10,7 @@ const lastPublishedEpisodeQuery = graphql`
   query LastPublishedEpisode {
     allEpisodeYaml(
       sort: { fields: scheduledAt, order: DESC }
-      filter: { isPublished: { eq: true } }
+      filter: { isPublished: { eq: true }, platforms: { aparat: { ne: null } } }
       limit: 1
     ) {
       edges {
@@ -21,15 +21,11 @@ const lastPublishedEpisodeQuery = graphql`
           season: seasonPersianOrdinal
           episode
           scheduledAt
+          platforms {
+            aparat
+          }
           guests {
             fullName
-          }
-          cover {
-            childImageSharp {
-              fluid(maxWidth: 1260, maxHeight: 680, quality: 100) {
-                ...GatsbyImageSharpFluid
-              }
-            }
           }
         }
       }
@@ -50,7 +46,10 @@ export function useLastPublishedEpisode() {
     ...edge.node,
     scheduledAt: new Date(edge.node.scheduledAt),
     type: Episode.Type[edge.node.type],
-    cover: edge.node.cover.childImageSharp!.fluid as GatsbyImageProps['fluid'],
     guests: edge.node.guests.map(({ fullName }) => fullName),
+    platforms: {
+      ...edge.node.platforms,
+      aparat: edge.node.platforms.aparat!,
+    },
   }
 }

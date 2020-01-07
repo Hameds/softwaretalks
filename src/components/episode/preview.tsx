@@ -1,13 +1,14 @@
 import React from 'react'
-import { GatsbyImageProps } from 'gatsby-image'
 
-import * as Episode from '~/components/episode'
-import * as EpisodeCover from '~/components/episode-cover'
-import * as EpisodeTypeSign from '~/components/episode-type-sign'
-import * as EpisodeDetail from '~/components/episode-detail'
-import * as Heading from '~/components/heading'
-import * as Paragraph from '~/components/paragraph'
-import * as Icon from '~/components/icon'
+import {
+  Episode,
+  EpisodeTypeSign,
+  EpisodeDetail,
+  Heading,
+  Paragraph,
+  Icon,
+} from '~/components'
+import { Aparat } from '~/platforms'
 import { defineDisplayName } from '~/utils'
 
 export enum Variant {
@@ -21,7 +22,7 @@ const classNames = {
     [Variant.Horizontal]: 'c-episode-preview--horizontal',
   },
   elements: {
-    cover: 'c-episode-preview__cover',
+    player: 'c-episode-preview__player',
     typeSign: 'c-episode-preview__type-sign',
     content: 'c-episode-preview__content',
     information: 'c-episode-preview__information',
@@ -38,7 +39,9 @@ const classNames = {
 
 export type Props = {
   variant: Variant
-  cover: GatsbyImageProps['fluid']
+  platforms: {
+    aparat: string
+  }
   type: Episode.Type
   title: string
   season?: string | null
@@ -50,7 +53,7 @@ export type Props = {
 
 export function component({
   variant,
-  cover,
+  platforms,
   type,
   title,
   season,
@@ -61,9 +64,10 @@ export function component({
 }: Props) {
   return (
     <div className={classNames.variants[variant]}>
-      <EpisodeCover.component
-        fluid={cover}
-        className={{ block: classNames.elements.cover }}
+      <iframe
+        src={Aparat.embed(platforms.aparat)}
+        className={classNames.elements.player}
+        allowFullScreen
       />
       <div className={classNames.elements.content}>
         <EpisodeTypeSign.component

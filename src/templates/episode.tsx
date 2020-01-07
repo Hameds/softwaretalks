@@ -48,9 +48,11 @@ function component({ data }: Props) {
     ...data.episode!,
     scheduledAt: new Date(data.episode!.scheduledAt),
     type: Episode.Type[data.episode!.type],
-    cover: data.episode!.cover.childImageSharp!
-      .fluid as GatsbyImageProps['fluid'],
     guests: data.episode!.guests.map(({ fullName }) => fullName),
+    platforms: {
+      ...data.episode!.platforms,
+      aparat: data.episode!.platforms.aparat!,
+    },
   }
 
   const booksClassName = cc(['l-list', classNames.elements.books])
@@ -155,7 +157,10 @@ function component({ data }: Props) {
 
 export const query = graphql`
   query Episode($slug: String!) {
-    episode: episodeYaml(slug: { eq: $slug }) {
+    episode: episodeYaml(
+      slug: { eq: $slug }
+      platforms: { aparat: { ne: null } }
+    ) {
       episode
       season: seasonPersianOrdinal
       scheduledAt
@@ -163,15 +168,11 @@ export const query = graphql`
       spoiler
       title
       type
+      platforms {
+        aparat
+      }
       guests {
         fullName
-      }
-      cover {
-        childImageSharp {
-          fluid(maxWidth: 1260, maxHeight: 680, quality: 100) {
-            ...GatsbyImageSharpFluid
-          }
-        }
       }
       references {
         books {

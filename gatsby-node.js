@@ -381,7 +381,7 @@ function onCreateWebpackConfig({ actions }) {
 async function createPages({ graphql, actions }) {
   const publishedEpisodes = await graphql(`
     query {
-      allEpisodeYaml(filter: { isPublished: { eq: true } }) {
+      allEpisodeYaml {
         edges {
           node {
             type

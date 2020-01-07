@@ -13,14 +13,13 @@ export type Props = Omit<GatsbyLinkProps<any>, 'className' | 'innerRef'> &
   OwnProps
 
 const classNames = {
-  block: 'c-link',
   modifiers: {
     isActive: 'is-active',
   },
 }
 
 export function component<TState>({ className, ...props }: Props) {
-  const blockClassName = cc([classNames.block, className.block])
+  const blockClassName = cc(['o-link', className.block])
   const activeClassName = cc([
     classNames.modifiers.isActive,
     className.isActive,

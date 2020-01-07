@@ -1,6 +1,7 @@
 import React from 'react'
 import cc from 'classcat'
 
+import { Link } from '~/components'
 import { defineDisplayName } from '~/utils'
 
 export enum Variant {
@@ -17,15 +18,28 @@ export enum Color {
   Dark,
 }
 
-export type TagName = 'button' | 'a'
+export type As =
+  | 'button'
+  | typeof Link.Internal.component
+  | typeof Link.External.component
 
-type Props<TTagName extends TagName> = React.PropsWithChildren<{
-  as: TTagName
+type OwnProps<TAs extends As> = React.PropsWithChildren<{
+  as: TAs
   variant: Variant
   color: Color
   block: boolean
-}> &
-  Omit<JSX.IntrinsicElements[TTagName], 'color'>
+  className?: string
+}>
+
+type Props<TAs extends As> = OwnProps<TAs> &
+  Omit<
+    TAs extends 'button'
+      ? JSX.IntrinsicElements['button']
+      : TAs extends (props: infer U) => any
+      ? U
+      : never,
+    keyof OwnProps<TAs>
+  >
 
 export const classNames = {
   variants: {
@@ -51,32 +65,34 @@ export const classNames = {
 
 const triangle = <span className={classNames.elements.triangle}>▸</span>
 
-export function component<TTagName extends TagName = 'button'>({
+export function component<TAs extends As = 'button'>({
   variant,
   color,
   block,
   as: tagName,
   className: customClassName,
-  children,
+  children: customChildren,
   ...props
-}: Props<TTagName>) {
+}: Props<TAs>) {
   const className = cc([
     classNames.variants[variant],
     classNames.modifiers.color[color],
     block && classNames.modifiers.block,
     customClassName,
   ])
+  const children = React.Children.map(customChildren, child =>
+    typeof child === 'string' ? (
+      <span className={classNames.elements.label}>{child}</span>
+    ) : (
+      child
+    )
+  ).concat([variant === Variant.Link && triangle])
 
-  return React.createElement(tagName, {
+  return React.createElement(tagName as any, {
     ...props,
-    className,
-    children: React.Children.map(children, child =>
-      typeof child === 'string' ? (
-        <span className={classNames.elements.label}>{child}</span>
-      ) : (
-        child
-      )
-    ).concat([variant === Variant.Link && triangle]),
+    children,
+    className:
+      tagName === Link.Internal.component ? { block: className } : className,
   })
 }
 component.defaultProps = {
@@ -87,7 +103,7 @@ component.defaultProps = {
 }
 
 function createVariantComponent(variant: Variant) {
-  function variantComponent<TTagName extends TagName = 'button'>(
+  function variantComponent<TTagName extends As = 'button'>(
     props: Omit<Props<TTagName>, 'variant'>
   ) {
     return component({

@@ -2,13 +2,16 @@ import React from 'react'
 import cc from 'classcat'
 import Image, { GatsbyImageProps } from 'gatsby-image'
 
-import * as Episode from '~/components/episode'
-import * as Section from '~/components/section'
-import * as EpisodeTypeSign from '~/components/episode-type-sign'
-import * as EpisodeDetail from '~/components/episode-detail'
-import * as Heading from '~/components/heading'
-import * as Button from '~/components/button'
-import * as Icon from '~/components/icon'
+import {
+  Episode,
+  Section,
+  EpisodeTypeSign,
+  EpisodeDetail,
+  Heading,
+  Button,
+  Icon,
+  Link,
+} from '~/components'
 import { useMetadata } from '~/hooks'
 import { YouTube } from '~/platforms'
 
@@ -84,17 +87,15 @@ export function component({
             <EpisodeDetail.component name={'مهمانان'} value={guests} />
           </div>
           <Button.component
-            as="a"
+            as={Link.External.component}
             href={YouTube.watch(platforms.youtube)}
-            target="_blank"
           >
             تماشای پخش زنده
           </Button.component>
           <Button.text
-            as="a"
-            href={metadata.platforms.hazy}
-            target="_blank"
+            as={Link.External.component}
             color={Button.Color.Dark}
+            href={metadata.platforms.hazy}
           >
             <Icon.hazy size={Icon.Size.S24} />
             ارسال پیام ناشناس

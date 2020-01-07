@@ -1,9 +1,6 @@
 import React from 'react'
 
-import * as Section from '~/components/section'
-import * as Heading from '~/components/heading'
-import * as Button from '~/components/button'
-import * as Guest from '~/components/guest'
+import { Section, Heading, Button, Guest, Link } from '~/components'
 
 const classNames = {
   block: 'c-last-contributed-guests',
@@ -27,7 +24,7 @@ export function component({ guests }: Props) {
               که در برنامه‌ها حضور داشته‌اند
             </span>
           </Heading.H1>
-          <Button.link as="a" href="/guests">
+          <Button.link as={Link.Internal.component} to="/guests">
             همه مهمانان
           </Button.link>
         </div>
@@ -39,7 +36,7 @@ export function component({ guests }: Props) {
               یاد بگیرند و یاد بدهند.
             </span>
           </Heading.H4>
-          <Button.link as="a" href="/about">
+          <Button.link as={Link.Internal.component} to="/about">
             اطلاعات بیشتر
           </Button.link>
         </div>

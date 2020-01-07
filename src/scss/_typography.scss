@@ -1,5 +1,6 @@
 @use "sass:map";
 @use "math";
+@use "colour";
 
 $base-font-size: 17px;
 $base-line-height: math.ratio(phi);
@@ -151,6 +152,8 @@ $font-families: (
   font-family: font-family(fa);
   // The intentional font-family CSS property.
   font-family: font-family(en), font-family(fa), sans-serif;
+
+  color: colour.get(dark);
 }
 
 $text-scale-steps: (
@@ -212,5 +215,15 @@ $_font-weights: (
 @each $name, $value in $_font-weights {
   .-weight-#{$name} {
     font-weight: $value;
+  }
+}
+
+.o-link {
+  text-decoration: none;
+
+  color: inherit;
+
+  &.-underline {
+    text-decoration: underline;
   }
 }

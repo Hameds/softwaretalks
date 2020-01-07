@@ -1,11 +1,6 @@
 import React from 'react'
-import cc from 'classcat'
-import { GatsbyImageProps } from 'gatsby-image'
 
-import * as Section from '~/components/section'
-import * as Episode from '~/components/episode'
-import * as Heading from '~/components/heading'
-import * as Link from '~/components/link'
+import { Section, Episode, Heading, Link, Button } from '~/components'
 
 const classNames = {
   block: 'c-more-episodes',
@@ -26,12 +21,14 @@ export function component({ episodes }: Props) {
       <div className={classNames.block}>
         <div className={classNames.elements.headline}>
           <Heading.H5 as="h3">ویدئو‌های بیشتر</Heading.H5>
-          <Link.Internal.component
+          <Button.text
+            as={Link.Internal.component}
+            color={Button.Color.Primary}
+            className={classNames.elements.episodesLink}
             to="/episodes"
-            className={{ block: classNames.elements.episodesLink }}
           >
             آرشیو برنامه‌ها
-          </Link.Internal.component>
+          </Button.text>
         </div>
         <div className={classNames.elements.content}>
           {episodes.map(episode => (
